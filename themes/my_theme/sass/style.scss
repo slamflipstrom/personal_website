@@ -9,29 +9,39 @@ Version: 1.0
 */
 
 $div-header-text: 20px 'Montserrat';
+$nav-link: none;
+$link-decoration: none;
 
 nav {
   background: #61AE8E;
   width: 100%;
-  
+  margin: 0 auto; 
+  height: 10%;
   h1{
     display: inline-block;
     font: 150px 'Les Sensations de Cerise';
   }
-  
+  h1:hover{
+    color: #F0EEBA;
+  }
   ul{
     display: inline-block;
     
   }
-  
   li{
     display: inline-block;
     
   }
-  
   a{
     text-decoration: none;
-    font: 20px 'Montserrat';
+    font: 15px 'Montserrat';
+  }
+  a:visited {
+    color: #000;
+    text-decoration: none;
+  }
+  a:hover { 
+    color: #F0EEBA;
   }
 }
 
@@ -39,7 +49,6 @@ nav {
 .about {
   background: #6B93AE;
   width: 100%;
-  
   h2 {
     font: $div-header-text;
   }
@@ -49,7 +58,6 @@ nav {
 .work {
   background: #7863AE;
   width: 100%;
-  
   h2 {
     font: $div-header-text;
   }
@@ -59,9 +67,11 @@ nav {
 .links {
   background: #87AE77;
   width: 100%;
-  
   h2 {
     font: $div-header-text;
+  }
+  a{
+    text-decoration:$link-decoration;
   }
   
 }
@@ -69,7 +79,6 @@ nav {
 .contact {
   background: #AE576E;
   width: 100%;
-  
   h2 {
     font: $div-header-text;
   }

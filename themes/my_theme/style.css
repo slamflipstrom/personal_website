@@ -9,17 +9,26 @@ Version: 1.0
 */
 nav {
   background: #61AE8E;
-  width: 100%; }
+  width: 100%;
+  margin: 0 auto;
+  height: 10%; }
   nav h1 {
     display: inline-block;
     font: 150px 'Les Sensations de Cerise'; }
+  nav h1:hover {
+    color: #F0EEBA; }
   nav ul {
     display: inline-block; }
   nav li {
     display: inline-block; }
   nav a {
     text-decoration: none;
-    font: 20px 'Montserrat'; }
+    font: 15px 'Montserrat'; }
+  nav a:visited {
+    color: #000;
+    text-decoration: none; }
+  nav a:hover {
+    color: #F0EEBA; }
 
 .about {
   background: #6B93AE;
@@ -38,6 +47,8 @@ nav {
   width: 100%; }
   .links h2 {
     font: 20px "Montserrat"; }
+  .links a {
+    text-decoration: none; }
 
 .contact {
   background: #AE576E;
