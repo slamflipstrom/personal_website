@@ -1,10 +1,11 @@
-$(document).ready(function() {
+$(document).ready(function(){
 
-  $('#hamburger').toggle(function(){
-    $('#hamburger').text('SHOW');
-  }, function(){
-    $('#hamburger').text('HIDE');
-  });  
+  alert("Ready");
+
+    
+  $(".drop-icon").click(function(){
+    alert("The hamburger was clicked.");
+  });
 
 
 });
