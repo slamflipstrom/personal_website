@@ -55,8 +55,12 @@ nav {
   }
 }
 
+.mobile-nav {
+  visibility:hidden;
+}
 
-.about {
+
+#about {
   background: #6B93AE;
   width: 100%;
   h2 {
@@ -65,7 +69,7 @@ nav {
   
 }
 
-.work {
+#work {
   background: #7863AE;
   width: 100%;
   h2 {
@@ -74,7 +78,7 @@ nav {
   
 }
 
-.links {
+#links {
   background: #87AE77;
   width: 100%;
   h2 {
@@ -89,7 +93,7 @@ nav {
   
 }
 
-.contact {
+#contact {
   background: #AE576E;
   width: 100%;
   h2 {

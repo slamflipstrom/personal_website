@@ -39,32 +39,35 @@ nav {
   nav a:hover {
     color: #F0EEBA; }
 
-.about {
+.mobile-nav {
+  visibility: hidden; }
+
+#about {
   background: #6B93AE;
   width: 100%; }
-  .about h2 {
+  #about h2 {
     font: 20px "Montserrat"; }
 
-.work {
+#work {
   background: #7863AE;
   width: 100%; }
-  .work h2 {
+  #work h2 {
     font: 20px "Montserrat"; }
 
-.links {
+#links {
   background: #87AE77;
   width: 100%; }
-  .links h2 {
+  #links h2 {
     font: 20px "Montserrat"; }
-  .links ul {
+  #links ul {
     list-style-type: none; }
-  .links a {
+  #links a {
     text-decoration: none; }
 
-.contact {
+#contact {
   background: #AE576E;
   width: 100%; }
-  .contact h2 {
+  #contact h2 {
     font: 20px "Montserrat"; }
 
 /*# sourceMappingURL=style.css.map */
