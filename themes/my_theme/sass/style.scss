@@ -27,7 +27,8 @@ nav {
     display: inline-block;
     font: 100px 'Les Sensations de Cerise';
     margin: 0 auto;
-  }
+    margin-left: 16px;
+    }
   h1:hover{
     color: #F0EEBA;
   }
@@ -36,6 +37,7 @@ nav {
     display: inline-block;
     margin: 0 auto;
     float: right;
+    margin-right:16px;
   }
   li{
     display: inline-block;
@@ -43,7 +45,6 @@ nav {
   a{
     text-decoration: $nav-link;
     font: 15px 'Montserrat';
-    background-color: #5A7AD5;
   }
   a:visited {
     color: #000;
