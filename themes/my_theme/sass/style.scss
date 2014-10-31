@@ -8,37 +8,46 @@ Version: 1.0
 
 */
 
+//@mixin
+
 $div-header-text: 20px 'Montserrat';
 $nav-link: none;
 $link-decoration: none;
 
+body {
+  margin: 0 auto;
+  width: 100%;
+}
+
 nav {
   background: #61AE8E;
   width: 100%;
-  margin: 0 auto; 
-  height: 10%;
+  margin: 0 auto;
   h1{
     display: inline-block;
-    font: 150px 'Les Sensations de Cerise';
+    font: 100px 'Les Sensations de Cerise';
+    margin: 0 auto;
   }
   h1:hover{
     color: #F0EEBA;
   }
   ul{
+    padding-top: 40px;
     display: inline-block;
-    
+    margin: 0 auto;
+    float: right;
   }
   li{
     display: inline-block;
-    
   }
   a{
-    text-decoration: none;
+    text-decoration: $nav-link;
     font: 15px 'Montserrat';
+    background-color: #5A7AD5;
   }
   a:visited {
     color: #000;
-    text-decoration: none;
+    text-decoration: $nav-link;
   }
   a:hover { 
     color: #F0EEBA;
@@ -70,8 +79,11 @@ nav {
   h2 {
     font: $div-header-text;
   }
+  ul {
+    list-style-type: none;
+  }
   a{
-    text-decoration:$link-decoration;
+    text-decoration: $link-decoration;
   }
   
 }

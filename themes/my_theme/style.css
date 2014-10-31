@@ -7,23 +7,31 @@ Description: This is Sam Lindstrom's personal portfolio theme.
 Version: 1.0
 
 */
+body {
+  margin: 0 auto;
+  width: 100%; }
+
 nav {
   background: #61AE8E;
   width: 100%;
-  margin: 0 auto;
-  height: 10%; }
+  margin: 0 auto; }
   nav h1 {
     display: inline-block;
-    font: 150px 'Les Sensations de Cerise'; }
+    font: 100px 'Les Sensations de Cerise';
+    margin: 0 auto; }
   nav h1:hover {
     color: #F0EEBA; }
   nav ul {
-    display: inline-block; }
+    padding-top: 40px;
+    display: inline-block;
+    margin: 0 auto;
+    float: right; }
   nav li {
     display: inline-block; }
   nav a {
     text-decoration: none;
-    font: 15px 'Montserrat'; }
+    font: 15px 'Montserrat';
+    background-color: #5A7AD5; }
   nav a:visited {
     color: #000;
     text-decoration: none; }
@@ -47,6 +55,8 @@ nav {
   width: 100%; }
   .links h2 {
     font: 20px "Montserrat"; }
+  .links ul {
+    list-style-type: none; }
   .links a {
     text-decoration: none; }
 
