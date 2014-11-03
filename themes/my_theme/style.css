@@ -22,9 +22,10 @@ nav {
     margin-left: 10px;
     margin-top: 10px;
     height: 50px;
-    width: auto; }
-  nav h1:hover {
-    color: #F0EEBA; }
+    width: auto;
+    transition: all .1s ease-in; }
+  nav .img:hover {
+    opacity: .5; }
   nav .drop-icon {
     display: inline-block;
     float: right;
@@ -32,8 +33,11 @@ nav {
     padding-top: 22px;
     padding-right: 40px;
     height: 25px;
+    transition: all .2s ease-in;
     text-decoration: none;
     font: 20px "Montserrat"; }
+  nav .drop-icon:hover {
+    opacity: .5; }
   nav ul {
     padding-top: 30px;
     display: block;
