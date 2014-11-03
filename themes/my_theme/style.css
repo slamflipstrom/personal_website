@@ -32,11 +32,13 @@ nav {
     text-decoration: none;
     font: 20px "Montserrat"; }
   nav ul {
-    padding-top: 40px;
+    padding-top: 30px;
     display: block;
     margin: 0 auto;
     margin-right: 16px;
     list-style-type: none; }
+  nav li {
+    padding-bottom: 10px; }
   nav ul li a {
     text-decoration: none;
     font: 15px 'Montserrat'; }
@@ -48,7 +50,8 @@ nav {
 
 #about {
   background: #6B93AE;
-  width: 100%; }
+  width: 100%;
+  padding-top: 100px; }
   #about h2 {
     font: 20px "Montserrat"; }
 
@@ -57,6 +60,9 @@ nav {
   width: 100%; }
   #work h2 {
     font: 20px "Montserrat"; }
+  #work img {
+    border-style: solid;
+    border-width: 1px; }
 
 #links {
   background: #87AE77;

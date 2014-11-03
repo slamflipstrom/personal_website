@@ -42,14 +42,14 @@ nav {
     font:$div-header-text;
   }
   ul{
-    padding-top: 40px;
+    padding-top: 30px;
     display: block;
     margin: 0 auto;
     margin-right:16px;
     list-style-type: none;
   }
   li{
-  
+    padding-bottom:10px;
   }
   ul li a{
     text-decoration: $nav-link;
@@ -71,6 +71,7 @@ nav {
 #about {
   background: #6B93AE;
   width: 100%;
+  padding-top: 100px;
   h2 {
     font: $div-header-text;
   }
@@ -82,6 +83,10 @@ nav {
   width: 100%;
   h2 {
     font: $div-header-text;
+  }
+  img {
+    border-style: solid;
+    border-width: 1px;
   }
   
 }
