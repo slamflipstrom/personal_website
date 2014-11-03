@@ -62,7 +62,9 @@ nav {
     font: 20px "Montserrat"; }
   #work img {
     border-style: solid;
-    border-width: 1px; }
+    border-width: 1px;
+    margin: 0 auto;
+    display: block; }
 
 #links {
   background: #87AE77;
