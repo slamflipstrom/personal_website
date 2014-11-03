@@ -31,17 +31,26 @@ nav {
   h1:hover{
     color: #F0EEBA;
   }
+  .drop-icon{
+    display:inline-block;
+    float: right;
+    position: relative;
+    padding-top: 45px;
+    padding-right: 40px;
+    text-decoration: $nav-link;
+    font:$div-header-text;
+  }
   ul{
     padding-top: 40px;
-    display: inline-block;
+    display: block;
     margin: 0 auto;
-    float: right;
     margin-right:16px;
+    list-style-type: none;
   }
   li{
-    display: inline-block;
+  
   }
-  a{
+  ul li a{
     text-decoration: $nav-link;
     font: 15px 'Montserrat';
   }
@@ -55,7 +64,6 @@ nav {
 }
 
 .mobile-nav {
-  visibility:hidden;
 }
 
 

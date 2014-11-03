@@ -22,15 +22,21 @@ nav {
     margin-left: 16px; }
   nav h1:hover {
     color: #F0EEBA; }
+  nav .drop-icon {
+    display: inline-block;
+    float: right;
+    position: relative;
+    padding-top: 45px;
+    padding-right: 40px;
+    text-decoration: none;
+    font: 20px "Montserrat"; }
   nav ul {
     padding-top: 40px;
-    display: inline-block;
+    display: block;
     margin: 0 auto;
-    float: right;
-    margin-right: 16px; }
-  nav li {
-    display: inline-block; }
-  nav a {
+    margin-right: 16px;
+    list-style-type: none; }
+  nav ul li a {
     text-decoration: none;
     font: 15px 'Montserrat'; }
   nav a:visited {
@@ -38,9 +44,6 @@ nav {
     text-decoration: none; }
   nav a:hover {
     color: #F0EEBA; }
-
-.mobile-nav {
-  visibility: hidden; }
 
 #about {
   background: #6B93AE;

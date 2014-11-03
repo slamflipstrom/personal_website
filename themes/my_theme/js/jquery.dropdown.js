@@ -1,10 +1,13 @@
 $(document).ready(function(){
 
-  alert("Ready");
+  console.log ('document is ready')
+  
+  $(".mobile-nav").hide();
 
     
   $(".drop-icon").click(function(){
-    alert("The hamburger was clicked.");
+    $(".mobile-nav").show();
+    console.log ('hamburger was clicked')
   });
 
 
