@@ -6,14 +6,17 @@ $(document).ready(function(){
 
     
   $(".drop-icon").click(function(){
-    $(".mobile-nav").toggle();
+    $(".mobile-nav").slideToggle();
     console.log ('hamburger was clicked')
   });
+
+    
 
   $(".mobile-nav a").click(function(e){
     var seg = $(this).attr("href");
     $("body").animate({scrollTop: $(seg).offset().top}, "slow");
     e.preventDefault();
-  });
+   });
+  
 
 });
