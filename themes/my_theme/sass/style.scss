@@ -23,11 +23,13 @@ nav {
   width: 100%;
   margin: 0 auto;
   position: fixed;
-  h1{
+  .img{
     display: inline-block;
-    font: 100px 'Les Sensations de Cerise';
     margin: 0 auto;
-    margin-left: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 50px;
+    width: auto;
     }
   h1:hover{
     color: #F0EEBA;
@@ -36,8 +38,9 @@ nav {
     display:inline-block;
     float: right;
     position: relative;
-    padding-top: 45px;
+    padding-top: 22px;
     padding-right: 40px;
+    height: 25px;
     text-decoration: $nav-link;
     font:$div-header-text;
   }
@@ -90,7 +93,6 @@ nav {
     margin: 0 auto;
     display: block;
   }
-  
 }
 
 #links {

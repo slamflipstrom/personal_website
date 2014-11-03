@@ -16,19 +16,22 @@ nav {
   width: 100%;
   margin: 0 auto;
   position: fixed; }
-  nav h1 {
+  nav .img {
     display: inline-block;
-    font: 100px 'Les Sensations de Cerise';
     margin: 0 auto;
-    margin-left: 16px; }
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 50px;
+    width: auto; }
   nav h1:hover {
     color: #F0EEBA; }
   nav .drop-icon {
     display: inline-block;
     float: right;
     position: relative;
-    padding-top: 45px;
+    padding-top: 22px;
     padding-right: 40px;
+    height: 25px;
     text-decoration: none;
     font: 20px "Montserrat"; }
   nav ul {
