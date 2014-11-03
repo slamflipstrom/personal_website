@@ -6,7 +6,7 @@ $(document).ready(function(){
 
     
   $(".drop-icon").click(function(){
-    $(".mobile-nav").show();
+    $(".mobile-nav").toggle();
     console.log ('hamburger was clicked')
   });
 
