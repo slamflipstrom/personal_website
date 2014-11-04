@@ -11,6 +11,9 @@ body {
   margin: 0 auto;
   width: 100%; }
 
+p {
+  font: 12px 'Montserrat'; }
+
 nav {
   background: #61AE8E;
   width: 100%;
@@ -23,9 +26,9 @@ nav {
     margin-top: 10px;
     height: 50px;
     width: auto;
-    transition: all .1s ease-in; }
+    transition: all .2s ease-in; }
   nav .img:hover {
-    opacity: .5; }
+    opacity: .6; }
   nav .drop-icon {
     display: inline-block;
     float: right;
@@ -67,6 +70,8 @@ nav {
   width: 100%; }
   #work h2 {
     font: 20px "Montserrat"; }
+  #work h4 {
+    font: 15px 'Montserrat'; }
   #work img {
     border-style: solid;
     border-width: 1px;

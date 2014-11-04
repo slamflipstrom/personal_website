@@ -17,6 +17,9 @@ body {
   margin: 0 auto;
   width: 100%;
 }
+p{
+  font: 12px 'Montserrat';
+}
 
 nav {
   background: #61AE8E;
@@ -30,10 +33,10 @@ nav {
     margin-top: 10px;
     height: 50px;
     width: auto;
-    transition: all .1s ease-in;
+    transition: all .2s ease-in;
     }
   .img:hover{
-    opacity: .5;
+    opacity: .6;
     }
   .drop-icon{
     display:inline-block;
@@ -91,6 +94,9 @@ nav {
   width: 100%;
   h2 {
     font: $div-header-text;
+  }
+  h4{
+    font: 15px 'Montserrat';
   }
   img {
     border-style: solid;
