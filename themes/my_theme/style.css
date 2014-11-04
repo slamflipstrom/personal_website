@@ -74,9 +74,18 @@ nav {
     font: 20px "Montserrat";
     text-align: center; }
 
+#skills {
+  width: 100%;
+  margin-top: 70px; }
+  #skills h2 {
+    font: 20px "Montserrat";
+    text-align: center; }
+  #skills h4 {
+    font: 15px 'Montserrat'; }
+
 #work {
   width: 100%;
-  margin-top: 65px; }
+  margin-top: 70px; }
   #work h2 {
     font: 20px "Montserrat";
     text-align: center; }
@@ -90,7 +99,7 @@ nav {
 
 #links {
   width: 100%;
-  margin-top: 65px; }
+  margin-top: 70px; }
   #links h2 {
     font: 20px "Montserrat";
     text-align: center; }
@@ -102,7 +111,7 @@ nav {
 
 #contact {
   width: 100%;
-  margin-top: 65px; }
+  margin-top: 70px; }
   #contact h2 {
     font: 20px "Montserrat";
     text-align: center; }
