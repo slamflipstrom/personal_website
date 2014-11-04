@@ -20,7 +20,15 @@ body {
 p{
   font: 12px 'Montserrat';
 }
-
+.body-text{
+  font:12px 'Montserrat';
+  margin-left:5px;
+  margin-right:5px;
+}
+.sub-head{
+  margin-left:5px;
+  margin-right:5px;
+}
 nav {
   background: #61AE8E;
   width: 100%;
@@ -75,9 +83,6 @@ nav {
   }
 }
 
-.mobile-nav {
-}
-
 
 #about {
   background: #6B93AE;
@@ -85,8 +90,8 @@ nav {
   padding-top: 100px;
   h2 {
     font: $div-header-text;
+    text-align: center;
   }
-  
 }
 
 #work {
@@ -94,6 +99,7 @@ nav {
   width: 100%;
   h2 {
     font: $div-header-text;
+    text-align: center;
   }
   h4{
     font: 15px 'Montserrat';
@@ -111,9 +117,11 @@ nav {
   width: 100%;
   h2 {
     font: $div-header-text;
+    text-align: center;
   }
   ul {
     list-style-type: none;
+    font: 15px 'Montserrat';
   }
   a{
     text-decoration: $link-decoration;
@@ -126,6 +134,10 @@ nav {
   width: 100%;
   h2 {
     font: $div-header-text;
+    text-align: center;
   }
-  
+  ul {
+    list-style-type: none;
+    font: 15px 'Montserrat';
+  }
 }

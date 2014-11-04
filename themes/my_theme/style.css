@@ -14,6 +14,15 @@ body {
 p {
   font: 12px 'Montserrat'; }
 
+.body-text {
+  font: 12px 'Montserrat';
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.sub-head {
+  margin-left: 5px;
+  margin-right: 5px; }
+
 nav {
   background: #61AE8E;
   width: 100%;
@@ -63,13 +72,15 @@ nav {
   width: 100%;
   padding-top: 100px; }
   #about h2 {
-    font: 20px "Montserrat"; }
+    font: 20px "Montserrat";
+    text-align: center; }
 
 #work {
   background: #7863AE;
   width: 100%; }
   #work h2 {
-    font: 20px "Montserrat"; }
+    font: 20px "Montserrat";
+    text-align: center; }
   #work h4 {
     font: 15px 'Montserrat'; }
   #work img {
@@ -82,9 +93,11 @@ nav {
   background: #87AE77;
   width: 100%; }
   #links h2 {
-    font: 20px "Montserrat"; }
+    font: 20px "Montserrat";
+    text-align: center; }
   #links ul {
-    list-style-type: none; }
+    list-style-type: none;
+    font: 15px 'Montserrat'; }
   #links a {
     text-decoration: none; }
 
@@ -92,6 +105,10 @@ nav {
   background: #AE576E;
   width: 100%; }
   #contact h2 {
-    font: 20px "Montserrat"; }
+    font: 20px "Montserrat";
+    text-align: center; }
+  #contact ul {
+    list-style-type: none;
+    font: 15px 'Montserrat'; }
 
 /*# sourceMappingURL=style.css.map */
