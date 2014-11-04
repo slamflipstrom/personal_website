@@ -85,7 +85,6 @@ nav {
 
 
 #about {
-  background: #6B93AE;
   width: 100%;
   padding-top: 100px;
   h2 {
@@ -95,8 +94,8 @@ nav {
 }
 
 #work {
-  background: #7863AE;
   width: 100%;
+  margin-top: 65px; 
   h2 {
     font: $div-header-text;
     text-align: center;
@@ -113,8 +112,8 @@ nav {
 }
 
 #links {
-  background: #87AE77;
   width: 100%;
+  margin-top: 65px; 
   h2 {
     font: $div-header-text;
     text-align: center;
@@ -130,8 +129,8 @@ nav {
 }
 
 #contact {
-  background: #AE576E;
   width: 100%;
+  margin-top: 65px; 
   h2 {
     font: $div-header-text;
     text-align: center;

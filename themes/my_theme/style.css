@@ -68,7 +68,6 @@ nav {
     color: #F0EEBA; }
 
 #about {
-  background: #6B93AE;
   width: 100%;
   padding-top: 100px; }
   #about h2 {
@@ -76,8 +75,8 @@ nav {
     text-align: center; }
 
 #work {
-  background: #7863AE;
-  width: 100%; }
+  width: 100%;
+  margin-top: 65px; }
   #work h2 {
     font: 20px "Montserrat";
     text-align: center; }
@@ -90,8 +89,8 @@ nav {
     display: block; }
 
 #links {
-  background: #87AE77;
-  width: 100%; }
+  width: 100%;
+  margin-top: 65px; }
   #links h2 {
     font: 20px "Montserrat";
     text-align: center; }
@@ -102,8 +101,8 @@ nav {
     text-decoration: none; }
 
 #contact {
-  background: #AE576E;
-  width: 100%; }
+  width: 100%;
+  margin-top: 65px; }
   #contact h2 {
     font: 20px "Montserrat";
     text-align: center; }

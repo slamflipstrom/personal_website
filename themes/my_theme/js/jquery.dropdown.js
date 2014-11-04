@@ -12,7 +12,7 @@ $(document).ready(function(){
 
     
 
-  $(".mobile-nav img").click(function(e){
+  $(".mobile-nav a").click(function(e){
     var seg = $(this).attr("href");
     $("body").animate({scrollTop: $(seg).offset().top}, "slow");
     e.preventDefault();
