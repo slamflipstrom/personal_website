@@ -9,7 +9,8 @@ Version: 1.0
 */
 body {
   margin: 0 auto;
-  width: 100%; }
+  width: 100%;
+  background-color: #EEE; }
 
 p {
   font: 12px 'Montserrat'; }
@@ -76,21 +77,22 @@ nav {
   padding-top: 100px;
   text-align: center; }
   #landing-page h1 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.15em;
     font-weight: 300; }
   #landing-page h2 {
     font: 18px 'Montserrat'; }
 
 #about {
-  width: 100%;
-  height: 100vh; }
+  width: 100%; }
   #about h2 {
     font: 20px "Montserrat";
     text-align: center; }
 
 #skills {
-  height: 100vh;
-  width: 100%; }
+  width: 100%;
+  padding-top: 90px;
+  padding-bottom: 90px; }
   #skills h2 {
     font: 20px "Montserrat";
     text-align: center; }
@@ -98,8 +100,9 @@ nav {
     font: 15px 'Montserrat'; }
 
 #work {
-  height: 100vh;
-  width: 100%; }
+  width: 100%;
+  padding-top: 90px;
+  padding-bottom: 90px; }
   #work h2 {
     font: 20px "Montserrat";
     text-align: center; }
@@ -112,8 +115,9 @@ nav {
     display: block; }
 
 #links {
-  height: 100vh;
-  width: 100%; }
+  width: 100%;
+  padding-top: 90px;
+  padding-bottom: 90px; }
   #links h2 {
     font: 20px "Montserrat";
     text-align: center; }
@@ -124,8 +128,9 @@ nav {
     text-decoration: none; }
 
 #contact {
-  height: 100vh;
-  width: 100%; }
+  width: 100%;
+  padding-top: 90px;
+  padding-bottom: 90px; }
   #contact h2 {
     font: 20px "Montserrat";
     text-align: center; }

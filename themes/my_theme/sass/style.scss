@@ -12,10 +12,12 @@ Version: 1.0
 $div-header-text: 20px 'Montserrat';
 $nav-link: none;
 $link-decoration: none;
+$div-content-padding: 90px;
 
 body {
   margin: 0 auto;
   width: 100%;
+  background-color: #EEE;
 }
 p{
   font: 12px 'Montserrat';
@@ -94,7 +96,8 @@ nav {
   padding-top: 100px;
   text-align: center;
   h1{
-    font-family: 'Josefin Sans', sans-serif; 
+    font-family: 'Quicksand', sans-serif; 
+    font-size:2.15em;
     font-weight:300;
   }
   h2{
@@ -107,7 +110,6 @@ nav {
 
 #about {
   width: 100%; 
-  height:100vh;
   h2 {
     font: $div-header-text;
     text-align: center;
@@ -115,8 +117,10 @@ nav {
 }
 
 #skills {
-  height:100vh;
   width: 100%;
+  padding-top: $div-content-padding; 
+  padding-bottom: $div-content-padding; 
+  
   h2{
     font:$div-header-text;
     text-align: center;
@@ -127,8 +131,9 @@ nav {
 }
 
 #work {
-  height:100vh;
   width: 100%;
+  padding-top: $div-content-padding; 
+  padding-bottom: $div-content-padding; 
   h2 {
     font: $div-header-text;
     text-align: center;
@@ -145,8 +150,9 @@ nav {
 }
 
 #links {
-  height:100vh;
   width: 100%;
+  padding-top: $div-content-padding; 
+  padding-bottom: $div-content-padding; 
   h2 {
     font: $div-header-text;
     text-align: center;
@@ -162,8 +168,9 @@ nav {
 }
 
 #contact {
-  height:100vh;
   width: 100%;
+  padding-top: $div-content-padding; 
+  padding-bottom: $div-content-padding; 
   h2 {
     font: $div-header-text;
     text-align: center;
