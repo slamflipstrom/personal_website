@@ -27,12 +27,13 @@ nav {
   background: #61AE8E;
   width: 100%;
   margin: 0 auto;
-  position: fixed; }
+  position: fixed;
+  height: 60px; }
   nav .img {
     display: inline-block;
     margin: 0 auto;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 3px;
     height: 50px;
     width: auto;
     transition: all .2s ease-in; }
@@ -50,6 +51,8 @@ nav {
     font: 20px "Montserrat"; }
   nav .drop-icon:hover {
     opacity: .5; }
+  nav .mobile-nav {
+    background: #61AE8E; }
   nav ul {
     padding-top: 30px;
     display: block;
@@ -67,16 +70,27 @@ nav {
   nav a:hover {
     color: #F0EEBA; }
 
+#landing-page {
+  width: 100%;
+  height: 100vh;
+  padding-top: 100px;
+  text-align: center; }
+  #landing-page h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300; }
+  #landing-page h2 {
+    font: 18px 'Montserrat'; }
+
 #about {
   width: 100%;
-  padding-top: 100px; }
+  height: 100vh; }
   #about h2 {
     font: 20px "Montserrat";
     text-align: center; }
 
 #skills {
-  width: 100%;
-  margin-top: 70px; }
+  height: 100vh;
+  width: 100%; }
   #skills h2 {
     font: 20px "Montserrat";
     text-align: center; }
@@ -84,8 +98,8 @@ nav {
     font: 15px 'Montserrat'; }
 
 #work {
-  width: 100%;
-  margin-top: 70px; }
+  height: 100vh;
+  width: 100%; }
   #work h2 {
     font: 20px "Montserrat";
     text-align: center; }
@@ -98,8 +112,8 @@ nav {
     display: block; }
 
 #links {
-  width: 100%;
-  margin-top: 70px; }
+  height: 100vh;
+  width: 100%; }
   #links h2 {
     font: 20px "Montserrat";
     text-align: center; }
@@ -110,8 +124,8 @@ nav {
     text-decoration: none; }
 
 #contact {
-  width: 100%;
-  margin-top: 70px; }
+  height: 100vh;
+  width: 100%; }
   #contact h2 {
     font: 20px "Montserrat";
     text-align: center; }

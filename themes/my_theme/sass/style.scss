@@ -34,11 +34,12 @@ nav {
   width: 100%;
   margin: 0 auto;
   position: fixed;
+  height: 60px;
   .img{
     display: inline-block;
     margin: 0 auto;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 3px;
     height: 50px;
     width: auto;
     transition: all .2s ease-in;
@@ -59,6 +60,10 @@ nav {
   }
   .drop-icon:hover{
     opacity: .5;
+  }
+  .mobile-nav{
+    background: #61AE8E;
+;
   }
   ul{
     padding-top: 30px;
@@ -83,10 +88,26 @@ nav {
   }
 }
 
+#landing-page{
+  width: 100%;
+  height:100vh;
+  padding-top: 100px;
+  text-align: center;
+  h1{
+    font-family: 'Josefin Sans', sans-serif; 
+    font-weight:300;
+  }
+  h2{
+    font: 18px 'Montserrat';
+  }
+
+//  background-image: url('paper.gif');
+  
+}
 
 #about {
-  width: 100%;
-  padding-top: 100px;
+  width: 100%; 
+  height:100vh;
   h2 {
     font: $div-header-text;
     text-align: center;
@@ -94,8 +115,8 @@ nav {
 }
 
 #skills {
+  height:100vh;
   width: 100%;
-  margin-top: 70px; 
   h2{
     font:$div-header-text;
     text-align: center;
@@ -106,8 +127,8 @@ nav {
 }
 
 #work {
+  height:100vh;
   width: 100%;
-  margin-top: 70px; 
   h2 {
     font: $div-header-text;
     text-align: center;
@@ -124,8 +145,8 @@ nav {
 }
 
 #links {
+  height:100vh;
   width: 100%;
-  margin-top: 70px; 
   h2 {
     font: $div-header-text;
     text-align: center;
@@ -141,8 +162,8 @@ nav {
 }
 
 #contact {
+  height:100vh;
   width: 100%;
-  margin-top: 70px; 
   h2 {
     font: $div-header-text;
     text-align: center;
