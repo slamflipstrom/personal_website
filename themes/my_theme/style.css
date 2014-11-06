@@ -38,7 +38,7 @@ nav {
   height: 60px;
   opacity: 0.85;
   position: fixed; }
-  nav .img {
+  nav h1.img {
     display: inline-block;
     margin: 0 auto;
     margin-left: 10px;
@@ -60,6 +60,11 @@ nav {
     font: 20px "Montserrat"; }
   nav .drop-icon:hover {
     opacity: .5; }
+  nav h2.drop-icon {
+    width: 350px;
+    height: 75px;
+    background: url(images/header-image.jpg);
+    text-indent: -9999px; }
   nav .mobile-nav {
     background: #61AE8E;
     width: 100%; }
@@ -100,6 +105,9 @@ nav {
     font: 18px 'Montserrat';
     color: #FBFBFB;
     text-align: center; }
+  #landing-page .down-arrow {
+    height: 25px;
+    transition: all .2s ease-in; }
 
 #about {
   width: 100%;
@@ -108,7 +116,7 @@ nav {
   padding-top: 90px;
   padding-bottom: 90px;
   display: table;
-  #position: relative;
+  position: relative;
   overflow: hidden; }
   #about #about-content {
     display: table-cell;
@@ -126,7 +134,9 @@ nav {
   width: 100%;
   padding-top: 90px;
   padding-bottom: 90px;
-  display: block; }
+  display: table;
+  position: relative;
+  overflow: hidden; }
   #skills #skills-content {
     display: table-cell;
     vertical-align: middle; }
@@ -140,7 +150,10 @@ nav {
   width: 100%;
   display: block;
   padding-top: 90px;
-  padding-bottom: 90px; }
+  padding-bottom: 90px;
+  display: table;
+  position: relative;
+  overflow: hidden; }
   #work #work-content {
     display: table-cell;
     vertical-align: middle; }
@@ -160,7 +173,10 @@ nav {
   width: 100%;
   display: block;
   padding-top: 90px;
-  padding-bottom: 90px; }
+  padding-bottom: 90px;
+  display: table;
+  position: relative;
+  overflow: hidden; }
   #links #links-content {
     display: table-cell;
     vertical-align: middle; }
@@ -178,7 +194,10 @@ nav {
   width: 100%;
   display: block;
   padding-top: 90px;
-  padding-bottom: 90px; }
+  padding-bottom: 90px;
+  display: table;
+  position: relative;
+  overflow: hidden; }
   #contact #contact-content {
     display: table-cell;
     vertical-align: middle; }
