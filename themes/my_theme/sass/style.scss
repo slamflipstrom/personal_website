@@ -96,7 +96,7 @@ nav {
   height:100vh;
   display:block;
   text-align: center;
-  background-image: url("./images/landing.jpg");
+  background-image: url("./images/landing-no-watermark.jpg");
   background-repeat: no-repeat;
   background-position: left top;
   background-size: cover;
@@ -104,6 +104,7 @@ nav {
     font-family: 'Quicksand', sans-serif; 
     font-size:2.15em;
     font-weight:300;
+    padding-top: 60vh;
     color:#FBFBFB;
   }
   h2{
