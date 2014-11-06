@@ -28,7 +28,6 @@ nav {
   background: #61AE8E;
   width: 100%;
   margin: 0 auto;
-  position: fixed;
   height: 60px; }
   nav .img {
     display: inline-block;
@@ -80,12 +79,13 @@ nav {
   background-image: url("./images/landing-no-watermark.jpg");
   background-repeat: no-repeat;
   background-position: left top;
-  background-size: cover; }
+  background-size: cover !important; }
   #landing-page h1 {
     font-family: 'Quicksand', sans-serif;
     font-size: 2.15em;
     font-weight: 300;
     padding-top: 60vh;
+    margin: 0;
     color: #FBFBFB; }
   #landing-page h2 {
     font: 18px 'Montserrat';
