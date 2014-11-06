@@ -23,9 +23,15 @@ p{
   font: 12px 'Montserrat';
 }
 .body-text{
-  font:12px 'Montserrat';
-  margin-left:5px;
-  margin-right:5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size:.85em;
+  font-weight:300;
+  text-align: center;
+  line-height: 36px;
+  color: #999;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 640px;
 }
 .sub-head{
   margin-left:5px;
@@ -134,7 +140,6 @@ nav {
   p{
     line-height: 36px;
     color: #999;
-    font-size: 14px;
     width: 80%;
     margin: 0 auto;
   }
@@ -151,13 +156,6 @@ nav {
   }
   h4{
     font: 15px 'Montserrat';
-  }
-  p{
-    line-height: 36px;
-    color: #999;
-    font-size: 14px;
-    width: 80%;
-    margin: 0 auto;
   }
 }
 
@@ -179,13 +177,6 @@ nav {
     margin: 0 auto;
     display: block;
   }
-  p{
-    line-height: 36px;
-    color: #999;
-    font-size: 14px;
-    width: 80%;
-    margin: 0 auto;
-  }
 }
 
 #links {
@@ -205,14 +196,6 @@ nav {
   a{
     text-decoration: $link-decoration;
   }
-  p{
-    line-height: 36px;
-    color: #999;
-    font-size: 14px;
-    width: 80%;
-    margin: 0 auto;
-  }
-  
 }
 
 #contact {

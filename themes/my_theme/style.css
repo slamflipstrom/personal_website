@@ -16,9 +16,15 @@ p {
   font: 12px 'Montserrat'; }
 
 .body-text {
-  font: 12px 'Montserrat';
-  margin-left: 5px;
-  margin-right: 5px; }
+  font-family: 'Open Sans', sans-serif;
+  font-size: .85em;
+  font-weight: 300;
+  text-align: center;
+  line-height: 36px;
+  color: #999;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 640px; }
 
 .sub-head {
   margin-left: 5px;
@@ -106,7 +112,6 @@ nav {
   #about p {
     line-height: 36px;
     color: #999;
-    font-size: 14px;
     width: 80%;
     margin: 0 auto; }
 
@@ -120,12 +125,6 @@ nav {
     text-align: center; }
   #skills h4 {
     font: 15px 'Montserrat'; }
-  #skills p {
-    line-height: 36px;
-    color: #999;
-    font-size: 14px;
-    width: 80%;
-    margin: 0 auto; }
 
 #work {
   width: 100%;
@@ -142,12 +141,6 @@ nav {
     border-width: 1px;
     margin: 0 auto;
     display: block; }
-  #work p {
-    line-height: 36px;
-    color: #999;
-    font-size: 14px;
-    width: 80%;
-    margin: 0 auto; }
 
 #links {
   height: 100vh;
@@ -163,12 +156,6 @@ nav {
     font: 15px 'Montserrat'; }
   #links a {
     text-decoration: none; }
-  #links p {
-    line-height: 36px;
-    color: #999;
-    font-size: 14px;
-    width: 80%;
-    margin: 0 auto; }
 
 #contact {
   height: 100vh;
