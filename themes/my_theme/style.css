@@ -53,7 +53,8 @@ nav {
   nav .drop-icon:hover {
     opacity: .5; }
   nav .mobile-nav {
-    background: #61AE8E; }
+    background: #61AE8E;
+    width: 100%; }
   nav ul {
     padding-top: 30px;
     display: block;
