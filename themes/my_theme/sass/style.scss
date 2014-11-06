@@ -134,6 +134,11 @@ nav {
   display:block;
   padding-top: $div-content-padding; 
   padding-bottom: $div-content-padding; 
+  display: table; #position: relative; overflow: hidden;
+  #about-content{
+    display: table-cell;
+    vertical-align: middle;
+  }
   h2 {
     font: $div-header-text;
     text-align: center;
@@ -151,6 +156,10 @@ nav {
   padding-top: $div-content-padding; 
   padding-bottom: $div-content-padding; 
   display: block;
+  #skills-content{
+    display: table-cell;
+    vertical-align: middle;
+  }
   h2{
     font:$div-header-text;
     text-align: center;
@@ -165,6 +174,10 @@ nav {
   display:block;
   padding-top: $div-content-padding; 
   padding-bottom: $div-content-padding; 
+  #work-content{
+    display: table-cell;
+    vertical-align: middle;
+  }
   h2 {
     font: $div-header-text;
     text-align: center;
@@ -186,6 +199,10 @@ nav {
   display:block;
   padding-top: $div-content-padding; 
   padding-bottom: $div-content-padding; 
+  #links-content{
+    display: table-cell;
+    vertical-align: middle;
+  }
   h2 {
     font: $div-header-text;
     text-align: center;
@@ -205,6 +222,10 @@ nav {
   display:block;
   padding-top: $div-content-padding; 
   padding-bottom: $div-content-padding; 
+  #contact-content{
+    display: table-cell;
+    vertical-align: middle;
+  }
   h2 {
     font: $div-header-text;
     text-align: center;

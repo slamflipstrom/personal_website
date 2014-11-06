@@ -106,7 +106,13 @@ nav {
   height: 100vh;
   display: block;
   padding-top: 90px;
-  padding-bottom: 90px; }
+  padding-bottom: 90px;
+  display: table;
+  #position: relative;
+  overflow: hidden; }
+  #about #about-content {
+    display: table-cell;
+    vertical-align: middle; }
   #about h2 {
     font: 20px "Montserrat";
     text-align: center; }
@@ -121,6 +127,9 @@ nav {
   padding-top: 90px;
   padding-bottom: 90px;
   display: block; }
+  #skills #skills-content {
+    display: table-cell;
+    vertical-align: middle; }
   #skills h2 {
     font: 20px "Montserrat";
     text-align: center; }
@@ -132,6 +141,9 @@ nav {
   display: block;
   padding-top: 90px;
   padding-bottom: 90px; }
+  #work #work-content {
+    display: table-cell;
+    vertical-align: middle; }
   #work h2 {
     font: 20px "Montserrat";
     text-align: center; }
@@ -149,6 +161,9 @@ nav {
   display: block;
   padding-top: 90px;
   padding-bottom: 90px; }
+  #links #links-content {
+    display: table-cell;
+    vertical-align: middle; }
   #links h2 {
     font: 20px "Montserrat";
     text-align: center; }
@@ -164,6 +179,9 @@ nav {
   display: block;
   padding-top: 90px;
   padding-bottom: 90px; }
+  #contact #contact-content {
+    display: table-cell;
+    vertical-align: middle; }
   #contact h2 {
     font: 20px "Montserrat";
     text-align: center; }
