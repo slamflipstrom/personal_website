@@ -75,7 +75,6 @@ nav {
   width: 100%;
   height: 100vh;
   display: block;
-  text-align: center;
   background-image: url("./images/landing-no-watermark.jpg");
   background-repeat: no-repeat;
   background-position: left top;
@@ -83,22 +82,28 @@ nav {
   #landing-page h1 {
     font-family: 'Quicksand', sans-serif;
     font-size: 2.15em;
-    font-weight: 300;
-    padding-top: 60vh;
+    font-weight: 400;
+    padding-top: 61vh;
     margin: 0;
-    color: #FBFBFB; }
-  #landing-page h2 {
+    color: #FBFBFB;
+    text-align: center; }
+  #landing-page p {
     font: 18px 'Montserrat';
-    color: #FBFBFB; }
+    color: #FBFBFB;
+    text-align: center; }
 
 #about {
   width: 100%;
+  height: 100vh;
   display: block; }
   #about h2 {
     font: 20px "Montserrat";
     text-align: center; }
+  #about p {
+    line-height: 36px; }
 
 #skills {
+  height: 100vh;
   width: 100%;
   padding-top: 90px;
   padding-bottom: 90px;
@@ -108,9 +113,12 @@ nav {
     text-align: center; }
   #skills h4 {
     font: 15px 'Montserrat'; }
+  #skills p {
+    line-height: 36px; }
 
 #work {
   width: 100%;
+  height: 100vh;
   display: block;
   padding-top: 90px;
   padding-bottom: 90px; }
@@ -124,8 +132,11 @@ nav {
     border-width: 1px;
     margin: 0 auto;
     display: block; }
+  #work p {
+    line-height: 36px; }
 
 #links {
+  height: 100vh;
   width: 100%;
   display: block;
   padding-top: 90px;
@@ -138,8 +149,11 @@ nav {
     font: 15px 'Montserrat'; }
   #links a {
     text-decoration: none; }
+  #links p {
+    line-height: 36px; }
 
 #contact {
+  height: 100vh;
   width: 100%;
   display: block;
   padding-top: 90px;
