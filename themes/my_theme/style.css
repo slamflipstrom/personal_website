@@ -28,7 +28,8 @@ nav {
   background: #61AE8E;
   width: 100%;
   margin: 0 auto;
-  height: 60px; }
+  height: 60px;
+  opacity: 0.85; }
   nav .img {
     display: inline-block;
     margin: 0 auto;
@@ -100,10 +101,13 @@ nav {
     font: 20px "Montserrat";
     text-align: center; }
   #about p {
-    line-height: 36px; }
+    line-height: 36px;
+    color: #999;
+    font-size: 14px;
+    width: 80%;
+    margin: 0 auto; }
 
 #skills {
-  height: 100vh;
   width: 100%;
   padding-top: 90px;
   padding-bottom: 90px;
@@ -114,11 +118,14 @@ nav {
   #skills h4 {
     font: 15px 'Montserrat'; }
   #skills p {
-    line-height: 36px; }
+    line-height: 36px;
+    color: #999;
+    font-size: 14px;
+    width: 80%;
+    margin: 0 auto; }
 
 #work {
   width: 100%;
-  height: 100vh;
   display: block;
   padding-top: 90px;
   padding-bottom: 90px; }
@@ -133,7 +140,11 @@ nav {
     margin: 0 auto;
     display: block; }
   #work p {
-    line-height: 36px; }
+    line-height: 36px;
+    color: #999;
+    font-size: 14px;
+    width: 80%;
+    margin: 0 auto; }
 
 #links {
   height: 100vh;
@@ -150,7 +161,11 @@ nav {
   #links a {
     text-decoration: none; }
   #links p {
-    line-height: 36px; }
+    line-height: 36px;
+    color: #999;
+    font-size: 14px;
+    width: 80%;
+    margin: 0 auto; }
 
 #contact {
   height: 100vh;
