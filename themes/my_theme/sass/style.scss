@@ -46,11 +46,14 @@ nav {
   height: 60px;
   opacity: 0.85;
   position: fixed;
+  h1.logo{
+     margin-top: 3px;
+  }
   h1.logo img{
     display: inline-block;
     margin: 0 auto;
     margin-left: 10px;
-    margin-top: 3px;
+    margin-top: 0px;
     height: 50px;
     width: auto;
     transition: all .2s ease-in;
