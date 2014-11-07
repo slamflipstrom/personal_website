@@ -60,7 +60,7 @@ nav {
     opacity: .6; }
   nav h2 {
     height: 25px; }
-  nav h2.drop-icon a img {
+  nav h2.drop-icon img {
     display: inline-block;
     float: right;
     position: relative;
