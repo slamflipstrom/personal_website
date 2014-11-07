@@ -46,7 +46,7 @@ nav {
   height: 60px;
   opacity: 0.85;
   position: fixed;
-  h1.img{
+  h1.logo img{
     display: inline-block;
     margin: 0 auto;
     margin-left: 10px;
@@ -58,7 +58,7 @@ nav {
   .img:hover{
     opacity: .6;
     }
-  .drop-icon{
+  h2.drop-icon a img{
     display:inline-block;
     float: right;
     position: relative;
@@ -73,8 +73,7 @@ nav {
     opacity: .5;
   }
   h2.drop-icon{
-      width: 350px; height: 75px;
-    	background: url(images/header-image.jpg);
+      height: 75px;
     	text-indent: -9999px;
   }
   .mobile-nav{
