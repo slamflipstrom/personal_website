@@ -46,8 +46,16 @@ nav {
   height: 60px;
   opacity: 0.85;
   position: fixed;
+  h1{
+    height:30px;
+  }
   h1.logo{
      margin-top: 3px;
+     display: inline-block;
+     float: left;
+  }
+  h1.logo a{
+     float: left;
   }
   h1.logo img{
     display: inline-block;
@@ -57,27 +65,31 @@ nav {
     height: 50px;
     width: auto;
     transition: all .2s ease-in;
-    }
-  .img:hover{
+  }
+  h1.logo img:hover{
     opacity: .6;
-    }
+  }
+  h2{
+    height:30px;
+  }
   h2.drop-icon a img{
     display:inline-block;
     float: right;
     position: relative;
-    padding-top: 22px;
     padding-right: 40px;
     height: 25px;
     transition: all .2s ease-in;
     text-decoration: $nav-link;
     font:$div-header-text;
   }
+  h2.drop-icon{
+    height: 15px;
+    display: inline-block;
+    text-indent: -9999px;
+    float: right;
+  }
   .drop-icon:hover{
     opacity: .5;
-  }
-  h2.drop-icon{
-      height: 75px;
-    	text-indent: -9999px;
   }
   .mobile-nav{
     background: #61AE8E;
@@ -85,8 +97,8 @@ nav {
 ;
   }
   ul{
-    padding-top: 30px;
-    display: block;
+    display:inline-block;
+    padding-top: 25px;
     margin: 0 auto;
     margin-right:16px;
     list-style-type: none;
