@@ -37,13 +37,15 @@ nav {
   margin: 0 auto;
   height: 60px;
   opacity: 0.85;
-  position: fixed; }
+  position: fixed;
+  z-index: 1; }
   nav h1 {
     height: 30px; }
   nav h1.logo {
     margin-top: 3px;
     display: inline-block;
-    float: left; }
+    float: left;
+    height: 25px; }
   nav h1.logo a {
     float: left; }
   nav h1.logo img {
@@ -57,7 +59,7 @@ nav {
   nav h1.logo img:hover {
     opacity: .6; }
   nav h2 {
-    height: 30px; }
+    height: 25px; }
   nav h2.drop-icon a img {
     display: inline-block;
     float: right;

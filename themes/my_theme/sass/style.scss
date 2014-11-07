@@ -46,6 +46,7 @@ nav {
   height: 60px;
   opacity: 0.85;
   position: fixed;
+  z-index: 1;
   h1{
     height:30px;
   }
@@ -53,6 +54,7 @@ nav {
      margin-top: 3px;
      display: inline-block;
      float: left;
+     height: 25px;
   }
   h1.logo a{
      float: left;
@@ -70,7 +72,7 @@ nav {
     opacity: .6;
   }
   h2{
-    height:30px;
+    height:25px;
   }
   h2.drop-icon a img{
     display:inline-block;
@@ -94,7 +96,6 @@ nav {
   .mobile-nav{
     background: #61AE8E;
     width:100%;
-;
   }
   ul{
     display:inline-block;
