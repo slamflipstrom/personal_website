@@ -17,7 +17,7 @@ $div-content-padding: 90px;
 body {
   margin: 0 auto;
   width: 100%;
-  background-color: #EEE;
+  background-color: #111;
 }
 p{
   font: 12px 'Montserrat';
@@ -151,6 +151,7 @@ nav {
 }
 
 #about {
+  background-color:#FFF;
   width: 100%; 
   height:100vh;
   display:block;
@@ -176,6 +177,7 @@ nav {
 }
 
 #skills {
+  background-color: #EEE;
   width: 100%;
   padding-top: $div-content-padding; 
   padding-bottom: $div-content-padding; 
@@ -196,6 +198,7 @@ nav {
 }
 
 #work {
+  background-color: #FFF;
   width: 100%;
   display:block;
   padding-top: $div-content-padding; 
@@ -223,6 +226,7 @@ nav {
 }
 
 #links {
+  background-color: #EEE;
   height:100vh;
   width: 100%;
   display:block;
@@ -249,6 +253,7 @@ nav {
 }
 
 #contact {
+  background-color: #FFF;
   height:100vh;
   width: 100%;
   display:block;

@@ -10,7 +10,7 @@ Version: 1.0
 body {
   margin: 0 auto;
   width: 100%;
-  background-color: #EEE; }
+  background-color: #111; }
 
 p {
   font: 12px 'Montserrat'; }
@@ -120,6 +120,7 @@ nav {
     transition: all .2s ease-in; }
 
 #about {
+  background-color: #FFF;
   width: 100%;
   height: 100vh;
   display: block;
@@ -141,6 +142,7 @@ nav {
     margin: 0 auto; }
 
 #skills {
+  background-color: #EEE;
   width: 100%;
   padding-top: 90px;
   padding-bottom: 90px;
@@ -157,6 +159,7 @@ nav {
     font: 15px 'Montserrat'; }
 
 #work {
+  background-color: #FFF;
   width: 100%;
   display: block;
   padding-top: 90px;
@@ -179,6 +182,7 @@ nav {
     display: block; }
 
 #links {
+  background-color: #EEE;
   height: 100vh;
   width: 100%;
   display: block;
@@ -200,6 +204,7 @@ nav {
     text-decoration: none; }
 
 #contact {
+  background-color: #FFF;
   height: 100vh;
   width: 100%;
   display: block;
