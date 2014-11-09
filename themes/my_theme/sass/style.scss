@@ -71,9 +71,6 @@ nav {
   h1.logo img:hover{
     opacity: .6;
   }
-  h2{
-    height:25px;
-  }
   h2.drop-icon img{
     display:inline-block;
     float: right;
@@ -85,10 +82,10 @@ nav {
     font:$div-header-text;
   }
   h2.drop-icon{
-    height: 15px;
     display: inline-block;
     text-indent: -9999px;
     float: right;
+    height: 0px;
   }
   .drop-icon:hover{
     opacity: .5;
@@ -98,6 +95,7 @@ nav {
     width:100%;
   }
   ul{
+    width:100%;
     display:inline-block;
     padding-top: 25px;
     margin: 0 auto;
@@ -105,7 +103,7 @@ nav {
     list-style-type: none;
   }
   li{
-    padding-bottom:10px;
+    padding-bottom:15px;
   }
   ul li a{
     text-decoration: $nav-link;

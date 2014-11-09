@@ -58,8 +58,6 @@ nav {
     transition: all .2s ease-in; }
   nav h1.logo img:hover {
     opacity: .6; }
-  nav h2 {
-    height: 25px; }
   nav h2.drop-icon img {
     display: inline-block;
     float: right;
@@ -70,23 +68,24 @@ nav {
     text-decoration: none;
     font: 20px "Montserrat"; }
   nav h2.drop-icon {
-    height: 15px;
     display: inline-block;
     text-indent: -9999px;
-    float: right; }
+    float: right;
+    height: 0px; }
   nav .drop-icon:hover {
     opacity: .5; }
   nav .mobile-nav {
     background: #61AE8E;
     width: 100%; }
   nav ul {
+    width: 100%;
     display: inline-block;
     padding-top: 25px;
     margin: 0 auto;
     margin-right: 16px;
     list-style-type: none; }
   nav li {
-    padding-bottom: 10px; }
+    padding-bottom: 15px; }
   nav ul li a {
     text-decoration: none;
     font: 15px 'Montserrat'; }
