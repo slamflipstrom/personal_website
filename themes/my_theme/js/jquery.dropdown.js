@@ -17,6 +17,12 @@ $(document).ready(function(){
     $("body").animate({scrollTop: $(seg).offset().top}, "slow");
     e.preventDefault();
    });
+   
+   $(".proceed-arrow").click(function(e){
+     var seg = $(this).attr("href");
+     $("body").animate({scrollTop: $(seg).offset().top}, "slow");
+     e.preventDefault();
+    });
   
 
 });
