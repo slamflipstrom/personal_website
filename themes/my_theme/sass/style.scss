@@ -54,7 +54,7 @@ nav {
      margin-top: 5px;
      display: inline-block;
      float: left;
-     height: 25px;
+     height: 26px;
   }
   h1.logo a{
      float: left;
@@ -114,7 +114,7 @@ nav {
     text-decoration: $nav-link;
   }
   a:hover { 
-    color: #F0EEBA;
+   color: #F0EEBA;
   }
 }
 
@@ -198,7 +198,7 @@ nav {
 }
 
 #work {
-  background-color: #FFF;
+  background-color: #2C2D2A;
   width: 100%;
   display:block;
   padding-top: $div-content-padding; 
@@ -213,9 +213,11 @@ nav {
   h2 {
     font: $div-header-text;
     text-align: center;
+    color:#eee;
   }
   h4{
     font: 15px 'Montserrat';
+    color: #eee;
   }
   img {
     border-style: solid;
@@ -253,7 +255,7 @@ nav {
 }
 
 #contact {
-  background-color: #FFF;
+  background-color: #fff;
   height:100vh;
   width: 100%;
   display:block;

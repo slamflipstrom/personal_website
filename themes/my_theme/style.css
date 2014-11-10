@@ -45,7 +45,7 @@ nav {
     margin-top: 5px;
     display: inline-block;
     float: left;
-    height: 25px; }
+    height: 26px; }
   nav h1.logo a {
     float: left; }
   nav h1.logo img {
@@ -159,7 +159,7 @@ nav {
     font: 15px 'Montserrat'; }
 
 #work {
-  background-color: #FFF;
+  background-color: #2C2D2A;
   width: 100%;
   display: block;
   padding-top: 90px;
@@ -172,9 +172,11 @@ nav {
     vertical-align: middle; }
   #work h2 {
     font: 20px "Montserrat";
-    text-align: center; }
+    text-align: center;
+    color: #eee; }
   #work h4 {
-    font: 15px 'Montserrat'; }
+    font: 15px 'Montserrat';
+    color: #eee; }
   #work img {
     border-style: solid;
     border-width: 1px;
@@ -204,7 +206,7 @@ nav {
     text-decoration: none; }
 
 #contact {
-  background-color: #FFF;
+  background-color: #fff;
   height: 100vh;
   width: 100%;
   display: block;
