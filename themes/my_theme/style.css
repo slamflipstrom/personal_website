@@ -39,16 +39,12 @@ nav {
   opacity: 0.85;
   position: fixed;
   z-index: 1; }
-  nav h1 {
-    height: 30px; }
   nav h1.logo {
     margin-top: 5px;
     display: inline-block;
     float: left;
     height: 26px;
     cursor: pointer; }
-  nav h1.logo a {
-    float: left; }
   nav h1.logo img {
     display: inline-block;
     margin: 0 auto;
@@ -56,24 +52,23 @@ nav {
     margin-top: 0px;
     height: 50px;
     width: auto;
-    transition: all .2s ease-in; }
+    transition: all .5s ease-in; }
   nav h1.logo img:hover {
-    opacity: .6; }
+    opacity: .6;
+    height: 50px;
+    width: auto; }
   nav h2.drop-icon img {
     display: inline-block;
     float: right;
     position: relative;
     padding-right: 40px;
     height: 25px;
-    transition: all .2s ease-in;
+    transition: all .5s ease-in;
     cursor: pointer;
     text-decoration: none;
     font: 20px "Montserrat"; }
   nav h2.drop-icon {
-    display: inline-block;
-    text-indent: -9999px;
-    float: right;
-    height: 0px; }
+    float: right; }
   nav .drop-icon:hover {
     opacity: .5; }
   nav .mobile-nav {
@@ -124,7 +119,6 @@ nav {
     position: absolute;
     text-align: center;
     width: 100%;
-    transition: all .2s ease-in;
     opacity: .4; }
   #landing-page .proceed-arrow a {
     background-image: url(./images/white_arrow_icon-01.png);
@@ -132,7 +126,8 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
-    text-indent: -9999px; }
+    text-indent: -9999px;
+    transition: all .4s ease-in; }
   #landing-page .proceed-arrow:hover {
     opacity: .7;
     bottom: 30px;

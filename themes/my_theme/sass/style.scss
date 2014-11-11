@@ -47,19 +47,13 @@ nav {
   opacity: 0.85;
   position: fixed;
   z-index: 1;
-  h1{
-    height:30px;
-  }
   h1.logo{
      margin-top: 5px;
      display: inline-block;
      float: left;
      height: 26px;
      cursor: pointer;
-  }
-  h1.logo a{
-     float: left;
-  }
+   }
   h1.logo img{
     display: inline-block;
     margin: 0 auto;
@@ -67,10 +61,12 @@ nav {
     margin-top: 0px;
     height: 50px;
     width: auto;
-    transition: all .2s ease-in;
+    transition: all .5s ease-in;
   }
   h1.logo img:hover{
     opacity: .6;
+    height: 50px;
+    width: auto;
   }
   h2.drop-icon img{
     display:inline-block;
@@ -78,16 +74,13 @@ nav {
     position: relative;
     padding-right: 40px;
     height: 25px;
-    transition: all .2s ease-in;
+    transition: all .5s ease-in;
     cursor: pointer;
     text-decoration: $nav-link;
     font:$div-header-text;
   }
   h2.drop-icon{
-    display: inline-block;
-    text-indent: -9999px;
     float: right;
-    height: 0px;
   }
   .drop-icon:hover{
     opacity: .5;
@@ -147,20 +140,12 @@ nav {
     color:#FBFBFB;
     text-align: center;
   }
- // h2.proceed-arrow{
-//    height: 25px;
-//    position: absolute;
-//    bottom: 10px;
-//    text-align: center;
-//    width: 100%;
-//  }
   .proceed-arrow{
     bottom: 30px;
     height: 15px;
     position: absolute;
     text-align: center;
     width: 100%;
-    transition: all .2s ease-in;
     opacity: .4;
   }
   .proceed-arrow a{
@@ -170,6 +155,7 @@ nav {
     background-size: cover;
     cursor: pointer;
     text-indent: -9999px;
+    transition: all .4s ease-in;
   }
   .proceed-arrow:hover{
     opacity:.7;
