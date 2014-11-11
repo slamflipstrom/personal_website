@@ -106,6 +106,7 @@ nav {
   }
   li{
     padding-bottom:15px;
+    cursor: pointer;
   }
   ul li a{
     text-decoration: $nav-link;
@@ -146,18 +147,26 @@ nav {
     color:#FBFBFB;
     text-align: center;
   }
-  .proceed-arrow{
+  h2.proceed-arrow{
     height: 25px;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  .proceed-arrow img{
+    width: 30px; 
+    height: auto;
     transition: all .2s ease-in;
     margin: 0 auto;
     display: block;
-    padding-top: 10vh;
-    background-image: url(./images/white_arrow_icon-01.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
     cursor: pointer;
-    text-indent:;
+    opacity: .4;
+  }
+  .proceed-arrow img:hover{
+    opacity:.7;
+    width: 30px;
+    height: auto;
   }
 }
 

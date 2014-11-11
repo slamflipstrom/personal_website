@@ -18,7 +18,7 @@ $(document).ready(function(){
     e.preventDefault();
    });
    
-   $(".proceed-arrow").click(function(e){
+   $(".proceed-arrow img").click(function(e){
      var seg = $(this).attr("href");
      $("body").animate({scrollTop: $(seg).offset().top}, "slow");
      e.preventDefault();
