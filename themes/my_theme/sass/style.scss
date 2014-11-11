@@ -147,26 +147,34 @@ nav {
     color:#FBFBFB;
     text-align: center;
   }
-  h2.proceed-arrow{
-    height: 25px;
+ // h2.proceed-arrow{
+//    height: 25px;
+//    position: absolute;
+//    bottom: 10px;
+//    text-align: center;
+//    width: 100%;
+//  }
+  .proceed-arrow{
+    bottom: 30px;
+    height: 15px;
     position: absolute;
-    bottom: 10px;
     text-align: center;
     width: 100%;
-  }
-  .proceed-arrow img{
-    width: 30px; 
-    height: auto;
     transition: all .2s ease-in;
-    margin: 0 auto;
-    display: block;
-    cursor: pointer;
     opacity: .4;
   }
-  .proceed-arrow img:hover{
+  .proceed-arrow a{
+    background-image: url(./images/white_arrow_icon-01.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    text-indent: -9999px;
+  }
+  .proceed-arrow:hover{
     opacity:.7;
-    width: 30px;
-    height: auto;
+    bottom: 30px;
+    height: 15px;
   }
 }
 

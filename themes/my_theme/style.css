@@ -118,24 +118,25 @@ nav {
     font: 18px 'Montserrat';
     color: #FBFBFB;
     text-align: center; }
-  #landing-page h2.proceed-arrow {
-    height: 25px;
+  #landing-page .proceed-arrow {
+    bottom: 30px;
+    height: 15px;
     position: absolute;
-    bottom: 10px;
     text-align: center;
-    width: 100%; }
-  #landing-page .proceed-arrow img {
-    width: 30px;
-    height: auto;
+    width: 100%;
     transition: all .2s ease-in;
-    margin: 0 auto;
-    display: block;
-    cursor: pointer;
     opacity: .4; }
-  #landing-page .proceed-arrow img:hover {
+  #landing-page .proceed-arrow a {
+    background-image: url(./images/white_arrow_icon-01.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    text-indent: -9999px; }
+  #landing-page .proceed-arrow:hover {
     opacity: .7;
-    width: 30px;
-    height: auto; }
+    bottom: 30px;
+    height: 15px; }
 
 #about {
   background-color: #FFF;
