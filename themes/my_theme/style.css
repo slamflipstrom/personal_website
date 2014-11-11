@@ -1,231 +1,62 @@
 /*
-Theme Name: My_Theme
-Theme URI: http://wordpress.org/themes/twentyfourteen
-Author: Sam Lindstrom
-Author URI: www.samlindstrom.com
-Description: This is Sam Lindstrom's personal portfolio theme.
-Version: 1.0
+Error: Invalid CSS after "    text-indent:": expected expression (e.g. 1px, bold), was ";"
+        on line 160 of sass/style.scss
 
+155:     background-image: url(./images/white_arrow_icon-01.png);
+156:     background-position: center center;
+157:     background-repeat: no-repeat;
+158:     background-size: cover;
+159:     cursor: pointer;
+160:     text-indent:;
+161:   }
+162: }
+163: 
+164: #about {
+165:   background-color:#FFF;
+
+Backtrace:
+sass/style.scss:160
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:1163:in `expected'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/script/lexer.rb:220:in `expected!'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/script/parser.rb:572:in `assert_expr'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/script/parser.rb:62:in `parse'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:1025:in `sass_script'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:878:in `value!'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:753:in `block in try_declaration'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:1139:in `call'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:1139:in `rethrow'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:766:in `try_declaration'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:696:in `declaration_or_ruleset'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:661:in `block_child'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:653:in `block_contents'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:642:in `block'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:661:in `block_child'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:653:in `block_contents'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:642:in `block'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:635:in `ruleset'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:660:in `block_child'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:653:in `block_contents'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/scss/parser.rb:42:in `parse'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/engine.rb:393:in `_to_tree'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:489:in `update_stylesheet'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:469:in `on_file_changed'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Users/slamflipstrom/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.5/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
 */
-body {
-  margin: 0 auto;
-  width: 100%;
-  background-color: #111; }
-
-p {
-  font: 12px 'Montserrat'; }
-
-.body-text {
-  font-family: 'Open Sans', sans-serif;
-  font-size: .85em;
-  font-weight: 300;
-  text-align: center;
-  line-height: 36px;
-  color: #999;
-  width: 80%;
-  margin: 0 auto;
-  max-width: 640px; }
-
-.sub-head {
-  margin-left: 5px;
-  margin-right: 5px;
-  text-align: center; }
-
-nav {
-  background: #61AE8E;
-  width: 100%;
-  margin: 0 auto;
-  height: 60px;
-  opacity: 0.85;
-  position: fixed;
-  z-index: 1; }
-  nav h1 {
-    height: 30px; }
-  nav h1.logo {
-    margin-top: 5px;
-    display: inline-block;
-    float: left;
-    height: 26px; }
-  nav h1.logo a {
-    float: left; }
-  nav h1.logo img {
-    display: inline-block;
-    margin: 0 auto;
-    margin-left: 10px;
-    margin-top: 0px;
-    height: 50px;
-    width: auto;
-    transition: all .2s ease-in; }
-  nav h1.logo img:hover {
-    opacity: .6; }
-  nav h2.drop-icon img {
-    display: inline-block;
-    float: right;
-    position: relative;
-    padding-right: 40px;
-    height: 25px;
-    transition: all .2s ease-in;
-    text-decoration: none;
-    font: 20px "Montserrat"; }
-  nav h2.drop-icon {
-    display: inline-block;
-    text-indent: -9999px;
-    float: right;
-    height: 0px; }
-  nav .drop-icon:hover {
-    opacity: .5; }
-  nav .mobile-nav {
-    background: #61AE8E;
-    width: 100%; }
-  nav ul {
-    width: 100%;
-    display: inline-block;
-    padding-top: 25px;
-    margin: 0 auto;
-    margin-right: 16px;
-    list-style-type: none; }
-  nav li {
-    padding-bottom: 15px; }
-  nav ul li a {
-    text-decoration: none;
-    font: 15px 'Montserrat'; }
-  nav a:visited {
-    color: #000;
-    text-decoration: none; }
-  nav a:hover {
-    color: #F0EEBA; }
-
-#landing-page {
-  width: 100%;
-  height: 100vh;
-  display: block;
-  background-image: url("./images/landing-no-watermark.jpg");
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: cover !important; }
-  #landing-page h1 {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 2.15em;
-    font-weight: 400;
-    padding-top: 61vh;
-    margin: 0;
-    color: #FBFBFB;
-    text-align: center; }
-  #landing-page p {
-    font: 18px 'Montserrat';
-    color: #FBFBFB;
-    text-align: center; }
-  #landing-page .proceed-arrow {
-    height: 25px;
-    transition: all .2s ease-in;
-    margin: 0 auto;
-    display: block;
-    padding-top: 10vh; }
-
-#about {
-  background-color: #FFF;
-  width: 100%;
-  height: 100vh;
-  display: block;
-  padding-top: 90px;
-  padding-bottom: 90px;
-  display: table;
-  position: relative;
-  overflow: hidden; }
-  #about #about-content {
-    display: table-cell;
-    vertical-align: middle; }
-  #about h2 {
-    font: 20px "Montserrat";
-    text-align: center; }
-  #about p {
-    line-height: 36px;
-    color: #999;
-    width: 80%;
-    margin: 0 auto; }
-
-#skills {
-  background-color: #EEE;
-  width: 100%;
-  padding-top: 90px;
-  padding-bottom: 90px;
-  display: table;
-  position: relative;
-  overflow: hidden; }
-  #skills #skills-content {
-    display: table-cell;
-    vertical-align: middle; }
-  #skills h2 {
-    font: 20px "Montserrat";
-    text-align: center; }
-  #skills h4 {
-    font: 15px 'Montserrat'; }
-
-#work {
-  background-color: #2C2D2A;
-  width: 100%;
-  display: block;
-  padding-top: 90px;
-  padding-bottom: 90px;
-  display: table;
-  position: relative;
-  overflow: hidden; }
-  #work #work-content {
-    display: table-cell;
-    vertical-align: middle; }
-  #work h2 {
-    font: 20px "Montserrat";
-    text-align: center;
-    color: #eee; }
-  #work h4 {
-    font: 15px 'Montserrat';
-    color: #eee; }
-  #work img {
-    border-style: solid;
-    border-width: 1px;
-    margin: 0 auto;
-    display: block; }
-
-#links {
-  background-color: #EEE;
-  height: 100vh;
-  width: 100%;
-  display: block;
-  padding-top: 90px;
-  padding-bottom: 90px;
-  display: table;
-  position: relative;
-  overflow: hidden; }
-  #links #links-content {
-    display: table-cell;
-    vertical-align: middle; }
-  #links h2 {
-    font: 20px "Montserrat";
-    text-align: center; }
-  #links ul {
-    list-style-type: none;
-    font: 15px 'Montserrat'; }
-  #links a {
-    text-decoration: none; }
-
-#contact {
-  background-color: #fff;
-  height: 100vh;
-  width: 100%;
-  display: block;
-  padding-top: 90px;
-  padding-bottom: 90px;
-  display: table;
-  position: relative;
-  overflow: hidden; }
-  #contact #contact-content {
-    display: table-cell;
-    vertical-align: middle; }
-  #contact h2 {
-    font: 20px "Montserrat";
-    text-align: center; }
-  #contact ul {
-    list-style-type: none;
-    font: 15px 'Montserrat'; }
-
-/*# sourceMappingURL=style.css.map */
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"    text-indent:\": expected expression (e.g. 1px, bold), was \";\"\A         on line 160 of sass/style.scss\A \A 155:     background-image: url(./images/white_arrow_icon-01.png);\A 156:     background-position: center center;\A 157:     background-repeat: no-repeat;\A 158:     background-size: cover;\A 159:     cursor: pointer;\A 160:     text-indent:;\A 161:   }\A 162: }\A 163: \A 164: #about {\A 165:   background-color:#FFF;"; }
