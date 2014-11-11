@@ -127,7 +127,10 @@ nav {
     background-size: cover;
     cursor: pointer;
     text-indent: -9999px;
-    transition: all .4s ease-in; }
+    display: block;
+    transition: all .4s ease-in;
+    width: 30px;
+    margin: 0 auto; }
   #landing-page .proceed-arrow:hover {
     opacity: .7;
     bottom: 30px;

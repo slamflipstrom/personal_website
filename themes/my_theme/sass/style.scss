@@ -155,7 +155,10 @@ nav {
     background-size: cover;
     cursor: pointer;
     text-indent: -9999px;
+    display: block;
     transition: all .4s ease-in;
+    width: 30px;
+    margin: 0 auto;
   }
   .proceed-arrow:hover{
     opacity:.7;
