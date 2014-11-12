@@ -46,7 +46,7 @@ nav {
   height: 60px;
   opacity: 0.85;
   position: fixed;
-  z-index: 1;
+  z-index: 1000;
   .logo a{
     background-image: url(./images/SAM-01.png);
     background-position: center center;
@@ -55,28 +55,29 @@ nav {
     cursor: pointer;
     text-indent: -9999px;
     display: block;
-    height: 100%;
-    width: 100%;
+    height: 45px;
+    margin-top: 3px;
+    width: auto;
+    transition: all .5s ease-in;
    }
   .logo{
     display: inline-block;
     margin: 0 auto;
-    margin-left: 10px;
-    margin-top: 0px;
+    margin-left: 17px;
+    margin-top: 3px;
     height: 55px;
-    width: 200px;
-    transition: all .5s ease-in;
+    width: 180px;
   }
-  .logo:hover{
+  .logo a:hover{
     opacity: .6;
-    height: 55px;
-    width: 200px;
+    width: auto;
   }
   .drop-icon img{
     display:inline-block;
     float: right;
-    position: relative;
-    padding-right: 40px;
+    position: absolute;
+    right: 35px;
+    top: 20px;
     height: 25px;
     transition: all .5s ease-in;
     cursor: pointer;
@@ -95,7 +96,7 @@ nav {
   }
   ul{
     width:100%;
-    display:inline-block;
+    display:block;
     padding-top: 25px;
     margin: 0 auto;
     margin-right:16px;
