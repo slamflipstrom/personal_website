@@ -47,28 +47,32 @@ nav {
   opacity: 0.85;
   position: fixed;
   z-index: 1;
-  h1.logo{
-     margin-top: 5px;
-     display: inline-block;
-     float: left;
-     height: 26px;
-     cursor: pointer;
+  .logo a{
+    background-image: url(./images/SAM-01.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    text-indent: -9999px;
+    display: block;
+    height: 100%;
+    width: 100%;
    }
-  h1.logo img{
+  .logo{
     display: inline-block;
     margin: 0 auto;
     margin-left: 10px;
     margin-top: 0px;
-    height: 50px;
-    width: auto;
+    height: 55px;
+    width: 200px;
     transition: all .5s ease-in;
   }
-  h1.logo img:hover{
+  .logo:hover{
     opacity: .6;
-    height: 50px;
-    width: auto;
+    height: 55px;
+    width: 200px;
   }
-  h2.drop-icon img{
+  .drop-icon img{
     display:inline-block;
     float: right;
     position: relative;
@@ -79,7 +83,7 @@ nav {
     text-decoration: $nav-link;
     font:$div-header-text;
   }
-  h2.drop-icon{
+  .drop-icon{
     float: right;
   }
   .drop-icon:hover{

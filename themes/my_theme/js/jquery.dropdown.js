@@ -10,11 +10,11 @@ $(document).ready(function(){
     console.log ('menu icon was clicked')
   });
 
-  // TODO $(".logo ").click(function(e){
-  //   var seg = $(this).attr("href");
-  //   $("body").animate({scrollTop: $(seg).offset().top}, "slow");
-  //   e.preventDefault()
-  // });
+  $(".logo a").click(function(e){
+    var seg = $(this).attr("href");
+    $("body").animate({scrollTop: $(seg).offset().top}, "slow");
+    e.preventDefault()
+  });
 
   $(".mobile-nav a").click(function(e){
     var seg = $(this).attr("href");

@@ -39,25 +39,29 @@ nav {
   opacity: 0.85;
   position: fixed;
   z-index: 1; }
-  nav h1.logo {
-    margin-top: 5px;
-    display: inline-block;
-    float: left;
-    height: 26px;
-    cursor: pointer; }
-  nav h1.logo img {
+  nav .logo a {
+    background-image: url(./images/SAM-01.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    text-indent: -9999px;
+    display: block;
+    height: 100%;
+    width: 100%; }
+  nav .logo {
     display: inline-block;
     margin: 0 auto;
     margin-left: 10px;
     margin-top: 0px;
-    height: 50px;
-    width: auto;
+    height: 55px;
+    width: 200px;
     transition: all .5s ease-in; }
-  nav h1.logo img:hover {
+  nav .logo:hover {
     opacity: .6;
-    height: 50px;
-    width: auto; }
-  nav h2.drop-icon img {
+    height: 55px;
+    width: 200px; }
+  nav .drop-icon img {
     display: inline-block;
     float: right;
     position: relative;
@@ -67,7 +71,7 @@ nav {
     cursor: pointer;
     text-decoration: none;
     font: 20px "Montserrat"; }
-  nav h2.drop-icon {
+  nav .drop-icon {
     float: right; }
   nav .drop-icon:hover {
     opacity: .5; }
