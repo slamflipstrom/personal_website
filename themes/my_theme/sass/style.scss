@@ -200,6 +200,11 @@ nav {
 }
 
 #skills {
+  background-image: url("./images/test-background-mountains.JPG");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #000000;
   background-color: #EEE;
   width: 100%;
   padding-top: $div-content-padding; 
@@ -214,9 +219,12 @@ nav {
   h2{
     font:$div-header-text;
     text-align: center;
+    color:#FBFBFB;
   }
   h4{
     font: 15px 'Montserrat';
+    color:#FBFBFB;
+    
   }
 }
 
@@ -281,7 +289,7 @@ nav {
   background-image: url("./images/test-background.JPG");
   background-repeat: no-repeat;
   background-position: center center;
-    background-size: cover;
+  background-size: cover;
   background-color: #000000;
   height:100vh;
   width: 100%;

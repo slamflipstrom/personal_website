@@ -165,6 +165,11 @@ nav {
     margin: 0 auto; }
 
 #skills {
+  background-image: url("./images/test-background-mountains.JPG");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #000000;
   background-color: #EEE;
   width: 100%;
   padding-top: 90px;
@@ -177,9 +182,11 @@ nav {
     vertical-align: middle; }
   #skills h2 {
     font: 20px "Montserrat";
-    text-align: center; }
+    text-align: center;
+    color: #FBFBFB; }
   #skills h4 {
-    font: 15px 'Montserrat'; }
+    font: 15px 'Montserrat';
+    color: #FBFBFB; }
 
 #work {
   background-color: #2C2D2A;
