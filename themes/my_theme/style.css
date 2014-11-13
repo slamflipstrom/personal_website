@@ -165,6 +165,10 @@ nav {
     margin: 0 auto; }
 
 #skills {
+  background-image: url("./images/test-background-spacedust-coloroverlay.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover !important;
   background-color: #EEE;
   width: 100%;
   padding-top: 90px;
@@ -178,10 +182,10 @@ nav {
   #skills h2 {
     font: 20px "Montserrat";
     text-align: center;
-    color: #000; }
+    color: #eee; }
   #skills h4 {
     font: 15px 'Montserrat';
-    color: #000; }
+    color: #eee; }
 
 #work {
   background-color: #242324;
@@ -209,10 +213,6 @@ nav {
     display: block; }
 
 #links {
-  background-image: url("./images/test-background-spacedust-coloroverlay.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover !important;
   background-color: #EEE;
   height: 100vh;
   width: 100%;
@@ -227,15 +227,18 @@ nav {
   #links h2 {
     font: 20px "Montserrat";
     text-align: center;
-    color: #eee; }
+    color: #000; }
   #links ul {
     list-style-type: none;
     font: 15px 'Montserrat'; }
   #links a {
     text-decoration: none;
-    color: #eee; }
+    color: #000; }
 
 #contact {
+  background-image: url("./images/web-background-mountains2-darker.JPG");
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
   background-color: #eee;
   height: 350px;
@@ -249,7 +252,7 @@ nav {
     vertical-align: middle;
     border-radius: 6px;
     border-width: 3px;
-    border-color: black;
+    border-color: #61AE8E;
     border-style: solid;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -259,7 +262,8 @@ nav {
   #contact h2 {
     font: 20px "Montserrat";
     text-align: center;
-    color: #61AE8E; }
+    color: #eee;
+    margin-bottom: 50px; }
   #contact ul {
     list-style-type: none;
     font: 15px 'Montserrat';
