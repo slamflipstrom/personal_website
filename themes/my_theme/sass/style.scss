@@ -131,6 +131,7 @@ nav {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover !important;
+  background-attachment: fixed;
   background-color: #000000;
   h1{
     font-family: 'Quicksand', sans-serif; 
@@ -200,9 +201,10 @@ nav {
 }
 
 #skills {
-  background-image: url("./images/test-background-spacedust-coloroverlay.jpg");
+  background-image: url("./images/web-background-spacedust.jpg");
   background-repeat: no-repeat;
   background-position: center center;
+  background-attachment: fixed;
   background-size: cover !important;
   background-color: #EEE;
   width: 100%;
@@ -285,10 +287,11 @@ nav {
 }
 
 #contact {
-  background-image: url("./images/web-background-mountains2-darker.JPG");
+  background-image: url("./images/web-background-mountains.JPG");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  background-attachment: fixed;
   background-color: #eee;
   height: 450px;
   width: 100%;
