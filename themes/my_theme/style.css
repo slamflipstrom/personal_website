@@ -241,7 +241,7 @@ nav {
   background-position: center center;
   background-size: cover;
   background-color: #eee;
-  height: 350px;
+  height: 450px;
   width: 100%;
   padding-top: 90px;
   padding-bottom: 90px;
@@ -268,5 +268,20 @@ nav {
     list-style-type: none;
     font: 15px 'Montserrat';
     color: #61AE8E; }
+
+#footer {
+  width: 100%;
+  opacity: 0.85;
+  background: #61AE8E; }
+  #footer .small-logo {
+    background-image: url("./images/SL_logo-01.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    cursor: pointer;
+    text-indent: -9999px;
+    display: block;
+    height: 50px;
+    width: auto; }
 
 /*# sourceMappingURL=style.css.map */
