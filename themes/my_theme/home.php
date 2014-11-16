@@ -27,7 +27,7 @@ Template Name: Home
 
 <nav>
   <div class="logo"><a href="#landing-page">Sam Lindstrom!</a></div>
-  <div class="drop-icon"><img src="./images/drop-menu-arrow.png" alt="Drop Menu Icon"/></div>
+  <div class="drop-icon"><img src="<?php echo get_template_directory_uri(); ?>./images/drop-menu-arrow.png" alt="Drop Menu Icon"/></div>
   <ul class="mobile-nav">
     <li><a href="#about">ABOUT</a></li>
     <li><a href="#work">WORK</a></li>
