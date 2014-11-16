@@ -73,11 +73,10 @@ nav {
     width: auto;
   }
   .drop-icon{
-    display: inline-block;
-    margin: 0 auto;
-    margin-right: 17px;
-    margin-top: 3px;
-    float: right;
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    height: 25px;
   }
   .drop-icon a{
     background-image: url(./images/drop-menu-arrow.png);

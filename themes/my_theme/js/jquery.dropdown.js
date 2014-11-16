@@ -1,30 +1,30 @@
-$(document).ready(function(){
+jQuery(document).ready(function(){
 
   console.log ('document is ready')
   
-  $(".mobile-nav").hide();
+  jQuery(".mobile-nav").hide();
 
     
-  $(".drop-icon").click(function(){
-    $(".mobile-nav").slideToggle(120);
+  jQuery(".drop-icon").click(function(){
+    jQuery(".mobile-nav").slideToggle(120);
     console.log ('menu icon was clicked')
   });
 
-  $(".logo a").click(function(e){
-    var seg = $(this).attr("href");
-    $("body").animate({scrollTop: $(seg).offset().top}, "slow");
+  jQuery(".logo a").click(function(e){
+    var seg = jQuery(this).attr("href");
+    jQuery("body").animate({scrollTop: jQuery(seg).offset().top}, "slow");
     e.preventDefault()
   });
 
-  $(".mobile-nav a").click(function(e){
-    var seg = $(this).attr("href");
-    $("body").animate({scrollTop: $(seg).offset().top}, "slow");
+  jQuery(".mobile-nav a").click(function(e){
+    var seg = jQuery(this).attr("href");
+    jQuery("body").animate({scrollTop: jQuery(seg).offset().top}, "slow");
     e.preventDefault();
   });
    
-  $(".proceed-arrow a").click(function(e){
-     var seg = $(this).attr("href");
-     $("body").animate({scrollTop: $(seg).offset().top}, "slow");
+  jQuery(".proceed-arrow a").click(function(e){
+     var seg = jQuery(this).attr("href");
+     jQuery("body").animate({scrollTop: jQuery(seg).offset().top}, "slow");
      e.preventDefault();
      console.log ('proceed arrow was clicked')
   });
