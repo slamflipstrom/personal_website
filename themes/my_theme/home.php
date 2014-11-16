@@ -14,7 +14,7 @@ Template Name: Home
   <title>SL Portfolio</title>
   <meta name="description" content="">
   <!-- <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8"> -->
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/sass/style.css" />
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" />
  
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
   <script type="text/javascript" language="javascript" src="js/jquery.dropdown.js"></script>
@@ -27,7 +27,8 @@ Template Name: Home
 
 <nav>
   <div class="logo"><a href="#landing-page">Sam Lindstrom!</a></div>
-  <div class="drop-icon"><img src="<?php echo get_template_directory_uri(); ?>./images/drop-menu-arrow.png" alt="Drop Menu Icon"/></div>
+  <div class="drop-icon"><a href="#">Menu</a></div>
+  <!-- <div class="drop-icon"><img src="<?php bloginfo('template_directory'); ?>./images/drop-menu-arrow.png" alt="Drop Menu Icon"/></div> -->
   <ul class="mobile-nav">
     <li><a href="#about">ABOUT</a></li>
     <li><a href="#work">WORK</a></li>

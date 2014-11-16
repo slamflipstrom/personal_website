@@ -72,20 +72,25 @@ nav {
     opacity: .6;
     width: auto;
   }
-  .drop-icon img{
+  .drop-icon{
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 17px;
+    margin-top: 3px;
+    float: right;
+  }
+  .drop-icon a{
+    background-image: url(./images/drop-menu-arrow.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    text-indent: -9999px;
     display:inline-block;
     float: right;
-    position: absolute;
-    right: 35px;
-    top: 20px;
-    height: 25px;
     transition: all .5s ease-in;
-    cursor: pointer;
-    text-decoration: $nav-link;
-    font:$div-header-text;
-  }
-  .drop-icon{
-    float: right;
+    height: 25px;
+    width: 32px;
   }
   .drop-icon:hover{
     opacity: .5;
