@@ -17,7 +17,7 @@ Template Name: Home
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" />
  
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-  <script type="text/javascript" language="javascript" src="<?php bloginfo('template_url'); ?>js/jquery.dropdown.js"></script>
+  <script type="text/javascript" language="javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.dropdown.js"></script>
     
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>

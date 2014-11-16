@@ -95,7 +95,8 @@ nav {
     cursor: pointer; }
   nav ul li a {
     text-decoration: none;
-    font: 15px 'Montserrat'; }
+    font: 15px 'Montserrat';
+    color: #000; }
   nav a:visited {
     color: #000;
     text-decoration: none; }
