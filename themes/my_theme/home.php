@@ -101,7 +101,7 @@ Template Name: Home
   </div>
   
   <div id="contact">
-     <h2>DROP ME A LINE</h2>
+     <h2>GET IN TOUCH</h2>
     <div id="contact-content">
       <ul>
         <li>Phone: (308)888-8888</li>
