@@ -236,13 +236,16 @@ nav {
     text-align: center;
     color: #000; }
   #links .social-media-links {
-    list-style-type: none;
-    font: 15px 'Montserrat';
-    height: 100px;
     width: 100%;
-    display: inline-block;
-    text-align: center;
-    padding: 0; }
+    height: 100px; }
+    #links .social-media-links ul {
+      list-style-type: none;
+      width: 80%;
+      display: inline-block;
+      text-align: center;
+      padding: 0;
+      margin-left: 10%;
+      margin-right: 10%; }
     #links .social-media-links li {
       height: 53px;
       width: 60px;
