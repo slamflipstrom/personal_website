@@ -235,7 +235,7 @@ nav {
     font: 20px "Montserrat";
     text-align: center;
     color: #000; }
-  #links ul {
+  #links .social-media-links {
     list-style-type: none;
     font: 15px 'Montserrat'; }
   #links a {

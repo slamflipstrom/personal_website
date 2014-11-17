@@ -281,9 +281,21 @@ nav {
     text-align: center;
     color: #000;
   }
-  ul {
+  .social-media-links {
     list-style-type: none;
     font: 15px 'Montserrat';
+    .linked-in{
+      
+    }
+    .instagram{
+      
+    }
+    .github{
+      
+    }
+    .twitter{
+      
+    }
   }
   a{
     text-decoration: $link-decoration;
