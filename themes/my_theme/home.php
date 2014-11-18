@@ -62,13 +62,13 @@ Template Name: Home
   <div id="skills">
     <div id="skills-content">
       <h2>MY SKILLS</h2>
-      <h4 class="sub-head">Back-end Development</h4>
-      <p class="body-text">I have working proficiency in Ruby and Ruby on Rails, as well as some experience with Javascript, Coffeescript, and Sinatra. Additionally, I've worked with PostgreSQL, MySQL, and SQLite. I use Github for all of my personal projects, and am comfortable executing basic tasks in the Command Line.</p>
-      <h4 class="sub-head">Front-end Development</h4>
-      <p class="body-text">I'm skilled with HTML5, CSS3, and object-oriented SASS. I also have familiarity with jQuery. In addition to coding, I am experienced working with Adobe Illustrator, Adobe Photoshop, and Adobe InDesign</p>
-      <h4 class="sub-head">Business</h4>
-      <p class="body-text">I have extensive working experience in business administration and sales. Prior to web development, I graduated with a Bachelor's Degree in Business Administration from the University of Nebraska-Lincoln, and worked in advertising sales for my first post-college job. I invite you to check out my <a href="https://linkedin.com/in/samlindstrom/">LinkedIn</a> page for more details.</p>
-    </div>
+      <?php 
+      $id=9; 
+      $post = get_post($id); 
+      $content = apply_filters('the_content', $post->post_content); 
+      echo $content;  
+      ?>
+      </div>
   </div>
   
   <div id="work">
