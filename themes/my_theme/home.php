@@ -23,10 +23,6 @@ Template Name: Home
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 </head>
 
-
-
-
-
 <nav>
   <div class="logo"><a href="#landing-page">Sam Lindstrom!</a></div>
   <div class="drop-icon"><a href="#">Menu</a></div>
@@ -50,7 +46,15 @@ Template Name: Home
   <div id="about">
     <div id="about-content">
      <h2>A LITTLE ABOUT ME</h2>
-     <p class="body-text">A graduate of <a href="www.omahacodeschool.com">Omahe Code School's</a> second ever class, I've been in the web development industry for less than a year. I've found web development to be challenging, intellectually stimulating, and oh so rewarding. I'm passionate about designing intuitive websites, but don't believe form takes precedence over function. I'm thrilled to be a part of the web development industry, and am hungry to broaden my skill set.</p>
+    <p class="body-text">
+      <?php 
+      $id=6; 
+      $post = get_post($id); 
+      $content = apply_filters('the_content', $post->post_content); 
+      echo $content;  
+      ?>
+    </p> 
+     <!-- <p class="body-text">A graduate of <a href="www.omahacodeschool.com">Omahe Code School's</a> second ever class, I've been in the web development industry for less than a year. I've found web development to be challenging, intellectually stimulating, and oh so rewarding. I'm passionate about designing intuitive websites, but don't believe form takes precedence over function. I'm thrilled to be a part of the web development industry, and am hungry to broaden my skill set.</p> -->
     </div>
   </div>
   
