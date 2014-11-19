@@ -280,12 +280,16 @@ nav {
     margin-top: 60px;
   }
   img {
-    border-style: solid;
-    border-width: 1px;
     margin: 0 auto;
     display: block;
     height: 450px;
     margin-bottom: 50px;
+  }
+  a{
+    text-decoration: none;
+  }
+  a:visited{
+    text-decoration: none;
   }
 }
 
