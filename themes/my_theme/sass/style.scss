@@ -265,7 +265,7 @@ nav {
 
 #links {
   background-color: #EEE;
-  height:100vh;
+  height:50vh;
   width: 100%;
   padding-top: $div-content-padding; 
   padding-bottom: $div-content-padding; 
@@ -417,9 +417,6 @@ nav {
       font: 14px 'Montserrat';
       width: 250px;
       height: 60px;
-    }
-    .form-error{
-      color: #F5DB3D;  
     }
 //    Errors appearing at the top of contact form
     .screen-reader-response{

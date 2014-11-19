@@ -221,7 +221,7 @@ nav {
 
 #links {
   background-color: #EEE;
-  height: 100vh;
+  height: 50vh;
   width: 100%;
   padding-top: 90px;
   padding-bottom: 90px;
@@ -357,8 +357,6 @@ nav {
       font: 14px 'Montserrat';
       width: 250px;
       height: 60px; }
-    #contact #contact-content .form-error {
-      color: #F5DB3D; }
     #contact #contact-content .screen-reader-response {
       color: #61AE8E;
       font: 14px 'Montserrat'; }
