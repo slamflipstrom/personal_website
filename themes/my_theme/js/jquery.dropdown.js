@@ -22,14 +22,12 @@ jQuery(document).ready(function(){
     var seg = jQuery(this).attr("href");
     jQuery("body").animate({scrollTop: jQuery(seg).offset().top}, "slow");
     e.preventDefault();
-    console.log ('mobile nav segment anchor was clicked')
   });
    
   jQuery(".proceed-arrow a").click(function(e){
      var seg = jQuery(this).attr("href");
      jQuery("body").animate({scrollTop: jQuery(seg).offset().top}, "slow");
      e.preventDefault();
-     console.log ('proceed arrow was clicked')
   });
   
 
