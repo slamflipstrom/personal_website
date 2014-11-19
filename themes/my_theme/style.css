@@ -21,7 +21,7 @@ p {
   font-weight: 300;
   text-align: center;
   line-height: 36px;
-  color: #999;
+  color: #DFDFDF;
   width: 80%;
   margin: 0 auto;
   max-width: 640px; }
@@ -163,7 +163,8 @@ nav {
     vertical-align: middle; }
   #about h2 {
     font: 20px "Montserrat";
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 45px; }
   #about p {
     line-height: 36px;
     color: #999;
@@ -176,7 +177,7 @@ nav {
   background-position: center center;
   background-attachment: fixed;
   background-size: cover !important;
-  background-color: #EEE;
+  background-color: #010101;
   width: 100%;
   padding-top: 90px;
   padding-bottom: 90px;
@@ -189,7 +190,8 @@ nav {
   #skills h2 {
     font: 20px "Montserrat";
     text-align: center;
-    color: #eee; }
+    color: #eee;
+    margin-bottom: 45px; }
   #skills h4 {
     font: 15px 'Montserrat';
     color: #eee; }
@@ -209,7 +211,8 @@ nav {
   #work h2 {
     font: 20px "Montserrat";
     text-align: center;
-    color: #eee; }
+    color: #eee;
+    margin-bottom: 45px; }
   #work h4 {
     font: 15px 'Montserrat';
     color: #eee; }
@@ -234,6 +237,9 @@ nav {
   #links h2 {
     font: 20px "Montserrat";
     text-align: center;
+    color: #000;
+    margin-bottom: 45px; }
+  #links p {
     color: #000; }
   #links .social-media-links {
     width: 100%;
@@ -313,7 +319,7 @@ nav {
     font: 20px "Montserrat";
     text-align: center;
     color: #eee;
-    margin-bottom: 50px; }
+    margin-bottom: 45px; }
   #contact ul {
     list-style-type: none;
     font: 15px 'Montserrat';
