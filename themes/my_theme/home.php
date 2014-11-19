@@ -108,12 +108,22 @@ Template Name: Home
   </div>
   
   <div id="contact">
-     <h2>GET IN TOUCH</h2>
+    <h2>GET IN TOUCH</h2>
     <div id="contact-content">
+      <div id="contact-form">
+        <?php 
+        $id=18; 
+        $post = get_post($id); 
+        $content = apply_filters('the_content', $post->post_content); 
+        echo $content;  
+        ?>
+      </div>
     </div>
   </div>
+  
   <div id="footer">
     <div class="small-logo"><a href="#landing-page">Sam Lindstrom</a></div>
   </div>
+  
 </body>
 </html>

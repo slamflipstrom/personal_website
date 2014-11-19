@@ -366,10 +366,6 @@ nav {
   overflow: hidden;
   #contact-content{
     vertical-align: middle;
-    border-radius: 6px;
-    border-width: 3px;
-    border-color: #61AE8E;
-    border-style: solid;
     padding-top: 30px;
     padding-bottom: 30px;
     width: 84%;
@@ -387,6 +383,32 @@ nav {
     list-style-type: none;
     font: 15px 'Montserrat';
     color: #61AE8E;
+  }
+  #contact-form{
+    text-align:center;
+    p{
+      color: #999999;
+    }
+    input{
+      color: #999999;
+      border-radius: 6px;
+      border-width: 3px;
+      border-color: #999999;
+      border-style: solid;
+      background-color: transparent;
+      font: 15px 'Montserrat';
+      margin-bottom: 16px;
+    }
+    textarea{
+      color: #999999;
+      border-radius: 6px;
+      border-width: 3px;
+      border-color: #999999;
+      border-style: solid;
+      background-color: transparent;
+      font: 15px 'Montserrat';
+      margin-bottom: 16px;
+    }
   }
 }
 
