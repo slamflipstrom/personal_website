@@ -201,13 +201,18 @@ nav {
   h2 {
     font: $div-header-text;
     text-align: center;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
   }
   p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .85em;
+    font-weight: 300;
+    text-align: center;
     line-height: 36px;
     color: #999;
     width: 80%;
     margin: 0 auto;
+    
   }
 }
 
@@ -237,7 +242,7 @@ nav {
     font:$div-header-text;
     text-align: center;
     color:#eee;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
   }
   h4{
     font: 15px 'Montserrat';
@@ -267,7 +272,7 @@ nav {
     font: $div-header-text;
     text-align: center;
     color:#eee;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
   }
   h4{
     font: 15px 'Montserrat';
@@ -303,7 +308,7 @@ nav {
     font: $div-header-text;
     text-align: center;
     color: #000;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
   }
   p{
     color:#000;
@@ -401,7 +406,7 @@ nav {
     font: $div-header-text;
     text-align: center;
     color: #eee;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
   }
   ul {
     list-style-type: none;

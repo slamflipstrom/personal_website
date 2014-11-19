@@ -164,8 +164,12 @@ nav {
   #about h2 {
     font: 20px "Montserrat";
     text-align: center;
-    margin-bottom: 45px; }
+    margin-bottom: 30px; }
   #about p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .85em;
+    font-weight: 300;
+    text-align: center;
     line-height: 36px;
     color: #999;
     width: 80%;
@@ -191,7 +195,7 @@ nav {
     font: 20px "Montserrat";
     text-align: center;
     color: #eee;
-    margin-bottom: 45px; }
+    margin-bottom: 30px; }
   #skills h4 {
     font: 15px 'Montserrat';
     color: #eee; }
@@ -212,7 +216,7 @@ nav {
     font: 20px "Montserrat";
     text-align: center;
     color: #eee;
-    margin-bottom: 45px; }
+    margin-bottom: 30px; }
   #work h4 {
     font: 15px 'Montserrat';
     color: #eee; }
@@ -238,7 +242,7 @@ nav {
     font: 20px "Montserrat";
     text-align: center;
     color: #000;
-    margin-bottom: 45px; }
+    margin-bottom: 30px; }
   #links p {
     color: #000; }
   #links .social-media-links {
@@ -319,7 +323,7 @@ nav {
     font: 20px "Montserrat";
     text-align: center;
     color: #eee;
-    margin-bottom: 45px; }
+    margin-bottom: 30px; }
   #contact ul {
     list-style-type: none;
     font: 15px 'Montserrat';
