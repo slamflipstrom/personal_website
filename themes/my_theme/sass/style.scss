@@ -393,7 +393,7 @@ nav {
       border-color: #999999;
       border-style: solid;
       background-color: transparent;
-      font: 15px 'Montserrat';
+      font: 14px 'Montserrat';
       margin-bottom: 16px;
       width: 100%;
       height: 40px;
@@ -406,24 +406,34 @@ nav {
       border-color: #999999;
       border-style: solid;
       background-color: transparent;
-      font: 15px 'Montserrat';
+      font: 14px 'Montserrat';
       width: 100%;
       margin-bottom: 16px;
-    }
-    form.wpcf7-form{
-      margin: 0 auto;
     }
     .wpcf7-form-control.wpcf7-submit{
       color: #61AE8E;  
       border-color: #61AE8E;
       background-color: transparent;
-      font: 15px 'Montserrat';
+      font: 14px 'Montserrat';
       width: 250px;
       height: 60px;
     }
-    .screen-reader-response{
-      visibility: hidden;
+    .form-error{
+      color: #F5DB3D;  
     }
+//    Errors appearing at the top of contact form
+    .screen-reader-response{
+      color:#61AE8E;
+      font: 14px 'Montserrat';
+      ul{
+        padding: 0;
+      }
+      li{
+        color: #da4856; 
+        display: none !important;
+      }
+    }
+//    Formatting of error messages that appear below input box
     span [role="alert"]{
       color: #da4856;  
     }
