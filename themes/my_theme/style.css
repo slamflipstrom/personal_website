@@ -309,13 +309,6 @@ nav {
   display: table;
   position: relative;
   overflow: hidden; }
-  #contact #contact-content {
-    vertical-align: middle;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: 84%;
-    max-width: 550px;
-    margin: 0 auto; }
   #contact h2 {
     font: 20px "Montserrat";
     text-align: center;
@@ -325,11 +318,17 @@ nav {
     list-style-type: none;
     font: 15px 'Montserrat';
     color: #61AE8E; }
-  #contact #contact-form {
+  #contact #contact-content {
+    vertical-align: middle;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 84%;
+    max-width: 550px;
+    margin: 0 auto;
     text-align: center; }
-    #contact #contact-form p {
+    #contact #contact-content p {
       color: #999999; }
-    #contact #contact-form input {
+    #contact #contact-content input {
       color: #999999;
       border-radius: 3px;
       border-width: 3px;
@@ -337,8 +336,11 @@ nav {
       border-style: solid;
       background-color: transparent;
       font: 15px 'Montserrat';
-      margin-bottom: 16px; }
-    #contact #contact-form textarea {
+      margin-bottom: 16px;
+      width: 100%;
+      height: 40px;
+      padding: 0; }
+    #contact #contact-content textarea {
       color: #999999;
       border-radius: 3px;
       border-width: 3px;
@@ -346,14 +348,21 @@ nav {
       border-style: solid;
       background-color: transparent;
       font: 15px 'Montserrat';
+      width: 100%;
       margin-bottom: 16px; }
-    #contact #contact-form .wpcf7-form-control.wpcf7-submit {
+    #contact #contact-content form.wpcf7-form {
+      margin: 0 auto; }
+    #contact #contact-content .wpcf7-form-control.wpcf7-submit {
       color: #61AE8E;
       border-color: #61AE8E;
       background-color: transparent;
       font: 15px 'Montserrat';
       width: 250px;
       height: 60px; }
+    #contact #contact-content .screen-reader-response {
+      visibility: hidden; }
+    #contact #contact-content span [role="alert"] {
+      color: #da4856; }
 
 #footer {
   width: 100%;

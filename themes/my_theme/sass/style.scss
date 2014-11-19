@@ -364,6 +364,17 @@ nav {
   display: table; 
   position: relative; 
   overflow: hidden;
+  h2 {
+    font: $div-header-text;
+    text-align: center;
+    color: #eee;
+    margin-bottom: 50px;
+  }
+  ul {
+    list-style-type: none;
+    font: 15px 'Montserrat';
+    color: #61AE8E;
+  }
   #contact-content{
     vertical-align: middle;
     padding-top: 30px;
@@ -371,21 +382,7 @@ nav {
     width: 84%;
     max-width:550px;
     margin: 0 auto;
-  }
-  h2 {
-    font: $div-header-text;
     text-align: center;
-    color: #eee;
-    margin-bottom: 50px;
-    
-  }
-  ul {
-    list-style-type: none;
-    font: 15px 'Montserrat';
-    color: #61AE8E;
-  }
-  #contact-form{
-    text-align:center;
     p{
       color: #999999;
     }
@@ -398,6 +395,9 @@ nav {
       background-color: transparent;
       font: 15px 'Montserrat';
       margin-bottom: 16px;
+      width: 100%;
+      height: 40px;
+      padding: 0;
     }
     textarea{
       color: #999999;
@@ -407,7 +407,11 @@ nav {
       border-style: solid;
       background-color: transparent;
       font: 15px 'Montserrat';
+      width: 100%;
       margin-bottom: 16px;
+    }
+    form.wpcf7-form{
+      margin: 0 auto;
     }
     .wpcf7-form-control.wpcf7-submit{
       color: #61AE8E;  
@@ -416,6 +420,12 @@ nav {
       font: 15px 'Montserrat';
       width: 250px;
       height: 60px;
+    }
+    .screen-reader-response{
+      visibility: hidden;
+    }
+    span [role="alert"]{
+      color: #da4856;  
     }
   }
 }

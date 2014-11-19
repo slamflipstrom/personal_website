@@ -110,14 +110,12 @@ Template Name: Home
   <div id="contact">
     <h2>GET IN TOUCH</h2>
     <div id="contact-content">
-      <div id="contact-form">
         <?php 
         $id=18; 
         $post = get_post($id); 
         $content = apply_filters('the_content', $post->post_content); 
         echo $content;  
         ?>
-      </div>
     </div>
   </div>
   
