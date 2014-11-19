@@ -331,7 +331,7 @@ nav {
       color: #999999; }
     #contact #contact-form input {
       color: #999999;
-      border-radius: 6px;
+      border-radius: 3px;
       border-width: 3px;
       border-color: #999999;
       border-style: solid;
@@ -340,13 +340,20 @@ nav {
       margin-bottom: 16px; }
     #contact #contact-form textarea {
       color: #999999;
-      border-radius: 6px;
+      border-radius: 3px;
       border-width: 3px;
       border-color: #999999;
       border-style: solid;
       background-color: transparent;
       font: 15px 'Montserrat';
       margin-bottom: 16px; }
+    #contact #contact-form .wpcf7-form-control.wpcf7-submit {
+      color: #61AE8E;
+      border-color: #61AE8E;
+      background-color: transparent;
+      font: 15px 'Montserrat';
+      width: 250px;
+      height: 60px; }
 
 #footer {
   width: 100%;
