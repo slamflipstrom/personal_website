@@ -395,9 +395,12 @@ nav {
       background-color: transparent;
       font: 14px 'Montserrat';
       margin-bottom: 16px;
-      width: 100%;
+      width: 80%;
+      max-width: 550px;
       height: 40px;
       padding: 0;
+      padding-right: 10px;
+      padding-left: 10px;
     }
     textarea{
       color: #999999;
@@ -407,8 +410,14 @@ nav {
       border-style: solid;
       background-color: transparent;
       font: 14px 'Montserrat';
-      width: 100%;
+      width: 80%;
+      max-width: 550px;
       margin-bottom: 16px;
+    }
+    .wpcf7-form-control.wpcf7-textarea{
+      padding-top: 12px;
+      padding-right: 10px;
+      padding-left: 10px;
     }
     .wpcf7-form-control.wpcf7-submit{
       color: #61AE8E;  
@@ -435,6 +444,7 @@ nav {
     span [role="alert"]{
       color: #da4856;  
     }
+//  Input fields, when selected
     input:focus,
     select:focus,
     textarea:focus,
