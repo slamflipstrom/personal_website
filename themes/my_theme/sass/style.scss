@@ -417,6 +417,7 @@ nav {
       font: 14px 'Montserrat';
       width: 250px;
       height: 60px;
+      cursor: pointer;
     }
 //    Errors appearing at the top of contact form
     .screen-reader-response{
@@ -433,6 +434,12 @@ nav {
 //    Formatting of error messages that appear below input box
     span [role="alert"]{
       color: #da4856;  
+    }
+    input:focus,
+    select:focus,
+    textarea:focus,
+    button:focus {
+        outline: none;
     }
   }
 }

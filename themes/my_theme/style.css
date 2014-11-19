@@ -356,7 +356,8 @@ nav {
       background-color: transparent;
       font: 14px 'Montserrat';
       width: 250px;
-      height: 60px; }
+      height: 60px;
+      cursor: pointer; }
     #contact #contact-content .screen-reader-response {
       color: #61AE8E;
       font: 14px 'Montserrat'; }
@@ -367,6 +368,11 @@ nav {
         display: none !important; }
     #contact #contact-content span [role="alert"] {
       color: #da4856; }
+    #contact #contact-content input:focus,
+    #contact #contact-content select:focus,
+    #contact #contact-content textarea:focus,
+    #contact #contact-content button:focus {
+      outline: none; }
 
 #footer {
   width: 100%;
