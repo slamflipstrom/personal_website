@@ -12,7 +12,20 @@ Template Name: Home
 <head>
   <meta charset="utf-8">
   <title>Sam Lindstrom</title>
-  <meta name="description" content="">
+  <meta name="description" content="Sam Lindstrom's personal portfolio website">
+  
+  <!-- For IE 9 and below. ICO should be 32x32 pixels in size -->
+  <!--[if IE]><link rel="shortcut icon" href=""./images/favicon.ico"><![endif]-->
+
+  <!-- Touch Icons - iOS and Android 2.1+ 152x152 pixels in size. --> 
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+
+  <!-- Firefox, Chrome, Safari, IE 11+ and Opera. 96x96 pixels in size. -->
+  <link rel="icon" href="./images/favicon.png">
+  
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+  
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" />
  
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
@@ -90,7 +103,7 @@ Template Name: Home
         <a href="http://grant-tracker.herokuapp.com/">
           <img src="<?php echo get_template_directory_uri(); ?>/images/GrantTracker-screenshot.jpg" alt="GrantTracker"  </img>
         </a>
-        <p class="body-text">An app for non-profit organizations that frequently apply for grants. It’s primary function is to assist the NPO in completing the application process. The app was pair-programmed, with my pairing working on the back-end code exclusively. Languages: Ruby on Rails, CSS, HTML, Javascript, and jQuery.</p>  
+        <p class="body-text">An app built for non-profit organizations that frequently apply for grants. It’s primary function is to assist the NPO in completing the application process. The app was pair-programmed, with my pairing working on the back-end code exclusively. Languages: Ruby on Rails, CSS, HTML, Javascript, and jQuery.</p>  
       </div> 
     </div>
   </div>
