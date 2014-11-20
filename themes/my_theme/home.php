@@ -11,7 +11,7 @@ Template Name: Home
 
 <head>
   <meta charset="utf-8">
-  <title>SL Portfolio</title>
+  <title>Sam Lindstrom</title>
   <meta name="description" content="">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" />
  
@@ -90,7 +90,7 @@ Template Name: Home
         <a href="http://grant-tracker.herokuapp.com/">
           <img src="<?php echo get_template_directory_uri(); ?>/images/GrantTracker-screenshot.jpg" alt="GrantTracker"  </img>
         </a>
-        <p class="body-text">An organizational app for non-profit organizations that frequently apply for grants. It’s primary function is to assist the NPO in completing the application process. The app was pair-programmed, with my pairing working on the back-end code exclusively. Languages: Ruby on Rails, CSS, HTML, Javascript, and jQuery.</p>  
+        <p class="body-text">An app for non-profit organizations that frequently apply for grants. It’s primary function is to assist the NPO in completing the application process. The app was pair-programmed, with my pairing working on the back-end code exclusively. Languages: Ruby on Rails, CSS, HTML, Javascript, and jQuery.</p>  
       </div> 
     </div>
   </div>
@@ -113,12 +113,12 @@ Template Name: Home
   <div id="contact">
     <h2>GET IN TOUCH</h2>
     <div id="contact-content">
-        <?php 
-        $id=18; 
-        $post = get_post($id); 
-        $content = apply_filters('the_content', $post->post_content); 
-        echo $content;  
-        ?>
+      <?php 
+      $id=10; 
+      $post = get_post($id); 
+      $content = apply_filters('the_content', $post->post_content); 
+      echo $content;  
+      ?>
     </div>
   </div>
   
