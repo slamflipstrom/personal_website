@@ -15,16 +15,17 @@ Template Name: Home
   <meta name="description" content="Sam Lindstrom's personal portfolio website">
   
   <!-- For IE 9 and below. ICO should be 32x32 pixels in size -->
-  <!--[if IE]><link rel="shortcut icon" href=""./images/favicon.ico"><![endif]-->
+  <!--[if IE]><link rel="shortcut icon" href=""<?php echo get_template_directory_uri(); ?>/images/favicon.ico"><![endif]-->
 
   <!-- Touch Icons - iOS and Android 2.1+ 152x152 pixels in size. --> 
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-precomposed.png">
 
   <!-- Firefox, Chrome, Safari, IE 11+ and Opera. 96x96 pixels in size. -->
-  <link rel="icon" href="./images/favicon.png">
+  <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png">
   
   <meta name="msapplication-TileColor" content="#00aba9">
-  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+  <meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/images/mstile-144x144.png">
+    
   
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" />
  
