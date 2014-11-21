@@ -62,12 +62,14 @@ Template Name: Home
     <div id="about-content">
      <h2>A LITTLE ABOUT ME</h2>
       <div class="body-text">
+        
         <?php 
         $id=6; 
         $post = get_post($id); 
         $content = apply_filters('the_content', $post->post_content); 
         echo $content;  
         ?>
+        
       </div>
     </div>
   </div>
@@ -77,14 +79,16 @@ Template Name: Home
     <div id="skills-content">
       <h2>MY SKILLS</h2>
       <div class="body-text">
+        
         <?php 
         $id=9; 
         $post = get_post($id); 
         $content = apply_filters('the_content', $post->post_content); 
         echo $content;  
         ?>
+        
       </div>
-      </div>
+    </div>
   </div>
   
   <div id="work">
@@ -132,12 +136,14 @@ Template Name: Home
   <div id="contact">
     <h2>GET IN TOUCH</h2>
     <div id="contact-content">
+      
       <?php 
       $id=10; 
       $post = get_post($id); 
       $content = apply_filters('the_content', $post->post_content); 
       echo $content;  
       ?>
+      
     </div>
   </div>
   

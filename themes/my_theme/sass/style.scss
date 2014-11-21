@@ -30,7 +30,7 @@ img{
 }
 .body-text{
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;  
+  font-size: 16px;  
   font-weight:300;
   text-align: center;
   line-height: 36px;
@@ -38,6 +38,19 @@ img{
   width: 80%;
   margin: 0 auto;
   max-width: 640px;
+  @media #{$tablet} {
+    p {
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+
+  @media #{$desktop} {
+    p {
+      font-size: 15px;
+      text-align: center;
+    }
+  }
 }
 .sub-head{
   margin-left:5px;
@@ -211,13 +224,12 @@ nav {
   }
   p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 300;
     text-align: center;
     line-height: 36px;
     color: #999;
     margin: 0 auto;
-    
   }
 }
 
@@ -234,6 +246,8 @@ nav {
   background-size: cover !important;
   background-color: #010101;
   width: 100%;
+  height:100vh;
+  
   padding-top: $div-content-padding; 
   padding-bottom: $div-content-padding; 
   display: table; 
@@ -252,17 +266,6 @@ nav {
   h4{
     font: 15px 'Montserrat';
     color:#eee;
-  }
-  @media #{$tablet} {
-    p {
-      font-size: 18px;
-    }
-  }
-
-  @media #{$desktop} {
-    p {
-      font-size: 20px;
-    }
   }
 }
 
