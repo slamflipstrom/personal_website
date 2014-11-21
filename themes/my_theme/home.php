@@ -42,8 +42,8 @@ Template Name: Home
   <div class="drop-icon"><a href="#">Menu</a></div>
   <ul class="mobile-nav">
     <li><a href="#about">ABOUT</a></li>
+    <li><a href="#skills">SKILLS</a></li>
     <li><a href="#work">WORK</a></li>
-    <li><a href="#links">LINKS</a></li>
     <li><a href="#contact">CONTACT</a></li>
   </ul>
 </nav>
@@ -60,12 +60,14 @@ Template Name: Home
   <div id="about">
     <div id="about-content">
      <h2>A LITTLE ABOUT ME</h2>
-      <?php 
-      $id=6; 
-      $post = get_post($id); 
-      $content = apply_filters('the_content', $post->post_content); 
-      echo $content;  
-      ?>
+      <div class="body-text">
+        <?php 
+        $id=6; 
+        $post = get_post($id); 
+        $content = apply_filters('the_content', $post->post_content); 
+        echo $content;  
+        ?>
+      </div>
     </div>
   </div>
   
@@ -73,12 +75,14 @@ Template Name: Home
   <div id="skills">
     <div id="skills-content">
       <h2>MY SKILLS</h2>
-      <?php 
-      $id=9; 
-      $post = get_post($id); 
-      $content = apply_filters('the_content', $post->post_content); 
-      echo $content;  
-      ?>
+      <div class="body-text">
+        <?php 
+        $id=9; 
+        $post = get_post($id); 
+        $content = apply_filters('the_content', $post->post_content); 
+        echo $content;  
+        ?>
+      </div>
       </div>
   </div>
   
