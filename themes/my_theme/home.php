@@ -28,7 +28,8 @@ Template Name: Home
     
   
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" />
- 
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/large.css" media="(min-width: 800px)" />
+   
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
   <script type="text/javascript" language="javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.dropdown.js"></script>
     
