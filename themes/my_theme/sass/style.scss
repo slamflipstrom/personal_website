@@ -30,7 +30,7 @@ img{
 }
 .body-text{
   font-family: 'Open Sans', sans-serif;
-  font-size:.85em;
+  font-size: 14px;  
   font-weight:300;
   text-align: center;
   line-height: 36px;
@@ -211,12 +211,11 @@ nav {
   }
   p{
     font-family: 'Open Sans', sans-serif;
-    font-size: .85em;
+    font-size: 14px;
     font-weight: 300;
     text-align: center;
     line-height: 36px;
     color: #999;
-    width: 80%;
     margin: 0 auto;
     
   }
@@ -254,10 +253,20 @@ nav {
     font: 15px 'Montserrat';
     color:#eee;
   }
-  @media screen and (min-width: 800px){
-  
+  @media #{$tablet} {
+    p {
+      font-size: 18px;
+    }
+  }
+
+  @media #{$desktop} {
+    p {
+      font-size: 20px;
+    }
   }
 }
+
+
 
 // --Skills--
 

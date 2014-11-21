@@ -20,7 +20,7 @@ img {
 
 .body-text {
   font-family: 'Open Sans', sans-serif;
-  font-size: .85em;
+  font-size: 14px;
   font-weight: 300;
   text-align: center;
   line-height: 36px;
@@ -170,12 +170,11 @@ nav {
     margin-bottom: 30px; }
   #about p {
     font-family: 'Open Sans', sans-serif;
-    font-size: .85em;
+    font-size: 14px;
     font-weight: 300;
     text-align: center;
     line-height: 36px;
     color: #999;
-    width: 80%;
     margin: 0 auto; }
 
 #skills {
@@ -202,6 +201,12 @@ nav {
   #skills h4 {
     font: 15px 'Montserrat';
     color: #eee; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #skills p {
+      font-size: 18px; } }
+  @media (min-width: 1024px) {
+    #skills p {
+      font-size: 20px; } }
 
 #work {
   background-color: #242324;
