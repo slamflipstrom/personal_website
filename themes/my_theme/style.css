@@ -401,7 +401,8 @@ nav {
         color: #da4856;
         display: none !important; }
     #contact #contact-content span [role="alert"] {
-      color: #da4856; }
+      color: #da4856;
+      display: block; }
     #contact #contact-content input:focus,
     #contact #contact-content select:focus,
     #contact #contact-content textarea:focus,

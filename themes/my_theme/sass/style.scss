@@ -509,6 +509,7 @@ nav {
 //    Formatting of error messages that appear below input box
     span [role="alert"]{
       color: #da4856;  
+      display: block;
     }
 //  Input fields, when selected
     input:focus,
