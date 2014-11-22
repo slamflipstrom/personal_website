@@ -494,6 +494,11 @@ nav {
       height: 60px;
       cursor: pointer;
     }
+    .wpcf7-form-control.wpcf7-submit:hover{
+      color: #FAF3FF;  
+      border-color: #61AE8E;
+      background-color:#61AE8E;
+    }
 //    Errors appearing at the top of contact form
     .screen-reader-response{
       color:#61AE8E;
