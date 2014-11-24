@@ -389,7 +389,7 @@ nav {
       border-color: #61AE8E;
       background-color: transparent;
       font: 14px 'Montserrat';
-      width: 250px;
+      width: 200px;
       height: 60px;
       cursor: pointer; }
     #contact #contact-content .wpcf7-form-control.wpcf7-submit:hover {
@@ -407,6 +407,8 @@ nav {
     #contact #contact-content span [role="alert"] {
       color: #da4856;
       display: block; }
+    #contact #contact-content .wpcf7-response-output [role="alert"] {
+      display: none !important; }
     #contact #contact-content input:focus,
     #contact #contact-content select:focus,
     #contact #contact-content textarea:focus,
