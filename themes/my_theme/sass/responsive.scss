@@ -8,11 +8,23 @@ Version: 1.0
 
 */
 
+$tablet: "(min-width: 480px) and (max-width: 768px)";
+$desktop: "(min-width: 768px) and (max-width: 1023px)";
+$wide:"(min-width: 1024px)";
+
 body{
 }
 
 nav{
-  background-color:orange;
+  @media #{$wide}{
+    background-color:orange;
+  }
+  @media #{$desktop} {
+    background-color:#ADD02B;
+  }
+  @media #{$tablet} {
+    background-color:#FF5461;
+  }
 }
 
 #skills{
@@ -42,26 +54,87 @@ nav{
 }
 
 #work{
-  #project1{
-    display: inline-block;
-    width: 30%;
-    margin-left:1%;
-    margin-right:1%;
-    vertical-align:top; 
+  @media #{$wide}{
+    #project1{
+      display: inline-block;
+      width: 30%;
+      margin-left:1%;
+      margin-right:1%;
+      vertical-align:top; 
+    }
+    #project2{
+      display: inline-block;
+      width: 30%;
+      margin-left:1%;
+      margin-right:1%;
+      vertical-align:top; 
+    }
+    #project3{
+      display: inline-block;
+      width: 30%;
+      margin-left:1%;
+      margin-right:1%;
+      vertical-align:top; 
+    }
+    img {
+      height: 450px;
+      width: auto;
+    }
   }
-  #project2{
-    display: inline-block;
-    width: 30%;
-    margin-left:1%;
-    margin-right:1%;
-    vertical-align:top; 
+
+  @media #{$desktop} {
+    #project1{
+      display: inline-block;
+      width: 30%;
+      margin-left:1%;
+      margin-right:1%;
+      vertical-align:top; 
+    }
+    #project2{
+      display: inline-block;
+      width: 30%;
+      margin-left:1%;
+      margin-right:1%;
+      vertical-align:top; 
+    }
+    #project3{
+      display: inline-block;
+      width: 30%;
+      margin-left:1%;
+      margin-right:1%;
+      vertical-align:top; 
+    }
+    img {
+      height: 350px;
+      width: auto;
+    }
   }
-  #project3{
-    display: inline-block;
-    width: 30%;
-    margin-left:1%;
-    margin-right:1%;
-    vertical-align:top; 
+  @media #{$tablet} {
+    #project1{
+      display: inline-block;
+      width: 45%;
+      margin-left:2%;
+      margin-right:2%;
+      vertical-align:top; 
+    }
+    #project2{
+      display: inline-block;
+      width: 45%;
+      margin-left:2%;
+      margin-right:2%;
+      vertical-align:top; 
+    }
+    #project3{
+      display: inline-block;
+      width: 98%;
+      margin-left:1%;
+      margin-right:1%;
+      vertical-align:top; 
+    }
+    img {
+      height: 350px;
+      width: auto;
+    }
   }
 }
 

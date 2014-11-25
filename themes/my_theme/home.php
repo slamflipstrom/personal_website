@@ -28,7 +28,7 @@ Template Name: Home
     
   
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/responsive.css" media="screen and (min-width: 768px)" />
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/responsive.css" media="screen and (min-width: 480px)" />
    
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
   <script type="text/javascript" language="javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.dropdown.js"></script>
@@ -81,7 +81,7 @@ Template Name: Home
         
       <div id="skills-backend">
         <?php 
-        $id=9; 
+        $id=8; 
         $post = get_post($id); 
         $content = apply_filters('the_content', $post->post_content); 
         echo $content;  
@@ -90,7 +90,7 @@ Template Name: Home
       
       <div id="skills-frontend">
         <?php 
-        $id=27; 
+        $id=20; 
         $post = get_post($id); 
         $content = apply_filters('the_content', $post->post_content); 
         echo $content;  
@@ -99,7 +99,7 @@ Template Name: Home
       
       <div id="skills-business">
         <?php 
-        $id=29; 
+        $id=22; 
         $post = get_post($id); 
         $content = apply_filters('the_content', $post->post_content); 
         echo $content;  
