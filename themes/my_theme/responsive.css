@@ -7,37 +7,37 @@ Description: This is Sam Lindstrom's personal portfolio theme.
 Version: 1.0
 
 */
-@media (min-width: 480px) {
-  nav {
-    background-color: orange; }
-    nav .drop-icon {
-      display: none; }
-    nav .mobile-nav {
-      display: inline-block; }
-    nav ul {
-      display: inline-block;
-      padding-top: 25px;
-      margin: 0 auto;
-      margin-right: 16px;
-      list-style-type: none; }
-    nav li {
-      cursor: pointer;
-      display: inline-block; }
-    nav ul li a {
-      text-decoration: none;
-      font: 15px 'Montserrat';
-      color: #000; }
-    nav a:visited {
-      color: #000;
-      text-decoration: none; }
-    nav a:hover {
-      color: #F0EEBA; } }
-@media (min-width: 768px) and (max-width: 1023px) {
-  nav {
-    background-color: #ADD02B; } }
-@media (min-width: 480px) and (max-width: 768px) {
-  nav {
-    background-color: #FF5461; } }
+@media (min-width: 600px) {
+  nav .drop-icon {
+    display: none; }
+  nav .mobile-nav {
+    display: inline-block !important;
+    background: none;
+    width: 50%;
+    float: right; }
+  nav ul {
+    padding-top: 22px;
+    margin-right: 25px;
+    list-style-type: none; }
+  nav li {
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+    display: inline-block; }
+  nav ul li a {
+    text-decoration: none;
+    font: 15px 'Montserrat';
+    color: #000; }
+  nav a:visited {
+    color: #000;
+    text-decoration: none; }
+  nav a:hover {
+    color: #F0EEBA; } }
+@media (min-width: 1024px) {
+  nav ul {
+    padding-top: 22px;
+    margin-right: 75px;
+    list-style-type: none; } }
 
 #skills #skills-backend {
   display: inline-block;

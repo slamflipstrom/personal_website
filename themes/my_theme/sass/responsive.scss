@@ -11,7 +11,7 @@ Version: 1.0
 $tablet: "(min-width: 480px) and (max-width: 768px)";
 $desktop: "(min-width: 768px) and (max-width: 1023px)";
 $wide:"(min-width: 1024px)";
-$non-mobile:"(min-width: 480px)";
+$nav-break:"(min-width: 600px)";
 
 $div-header-text: 20px 'Montserrat';
 $nav-link: none;
@@ -22,21 +22,25 @@ $div-content-padding: 90px;
 // -- NAV --
 
 nav{
-  @media #{$non-mobile}{
+  @media #{$nav-break}{
     .drop-icon{
       display: none;
     }
     .mobile-nav{
-      display:inline-block;
+      display: inline-block !important;
+      background: none;
+      width: 50%;
+      float: right;
+      
     }
     ul{
-      display:inline-block;
-      padding-top: 25px;
-      margin: 0 auto;
-      margin-right:16px;
+      padding-top: 22px;
+      margin-right: 25px;
       list-style-type: none;
     }
     li{
+      float:right;
+      margin-right: 20px;
       cursor: pointer;
       display: inline-block;
     }
@@ -52,13 +56,15 @@ nav{
     a:hover { 
      color: #F0EEBA;
     }
-    background-color:orange;
   }
   @media #{$desktop} {
-    background-color:#ADD02B;
   }
-  @media #{$tablet} {
-    background-color:#FF5461;
+  @media #{$wide} {
+    ul{
+      padding-top: 22px;
+      margin-right: 75px;
+      list-style-type: none;
+    }
   }
 }
 
