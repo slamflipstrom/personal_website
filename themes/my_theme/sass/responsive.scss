@@ -11,7 +11,7 @@ Version: 1.0
 $tablet: "(min-width: 480px) and (max-width: 768px)";
 $desktop: "(min-width: 768px) and (max-width: 1023px)";
 $wide:"(min-width: 1024px)";
-$nav-break:"(min-width: 600px)";
+$nav-break:"(min-width: 650px)";
 
 $div-header-text: 20px 'Montserrat';
 $nav-link: none;
@@ -60,9 +60,12 @@ nav{
   @media #{$desktop} {
   }
   @media #{$wide} {
+    .logo{
+      margin-left: 135px;
+    }
     ul{
       padding-top: 22px;
-      margin-right: 75px;
+      margin-right: 150px;
       list-style-type: none;
     }
   }

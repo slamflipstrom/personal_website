@@ -7,7 +7,7 @@ Description: This is Sam Lindstrom's personal portfolio theme.
 Version: 1.0
 
 */
-@media (min-width: 600px) {
+@media (min-width: 650px) {
   nav .drop-icon {
     display: none; }
   nav .mobile-nav {
@@ -34,9 +34,11 @@ Version: 1.0
   nav a:hover {
     color: #F0EEBA; } }
 @media (min-width: 1024px) {
+  nav .logo {
+    margin-left: 135px; }
   nav ul {
     padding-top: 22px;
-    margin-right: 75px;
+    margin-right: 150px;
     list-style-type: none; } }
 
 #skills #skills-backend {
