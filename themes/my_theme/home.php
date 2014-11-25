@@ -79,7 +79,7 @@ Template Name: Home
       
       <h2>MY SKILLS</h2>
         
-      <div class="skills-backend">
+      <div id="skills-backend">
         <?php 
         $id=9; 
         $post = get_post($id); 
@@ -88,7 +88,7 @@ Template Name: Home
         ?>
       </div>
       
-      <div class="skills-frontend">
+      <div id="skills-frontend">
         <?php 
         $id=27; 
         $post = get_post($id); 
@@ -97,7 +97,7 @@ Template Name: Home
         ?>
       </div>
       
-      <div class="skills-business">
+      <div id="skills-business">
         <?php 
         $id=29; 
         $post = get_post($id); 
