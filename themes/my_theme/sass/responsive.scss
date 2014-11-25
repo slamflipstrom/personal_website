@@ -23,6 +23,12 @@ $div-content-padding: 90px;
 
 nav{
   @media #{$non-mobile}{
+    .drop-icon{
+      display: none;
+    }
+    .mobile-nav{
+      display:inline-block;
+    }
     ul{
       display:inline-block;
       padding-top: 25px;

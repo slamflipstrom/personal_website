@@ -81,6 +81,7 @@ nav {
   nav .drop-icon:hover {
     opacity: .5; }
   nav .mobile-nav {
+    display: none;
     background: #61AE8E;
     width: 100%; }
   nav ul {

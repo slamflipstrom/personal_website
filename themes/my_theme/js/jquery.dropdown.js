@@ -1,8 +1,6 @@
 jQuery(document).ready(function(){
 
   console.log ('document is ready')
-  
-  jQuery(".mobile-nav").hide();
 
     
   jQuery(".drop-icon").click(function(){
