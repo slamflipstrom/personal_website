@@ -10,4 +10,22 @@ Version: 1.0
 body {
   color: red; }
 
+.skills #skills-backend {
+  display: inline-block;
+  width: 30%;
+  margin-left: 1%;
+  margin-right: 1%; }
+
+.skills #skills-frontend {
+  display: inline-block;
+  width: 30%;
+  margin-left: 1%;
+  margin-right: 1%; }
+
+.skills #skills-business {
+  display: inline-block;
+  width: 30%;
+  margin-left: 1%;
+  margin-right: 1%; }
+
 /*# sourceMappingURL=responsive.css.map */
