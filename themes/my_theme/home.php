@@ -60,26 +60,27 @@ Template Name: Home
 
   <div id="about">
     <div id="about-content">
-     <h2>A LITTLE ABOUT ME</h2>
-      <div class="body-text">
+      
+      <h2>A LITTLE ABOUT ME</h2>
         
-        <?php 
-        $id=6; 
-        $post = get_post($id); 
-        $content = apply_filters('the_content', $post->post_content); 
-        echo $content;  
-        ?>
+      <?php 
+      $id=6; 
+      $post = get_post($id); 
+      $content = apply_filters('the_content', $post->post_content); 
+      echo $content;  
+      ?>
         
-      </div>
     </div>
   </div>
   
   
   <div id="skills">
     <div id="skills-content">
+      
       <h2>MY SKILLS</h2>
         
-      <div class="body-text" id="skills-backend">  <?php 
+      <div class="skills-backend">
+        <?php 
         $id=9; 
         $post = get_post($id); 
         $content = apply_filters('the_content', $post->post_content); 
@@ -87,7 +88,7 @@ Template Name: Home
         ?>
       </div>
       
-      <div class="body-text" id="skills-frontend">
+      <div class="skills-frontend">
         <?php 
         $id=27; 
         $post = get_post($id); 
@@ -96,7 +97,7 @@ Template Name: Home
         ?>
       </div>
       
-      <div class="body-text" id="skills-business">
+      <div class="skills-business">
         <?php 
         $id=29; 
         $post = get_post($id); 
@@ -110,34 +111,39 @@ Template Name: Home
   
   <div id="work">
     <div id="work-content">
+      
       <h2>CHECK OUT MY WORK</h2>
+      
       <div id="project1">
         <h4 class="sub-head">Grupl It</h4>
         <a href="http://decision-maker-app.herokuapp.com/">
           <img src="<?php echo get_template_directory_uri(); ?>/images/GruplIt-screenshot.jpg" alt="GruplIt" </img>
         </a>
-        <p class="body-text">An app built to help friends decide upon a night out on the town. My partner handled a bulk of the back-end programming, and I implemented most of the front-end design using SASS primarily. The Javascript and jQuery were collaborative efforts, along with the mobile-responsive user interface. Languages: Ruby on Rails, CSS, SASS, HTML, Javascript, and jQuery.</p>
+        <p>An app built to help friends decide upon a night out on the town. My partner handled a bulk of the back-end programming, and I implemented most of the front-end design using SASS primarily. The Javascript and jQuery were collaborative efforts, along with the mobile-responsive user interface. Languages: Ruby on Rails, CSS, SASS, HTML, Javascript, and jQuery.</p>
       </div>
       <div id="project2">
         <h4 class="sub-head">TaskMate</h4>
         <a href="http://protected-wave-4969.herokuapp.com/tasks">
           <img src="<?php echo get_template_directory_uri(); ?>/images/Taskmate-screenshot2.jpg" alt="TaskMate" </img>
         </a>
-        <p class="body-text">A pair programmed task manager application. My partner and I were entrusted with the back-end code for this project, working solely with Ruby on Rails. The front end design was evolving simultaneously, so we had to adapt to handle an ever-changing codebase. Languages: Ruby on Rails, 	CSS, 	HTML, Javascript, and jQuery.</p>
+        <p>A pair programmed task manager application. My partner and I were entrusted with the back-end code for this project, working solely with Ruby on Rails. The front end design was evolving simultaneously, so we had to adapt to handle an ever-changing codebase. Languages: Ruby on Rails, 	CSS, 	HTML, Javascript, and jQuery.</p>
       </div>
       <div id="project3">  
         <h4 class="sub-head">Grant Tracker</h4>
         <a href="http://grant-tracker.herokuapp.com/">
           <img src="<?php echo get_template_directory_uri(); ?>/images/GrantTracker-screenshot.jpg" alt="GrantTracker"  </img>
         </a>
-        <p class="body-text">An app built for non-profit organizations that frequently apply for grants. It’s primary function is to assist the NPO in completing the application process. The app was pair-programmed, with my pairing working on the back-end code exclusively. Languages: Ruby on Rails, CSS, HTML, Javascript, and jQuery.</p>  
+        <p>An app built for non-profit organizations that frequently apply for grants. It’s primary function is to assist the NPO in completing the application process. The app was pair-programmed, with my pairing working on the back-end code exclusively. Languages: Ruby on Rails, CSS, HTML, Javascript, and jQuery.</p>  
       </div> 
+      
     </div>
   </div>
   
   <div id="links">
     <div id="links-content">
+      
       <h2>LOOK ME UP</h2>
+      
       <div class="social-media-links">
         <ul>
           <li class="linked-in"><a href="https://linkedin.com/in/samlindstrom/">LinkedIn</a></li>
@@ -146,13 +152,15 @@ Template Name: Home
           <li class="twitter"><a href="https://twitter.com/ssssssammmm">Twitter</a></li>
         </ul>
       </div>
-      <p class="body-text">Please, check out the above links to see more of my work, and what I'm up to.</p>
+      <p> Please, check out the above links to see more of my work, and what I'm up to.</p>
+      
     </div>
   </div>
   
   <div id="contact">
-    <h2>GET IN TOUCH</h2>
     <div id="contact-content">
+      
+      <h2>GET IN TOUCH</h2>
       
       <?php 
       $id=24; 

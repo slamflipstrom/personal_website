@@ -9,10 +9,13 @@ Version: 1.0
 */
 
 body{
-  color:red;
 }
 
-.skills #skills-backend{
+nav{
+  background-color:orange;
+}
+
+.skills #skills-backend.body-text{
   display: inline-block;
   width: 30%;
   margin-left:1%;
@@ -20,7 +23,7 @@ body{
   
 }
 
-.skills #skills-frontend{
+.skills #skills-frontend.body-text{
   display: inline-block;
   width: 30%;
   margin-left:1%;
@@ -28,7 +31,7 @@ body{
   
 }
 
-.skills #skills-business{
+.skills #skills-business.body-text{
   display: inline-block;
   width: 30%;
   margin-left:1%;

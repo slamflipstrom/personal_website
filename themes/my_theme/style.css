@@ -13,12 +13,6 @@ body {
   background-color: #111; }
 
 p {
-  font: 12px 'Montserrat'; }
-
-img {
-  max-width: 100%; }
-
-.body-text p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -28,14 +22,9 @@ img {
   width: 80%;
   margin: 0 auto;
   max-width: 640px; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .body-text p p {
-      font-size: 14px;
-      text-align: center; } }
-  @media (min-width: 1024px) {
-    .body-text p p {
-      font-size: 15px;
-      text-align: center; } }
+
+img {
+  max-width: 100%; }
 
 .sub-head {
   margin-left: 5px;
@@ -178,7 +167,7 @@ nav {
     margin-bottom: 30px; }
   #about p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     text-align: center;
     line-height: 36px;

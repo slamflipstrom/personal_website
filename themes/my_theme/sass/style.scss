@@ -23,12 +23,6 @@ body {
   background-color: #111;
 }
 p{
-  font: 12px 'Montserrat';
-}
-img{
-  max-width:100%;
-}
-.body-text p{
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;  
   font-weight:300;
@@ -38,20 +32,34 @@ img{
   width: 80%;
   margin: 0 auto;
   max-width: 640px;
-  @media #{$tablet} {
-    p {
-      font-size: 14px;
-      text-align: center;
-    }
-  }
-
-  @media #{$desktop} {
-    p {
-      font-size: 15px;
-      text-align: center;
-    }
-  }
 }
+img{
+  max-width:100%;
+}
+//.body-text p{
+//  font-family: 'Open Sans', sans-serif;
+//  font-size: 16px;
+//  font-weight:300;
+//  text-align: center;
+//  line-height: 36px;
+//  color: #DFDFDF;
+//  width: 80%;
+//  margin: 0 auto;
+//  max-width: 640px;
+//  @media #{$tablet} {
+//    p {
+//      font-size: 14px;
+//      text-align: center;
+//    }
+//  }
+//
+//  @media #{$desktop} {
+//    p {
+//      font-size: 15px;
+//      text-align: center;
+//    }
+//  }
+//}
 .sub-head{
   margin-left:5px;
   margin-right:5px;
@@ -224,7 +232,7 @@ nav {
   }
   p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     text-align: center;
     line-height: 36px;
