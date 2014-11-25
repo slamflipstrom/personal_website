@@ -224,8 +224,9 @@ nav {
   #work img {
     margin: 0 auto;
     display: block;
-    height: 450px;
-    margin-bottom: 50px; }
+    height: 400px;
+    margin-bottom: 50px;
+    max-width: 340px; }
   #work a {
     text-decoration: none; }
   #work a:visited {

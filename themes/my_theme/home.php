@@ -152,7 +152,7 @@ Template Name: Home
           <li class="twitter"><a href="https://twitter.com/ssssssammmm">Twitter</a></li>
         </ul>
       </div>
-      <p> Please, check out the above links to see more of my work, and what I'm up to.</p>
+      <p> Check out the above links to see more of my work, and what I've been up to.</p>
       
     </div>
   </div>
@@ -163,7 +163,7 @@ Template Name: Home
       <h2>GET IN TOUCH</h2>
       
       <?php 
-      $id=24; 
+      $id=10; 
       $post = get_post($id); 
       $content = apply_filters('the_content', $post->post_content); 
       echo $content;  
