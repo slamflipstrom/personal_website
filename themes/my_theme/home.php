@@ -78,16 +78,33 @@ Template Name: Home
   <div id="skills">
     <div id="skills-content">
       <h2>MY SKILLS</h2>
-      <div class="body-text">
         
-        <?php 
+      <div class="body-text" id="skills-backend">  <?php 
         $id=9; 
         $post = get_post($id); 
         $content = apply_filters('the_content', $post->post_content); 
         echo $content;  
         ?>
-        
       </div>
+      
+      <div class="body-text" id="skills-frontend">
+        <?php 
+        $id=27; 
+        $post = get_post($id); 
+        $content = apply_filters('the_content', $post->post_content); 
+        echo $content;  
+        ?>
+      </div>
+      
+      <div class="body-text" id="skills-business">
+        <?php 
+        $id=29; 
+        $post = get_post($id); 
+        $content = apply_filters('the_content', $post->post_content); 
+        echo $content;  
+        ?>
+      </div>
+    
     </div>
   </div>
   

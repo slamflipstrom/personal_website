@@ -18,7 +18,7 @@ p {
 img {
   max-width: 100%; }
 
-.body-text {
+.body-text p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -29,11 +29,11 @@ img {
   margin: 0 auto;
   max-width: 640px; }
   @media (min-width: 768px) and (max-width: 1023px) {
-    .body-text p {
+    .body-text p p {
       font-size: 14px;
       text-align: center; } }
   @media (min-width: 1024px) {
-    .body-text p {
+    .body-text p p {
       font-size: 15px;
       text-align: center; } }
 
