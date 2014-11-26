@@ -227,7 +227,8 @@ nav {
     display: block;
     height: 400px;
     margin-bottom: 50px;
-    max-width: 340px; }
+    max-width: 340px;
+    border: 2px solid #373737; }
   #work a {
     text-decoration: none; }
   #work a:visited {
