@@ -8,9 +8,11 @@ Version: 1.0
 
 */
 
-$tablet: "(min-width: 480px) and (max-width: 768px)";
-$desktop: "(min-width: 768px) and (max-width: 1023px)";
+$tablet: "(min-width: 480px) and (max-width: 767px)";
+$tablet-landscape: "(min-width: 768px) and (max-width: 979px)";
+$desktop: "(min-width: 980px) and (max-width: 1023px)";
 $wide:"(min-width: 1024px)";
+
 $nav-break:"(min-width: 650px)";
 
 $div-header-text: 20px 'Montserrat';
@@ -135,32 +137,59 @@ nav{
   @media #{$wide}{
     #project1{
       display: inline-block;
-      width: 30%;
+      width: 31%;
       margin-left:1%;
       margin-right:1%;
       vertical-align:top; 
     }
     #project2{
       display: inline-block;
-      width: 30%;
+      width: 31%;
       margin-left:1%;
       margin-right:1%;
       vertical-align:top; 
     }
     #project3{
       display: inline-block;
-      width: 30%;
+      width: 31%;
       margin-left:1%;
       margin-right:1%;
       vertical-align:top; 
     }
     img {
-      height: 450px;
+      height: 350px;
       width: auto;
     }
   }
 
   @media #{$desktop} {
+    #project1{
+      display: inline-block;
+      width: 31%;
+      margin-left:1%;
+      margin-right:1%;
+      vertical-align:top; 
+    }
+    #project2{
+      display: inline-block;
+      width: 31%;
+      margin-left:1%;
+      margin-right:1%;
+      vertical-align:top; 
+    }
+    #project3{
+      display: inline-block;
+      width: 31%;
+      margin-left:1%;
+      margin-right:1%;
+      vertical-align:top; 
+    }
+    img {
+      height: 350px;
+      width: auto;
+    }
+  }
+  @media #{$tablet-landscape} {
     #project1{
       display: inline-block;
       width: 30%;
@@ -183,7 +212,7 @@ nav{
       vertical-align:top; 
     }
     img {
-      height: 350px;
+      height: 250px;
       width: auto;
     }
   }
