@@ -7,7 +7,7 @@ Description: This is Sam Lindstrom's personal portfolio theme.
 Version: 1.0
 
 */
-@media (min-width: 650px) {
+@media (min-width: 654px) {
   nav .drop-icon {
     display: none; }
   nav .mobile-nav {

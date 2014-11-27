@@ -49,18 +49,17 @@ nav {
     display: block;
     height: 45px;
     margin-top: 3px;
-    width: auto;
-    transition: all .5s ease-in; }
+    width: auto; }
   nav .logo {
     display: inline-block;
     margin: 0 auto;
     margin-left: 17px;
     margin-top: 3px;
     height: 55px;
-    width: 180px; }
-  nav .logo a:hover {
-    opacity: .6;
-    width: auto; }
+    width: 180px;
+    transition: all .3s ease-in; }
+  nav .logo:hover {
+    opacity: .6; }
   nav .drop-icon {
     position: absolute;
     right: 35px;

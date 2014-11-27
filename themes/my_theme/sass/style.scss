@@ -58,7 +58,6 @@ nav {
     height: 45px;
     margin-top: 3px;
     width: auto;
-    transition: all .5s ease-in;
    }
   .logo{
     display: inline-block;
@@ -67,10 +66,10 @@ nav {
     margin-top: 3px;
     height: 55px;
     width: 180px;
+    transition: all .3s ease-in;
   }
-  .logo a:hover{
+  .logo:hover{
     opacity: .6;
-    width: auto;
   }
   .drop-icon{
     position: absolute;
