@@ -134,14 +134,14 @@ Template Name: Home
         <a href="http://protected-wave-4969.herokuapp.com/tasks">
           <img src="<?php echo get_template_directory_uri(); ?>/images/Taskmate-screenshot2.jpg" alt="TaskMate" </img>
         </a>
-        <p>A pair programmed task manager application. My partner and I were entrusted with the back-end code for this project, working solely with Ruby on Rails. The front end design was evolving simultaneously, so we had to adapt to handle an ever-changing codebase. Languages: Ruby on Rails, 	CSS, 	HTML, Javascript, and jQuery.</p>
+        <p>A pair programmed task manager application. My partner and I were entrusted with the back-end development for this project, working solely with Ruby on Rails. The front end design was evolving simultaneously, so we had to adapt to handle an ever-changing codebase. Languages: Ruby on Rails, 	CSS, 	HTML, Javascript, and jQuery.</p>
       </div>
       <div id="project3">  
         <h4 class="sub-head">Grant Tracker</h4>
         <a href="http://grant-tracker.herokuapp.com/">
           <img src="<?php echo get_template_directory_uri(); ?>/images/GrantTracker-screenshot.jpg" alt="GrantTracker"  </img>
         </a>
-        <p>An app built for non-profit organizations that frequently apply for grants. It’s primary function is to assist the NPO in completing the application process. The app was pair-programmed, with my pairing working on the back-end code exclusively. Languages: Ruby on Rails, CSS, HTML, Javascript, and jQuery.</p>  
+        <p>An app built for non-profit organizations that frequently apply for grants. It’s primary function is to assist the NPO in completing the application process. The app was pair-programmed, with my group working on the back-end code exclusively. Languages: Ruby on Rails, CSS, HTML, Javascript, and jQuery.</p>  
       </div> 
       
     </div>

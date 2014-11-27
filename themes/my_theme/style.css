@@ -134,8 +134,7 @@ nav {
     height: 15px;
     position: absolute;
     text-align: center;
-    width: 100%;
-    opacity: .3; }
+    width: 100%; }
   #landing-page .proceed-arrow a {
     background-image: url(./images/white_arrow_icon-01.png);
     background-position: center center;
@@ -146,11 +145,12 @@ nav {
     display: block;
     transition: all .3s ease-in;
     width: 30px;
-    margin: 0 auto; }
-  #landing-page .proceed-arrow:hover {
+    margin: 0 auto;
+    opacity: .3; }
+  #landing-page .proceed-arrow a:hover {
     opacity: .7;
     bottom: 30px;
-    height: 15px; }
+    width: 30px; }
 
 #about {
   background-color: #FFF;
