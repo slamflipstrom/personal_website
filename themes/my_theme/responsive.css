@@ -33,6 +33,19 @@ Version: 1.0
     text-decoration: none; }
   nav a:hover {
     color: #F0EEBA; } }
+@media (min-width: 320px) and (max-width: 479px) {
+  nav {
+    height: 50px; }
+    nav .logo {
+      height: 35px;
+      width: 150px; }
+    nav .logo a {
+      height: 35px; }
+    nav .drop-icon {
+      top: 17px; }
+    nav .drop-icon a {
+      height: 20px;
+      width: 30px; } }
 @media (min-width: 1024px) {
   nav .logo {
     margin-left: 135px; }
@@ -44,6 +57,12 @@ Version: 1.0
 @media (min-width: 480px) {
   #landing-page {
     background-attachment: fixed; } }
+@media (min-width: 320px) and (max-width: 479px) {
+  #landing-page h1 {
+    font-size: 1.8em; }
+  #landing-page p {
+    font: 17px 'Montserrat';
+    padding-top: 5px; } }
 
 #skills #skills-backend {
   display: inline-block;
@@ -228,8 +247,8 @@ Version: 1.0
   border: 2px solid #6186A5; }
 @media (min-width: 320px) and (max-width: 479px) {
   #links .social-media-links span {
-    height: 40px;
-    width: 33px; }
+    height: 35px;
+    width: 28px; }
   #links .social-media-links a {
     border: none; } }
 

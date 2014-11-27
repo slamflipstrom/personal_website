@@ -100,7 +100,8 @@ nav {
   nav ul li a {
     text-decoration: none;
     font: 15px 'Montserrat';
-    color: #000; }
+    color: #000;
+    transition: all .1s ease-in; }
   nav a:visited {
     color: #000;
     text-decoration: none; }
@@ -177,7 +178,8 @@ nav {
     color: #999;
     margin: 0 auto; }
     #about p a {
-      text-decoration: none; }
+      text-decoration: none;
+      letter-spacing: -.7px; }
 
 #skills {
   background-image: url("./images/web-background-spacedust.jpg");
@@ -204,6 +206,10 @@ nav {
     font: 15px 'Montserrat';
     color: #eee; }
   #skills mark {
+    background-color: transparent;
+    color: #DFDFDF;
+    transition: all .2s ease-in; }
+  #skills p:hover mark {
     color: #DFDFDF;
     background-color: rgba(97, 134, 165, 0.7); }
 
@@ -319,7 +325,7 @@ nav {
     #contact #contact-content p {
       color: #999999; }
     #contact #contact-content input {
-      color: #999999;
+      color: #eee;
       border-radius: 3px;
       border-width: 3px;
       border-color: #999999;
@@ -347,7 +353,8 @@ nav {
     #contact #contact-content .wpcf7-form-control.wpcf7-textarea {
       padding-top: 12px;
       padding-right: 10px;
-      padding-left: 10px; }
+      padding-left: 10px;
+      color: #eee; }
     #contact #contact-content .wpcf7-form-control.wpcf7-submit {
       color: #61AE8E;
       border-color: #61AE8E;

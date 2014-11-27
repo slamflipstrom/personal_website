@@ -30,6 +30,8 @@ Template Name: Home
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" />
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/responsive.css" media="screen and (min-width: 320px)" />
   
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <!-- Font-Awesome --> 
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/fonts/font-awesome/css/font-awesome.min.css"> 
    

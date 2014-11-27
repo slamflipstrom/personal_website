@@ -60,7 +60,22 @@ nav{
      color: #F0EEBA;
     }
   }
-  @media #{$desktop} {
+  @media #{$mobile}{
+    height:50px;
+    .logo{
+      height: 35px;
+      width: 150px;
+    }
+    .logo a{
+      height:35px;
+    }
+    .drop-icon{
+      top: 17px;
+    }
+    .drop-icon a{
+      height: 20px;
+      width: 30px;
+    }
   }
   @media #{$wide} {
     .logo{
@@ -83,6 +98,15 @@ nav{
 #landing-page{
   @media #{$non-mobile} {
   background-attachment: fixed;
+  }
+  @media #{$mobile}{
+    h1{
+      font-size: 1.8em;
+    }
+    p{
+      font: 17px 'Montserrat';
+      padding-top: 5px;
+    }
   }
 }
 
@@ -336,8 +360,8 @@ nav{
   @media #{$mobile}{
     .social-media-links{
       span{
-        height: 40px;
-        width: 33px;
+        height: 35px;
+        width: 28px;
       }  
       a{
         border:none;
