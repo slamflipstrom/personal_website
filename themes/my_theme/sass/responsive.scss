@@ -75,9 +75,30 @@ nav{
 // -- NAV --
 
 
+
+// -- LANDING-PAGE --
+
+#landing-page{
+  background-attachment: fixed;
+}
+
+// -- LANDING-PAGE --
+
+
+
+// -- ABOUT --
+
+#about{
+}
+
+// -- ABOUT --
+
+
+
 // -- SKILLS --
 
 #skills{
+  background-attachment: fixed;
   #skills-backend{
     display: inline-block;
     width: 31%;
@@ -133,6 +154,7 @@ nav{
 // -- WORK --
 
 #work{
+  background-attachment: fixed;
   @media #{$wide}{
     #project1{
       display: inline-block;
@@ -246,3 +268,12 @@ nav{
 
 // -- WORK --
 
+
+
+// -- CONTACT --
+
+#contact{
+  background-attachment: fixed;
+}
+
+// -- CONTACT --
