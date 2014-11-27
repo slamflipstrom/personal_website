@@ -62,7 +62,10 @@ Version: 1.0
     font-size: 1.8em; }
   #landing-page p {
     font: 17px 'Montserrat';
-    padding-top: 5px; } }
+    padding-top: 5px; }
+  #landing-page .proceed-arrow a {
+    width: 20px;
+    height: 10px; } }
 
 #skills #skills-backend {
   display: inline-block;
