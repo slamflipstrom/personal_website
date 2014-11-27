@@ -41,86 +41,88 @@ Version: 1.0
     margin-right: 150px;
     list-style-type: none; } }
 
-#landing-page {
-  background-attachment: fixed; }
+@media (min-width: 480px) {
+  #landing-page {
+    background-attachment: fixed; } }
 
-#skills {
-  background-attachment: fixed; }
+#skills #skills-backend {
+  display: inline-block;
+  width: 31%;
+  margin-left: 1%;
+  margin-right: 1%;
+  vertical-align: top; }
+#skills #skills-frontend {
+  display: inline-block;
+  width: 31%;
+  margin-left: 1%;
+  margin-right: 1%;
+  vertical-align: top; }
+#skills #skills-business {
+  display: inline-block;
+  width: 31%;
+  margin-left: 1%;
+  margin-right: 1%;
+  vertical-align: top; }
+@media (min-width: 480px) {
+  #skills {
+    background-attachment: fixed; } }
+@media (min-width: 320px) and (max-width: 479px) {
   #skills #skills-backend {
     display: inline-block;
-    width: 31%;
+    width: 98%;
     margin-left: 1%;
     margin-right: 1%;
     vertical-align: top; }
   #skills #skills-frontend {
     display: inline-block;
-    width: 31%;
+    width: 98%;
     margin-left: 1%;
     margin-right: 1%;
     vertical-align: top; }
   #skills #skills-business {
     display: inline-block;
-    width: 31%;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    vertical-align: top; } }
+@media (min-width: 480px) and (max-width: 767px) {
+  #skills #skills-backend {
+    display: inline-block;
+    width: 98%;
     margin-left: 1%;
     margin-right: 1%;
     vertical-align: top; }
-  @media (min-width: 320px) and (max-width: 479px) {
-    #skills #skills-backend {
-      display: inline-block;
-      width: 98%;
-      margin-left: 1%;
-      margin-right: 1%;
-      vertical-align: top; }
-    #skills #skills-frontend {
-      display: inline-block;
-      width: 98%;
-      margin-left: 1%;
-      margin-right: 1%;
-      vertical-align: top; }
-    #skills #skills-business {
-      display: inline-block;
-      width: 98%;
-      margin-left: 1%;
-      margin-right: 1%;
-      vertical-align: top; } }
-  @media (min-width: 480px) and (max-width: 767px) {
-    #skills #skills-backend {
-      display: inline-block;
-      width: 98%;
-      margin-left: 1%;
-      margin-right: 1%;
-      vertical-align: top; }
-    #skills #skills-frontend {
-      display: inline-block;
-      width: 98%;
-      margin-left: 1%;
-      margin-right: 1%;
-      vertical-align: top; }
-    #skills #skills-business {
-      display: inline-block;
-      width: 98%;
-      margin-left: 1%;
-      margin-right: 1%;
-      vertical-align: top; } }
-  @media (min-width: 768px) and (max-width: 979px) {
-    #skills #skills-backend {
-      display: inline-block;
-      width: 30%;
-      margin-left: 1%;
-      margin-right: 1%;
-      vertical-align: top; }
-    #skills #skills-frontend {
-      display: inline-block;
-      width: 30%;
-      margin-left: 1%;
-      margin-right: 1%;
-      vertical-align: top; }
-    #skills #skills-business {
-      display: inline-block;
-      width: 30%;
-      margin-left: 1%;
-      margin-right: 1%;
-      vertical-align: top; } }
+  #skills #skills-frontend {
+    display: inline-block;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    vertical-align: top; }
+  #skills #skills-business {
+    display: inline-block;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    vertical-align: top; } }
+@media (min-width: 768px) and (max-width: 979px) {
+  #skills #skills-backend {
+    display: inline-block;
+    width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+    vertical-align: top; }
+  #skills #skills-frontend {
+    display: inline-block;
+    width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+    vertical-align: top; }
+  #skills #skills-business {
+    display: inline-block;
+    width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+    vertical-align: top; } }
 
 #work {
   background-attachment: fixed; }
@@ -231,7 +233,8 @@ Version: 1.0
   #links .social-media-links a {
     border: none; } }
 
-#contact {
-  background-attachment: fixed; }
+@media (min-width: 480px) {
+  #contact {
+    background-attachment: fixed; } }
 
 /*# sourceMappingURL=responsive.css.map */

@@ -81,7 +81,9 @@ nav{
 // -- LANDING-PAGE --
 
 #landing-page{
+  @media #{$non-mobile} {
   background-attachment: fixed;
+  }
 }
 
 // -- LANDING-PAGE --
@@ -91,7 +93,6 @@ nav{
 // -- SKILLS --
 
 #skills{
-  background-attachment: fixed;
   #skills-backend{
     display: inline-block;
     width: 31%;
@@ -114,6 +115,9 @@ nav{
     margin-left:1%;
     margin-right:1%;
     vertical-align:top;
+  }
+  @media #{$non-mobile} {
+  background-attachment: fixed;
   }
   @media #{$mobile} {
     #skills-backend{
@@ -350,7 +354,9 @@ nav{
 // -- CONTACT --
 
 #contact{
+  @media #{$non-mobile} {
   background-attachment: fixed;
+  }
 }
 
 // -- CONTACT --
