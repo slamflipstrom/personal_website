@@ -85,8 +85,7 @@ nav {
     background: #61AE8E;
     width: 100%; }
     nav .mobile-nav li.active a {
-      border-top: 3px solid #333;
-      color: #333; }
+      color: #F0EEBA; }
   nav ul {
     width: 100%;
     display: block;
