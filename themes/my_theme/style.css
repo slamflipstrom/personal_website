@@ -332,7 +332,7 @@ nav {
       border-style: solid;
       background-color: transparent;
       font: 14px 'Montserrat';
-      margin-bottom: 16px;
+      margin-bottom: 15px;
       width: 80%;
       max-width: 550px;
       height: 40px;
@@ -377,9 +377,13 @@ nav {
         display: none !important; }
     #contact #contact-content span [role="alert"] {
       color: #da4856;
-      display: block; }
+      display: block;
+      font: 13px 'Montserrat';
+      margin-bottom: 10px; }
     #contact #contact-content .wpcf7-response-output [role="alert"] {
       display: none !important; }
+    #contact #contact-content .wpcf7-response-output.wpcf7-validation-errors {
+      display: none; }
     #contact #contact-content input:focus,
     #contact #contact-content select:focus,
     #contact #contact-content textarea:focus,

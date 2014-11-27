@@ -432,7 +432,7 @@ nav {
       border-style: solid;
       background-color: transparent;
       font: 14px 'Montserrat';
-      margin-bottom: 16px;
+      margin-bottom: 15px;
       width: 80%;
       max-width: 550px;
       height: 40px;
@@ -488,9 +488,14 @@ nav {
     span [role="alert"]{
       color: #da4856;  
       display: block;
+      font: 13px 'Montserrat';
+      margin-bottom: 10px;
     }
     .wpcf7-response-output [role="alert"]{
       display: none !important;
+    }
+    .wpcf7-response-output.wpcf7-validation-errors{
+      display:none;
     }
 //  Input fields, when selected
     input:focus,
