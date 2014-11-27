@@ -99,7 +99,7 @@ nav {
     background: #61AE8E;
     width:100%;
     li.active a {
-//        border-bottom: 2px solid #F0EEBA;
+        border-bottom: 2px solid #F0EEBA;
         color: #F0EEBA;
     } 
   }
@@ -260,6 +260,11 @@ nav {
   h4{
     font: 15px 'Montserrat';
     color:#eee;
+  }
+  mark{
+    color: #DFDFDF;
+    background-color: #406A8C;
+    background-color:rgba(97, 134, 165, 0.6)
   }
 }
 

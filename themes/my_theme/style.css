@@ -85,6 +85,7 @@ nav {
     background: #61AE8E;
     width: 100%; }
     nav .mobile-nav li.active a {
+      border-bottom: 2px solid #F0EEBA;
       color: #F0EEBA; }
   nav ul {
     width: 100%;
@@ -202,6 +203,10 @@ nav {
   #skills h4 {
     font: 15px 'Montserrat';
     color: #eee; }
+  #skills mark {
+    color: #DFDFDF;
+    background-color: #406A8C;
+    background-color: rgba(97, 134, 165, 0.6); }
 
 #work {
   background-color: #242324;
