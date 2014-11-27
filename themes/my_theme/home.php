@@ -14,7 +14,6 @@ Template Name: Home
   <title>Sam Lindstrom</title>
   <meta name="description" content="Sam Lindstrom's personal portfolio website">
   
-  <!-- For IE 9 and below. ICO should be 32x32 pixels in size -->
   <!--[if IE]><link rel="shortcut icon" href=""<?php echo get_template_directory_uri(); ?>/images/favicon.ico"><![endif]-->
 
   <!-- Touch Icons - iOS and Android 2.1+ 152x152 pixels in size. --> 
@@ -23,19 +22,26 @@ Template Name: Home
   <!-- Firefox, Chrome, Safari, IE 11+ and Opera. 96x96 pixels in size. -->
   <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png">
   
+  <!-- MS favicon --> 
   <meta name="msapplication-TileColor" content="#00aba9">
   <meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/images/mstile-144x144.png">
     
-  
+  <!-- CSS and Responsive CSS  --> 
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" />
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/responsive.css" media="screen and (min-width: 480px)" />
+  
+  <!-- Font-Awesome --> 
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/fonts/font-awesome/css/font-awesome.min.css"> 
    
+  <!-- JS & jQuery libraries --> 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
   <script type="text/javascript" language="javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.dropdown.js"></script>
     
+  <!-- Google Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+  
 </head>
 
 <nav>
@@ -145,12 +151,15 @@ Template Name: Home
       <h2>LOOK ME UP</h2>
       
       <div class="social-media-links">
-        <ul>
-          <li class="linked-in"><a href="https://linkedin.com/in/samlindstrom/">LinkedIn</a></li>
-          <li class="instagram"><a href="http://instagram.com/ssssssammmm">Instagram</a></li>
+          <span class="fa fa-linkedin-square fa-4x"><a href="https://linkedin.com/in/samlindstrom/">LinkedIn</a><span>
+          <span class="fa fa-twitter fa-4x"><a href="https://twitter.com/ssssssammmm">Twitter</a><span>   
+          <span class="fa fa-github fa-4x"><a href="https://github.com/slamflipstrom">GitHub</a><span>
+          <span class="fa fa-instagram fa-4x"><a href="http://instagram.com/ssssssammmm">Instagram</a><span> 
+            
+          <!-- <li class="linked-in"><a href="https://linkedin.com/in/samlindstrom/">LinkedIn</a></li>
+          <li class="instagram"></li>
           <li class="github"><a href="https://github.com/slamflipstrom">GitHub</a></li>
-          <li class="twitter"><a href="https://twitter.com/ssssssammmm">Twitter</a></li>
-        </ul>
+          <li class="twitter"><a href="https://twitter.com/ssssssammmm">Twitter</a></li> -->
       </div>
       <p> Check out the above links to see more of my work, and what I've been up to.</p>
       
