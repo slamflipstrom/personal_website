@@ -97,7 +97,11 @@ nav {
   .mobile-nav{
     display: none;
     background: #61AE8E;
-    width:100%; 
+    width:100%;
+    li.active a {
+        border-top: 3px solid #333;
+        color: #333;
+    } 
   }
   ul{
     width:100%;
@@ -211,7 +215,11 @@ nav {
     line-height: 36px;
     color: #999;
     margin: 0 auto;
+    a{
+      text-decoration: none;
+    }
   }
+ 
 }
 
 // --About--
@@ -351,7 +359,7 @@ nav {
       border: 2px solid #444444;
       border-radius: 9999px;
       padding-top: 10px;
-      padding-right: 12.5px;
+      padding-right: 12px;
       padding-bottom: 7px;
       padding-left: 12px;
     }
