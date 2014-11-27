@@ -15,6 +15,7 @@ $desktop: "(min-width: 980px) and (max-width: 1023px)";
 $wide:"(min-width: 1024px)";
 
 $nav-break:"(min-width: 650px)";
+$non-mobile:"(min-width: 480px)";
 
 $div-header-text: 20px 'Montserrat';
 $nav-link: none;
@@ -195,52 +196,30 @@ nav{
 
 #work{
   background-attachment: fixed;
-  @media #{$wide}{
-    #project1{
-      display: inline-block;
-      width: 31%;
-      margin-left:1%;
-      margin-right:1%;
-      vertical-align:top; 
-    }
-    #project2{
-      display: inline-block;
-      width: 31%;
-      margin-left:1%;
-      margin-right:1%;
-      vertical-align:top; 
-    }
-    #project3{
-      display: inline-block;
-      width: 31%;
-      margin-left:1%;
-      margin-right:1%;
-      vertical-align:top; 
-    }
+  @media #{$mobile}{
     img {
-      height: 350px;
+      height: 300px;
       width: auto;
     }
   }
-
-  @media #{$desktop} {
+  @media #{$tablet} {
     #project1{
       display: inline-block;
-      width: 31%;
+      width: 98%;
       margin-left:1%;
       margin-right:1%;
       vertical-align:top; 
     }
     #project2{
       display: inline-block;
-      width: 31%;
+      width: 98%;
       margin-left:1%;
       margin-right:1%;
       vertical-align:top; 
     }
     #project3{
       display: inline-block;
-      width: 31%;
+      width: 98%;
       margin-left:1%;
       margin-right:1%;
       vertical-align:top; 
@@ -277,24 +256,51 @@ nav{
       width: auto;
     }
   }
-  @media #{$tablet} {
+  @media #{$desktop} {
     #project1{
       display: inline-block;
-      width: 98%;
+      width: 31%;
       margin-left:1%;
       margin-right:1%;
       vertical-align:top; 
     }
     #project2{
       display: inline-block;
-      width: 98%;
+      width: 31%;
       margin-left:1%;
       margin-right:1%;
       vertical-align:top; 
     }
     #project3{
       display: inline-block;
-      width: 98%;
+      width: 31%;
+      margin-left:1%;
+      margin-right:1%;
+      vertical-align:top; 
+    }
+    img {
+      height: 350px;
+      width: auto;
+    }
+  }
+  @media #{$wide}{
+    #project1{
+      display: inline-block;
+      width: 31%;
+      margin-left:1%;
+      margin-right:1%;
+      vertical-align:top; 
+    }
+    #project2{
+      display: inline-block;
+      width: 31%;
+      margin-left:1%;
+      margin-right:1%;
+      vertical-align:top; 
+    }
+    #project3{
+      display: inline-block;
+      width: 31%;
       margin-left:1%;
       margin-right:1%;
       vertical-align:top; 
@@ -326,8 +332,8 @@ nav{
   @media #{$mobile}{
     .social-media-links{
       span{
-      height: 40px;
-      width: 33px;
+        height: 40px;
+        width: 33px;
       }  
       a{
         border:none;
