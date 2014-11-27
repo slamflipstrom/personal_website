@@ -136,6 +136,31 @@ nav{
       vertical-align:top;
     }
   }
+  @media #{$tablet-landscape}{
+    #skills-backend{
+      display: inline-block;
+      width: 30%;
+      margin-left:1%;
+      margin-right:1%;
+      vertical-align:top; 
+    }
+  
+    #skills-frontend{
+      display: inline-block;
+      width: 30%;
+      margin-left:1%;
+      margin-right:1%;
+      vertical-align:top;
+    }
+  
+    #skills-business{
+      display: inline-block;
+      width: 30%;
+      margin-left:1%;
+      margin-right:1%;
+      vertical-align:top;
+    }
+  }
 }
 
 // -- SKILLS --
@@ -276,8 +301,8 @@ nav{
   }
   a:hover{
     background-color: transparent;
-    color:#61AE8E;
-    border: 2px solid #61AE8E;
+    color:#FFCF8E;
+    border: 2px solid #FFCF8E;
     
   }
 }
