@@ -175,6 +175,18 @@ Version: 1.0
       height: 350px;
       width: auto; } }
 
+#links li {
+  margin-right: 3px;
+  margin-left: 3px; }
+#links a {
+  background-color: transparent;
+  color: #FFF;
+  border: 2px solid #444444; }
+#links a:hover {
+  background-color: transparent;
+  color: #61AE8E;
+  border: 2px solid #61AE8E; }
+
 #contact {
   background-attachment: fixed; }
 

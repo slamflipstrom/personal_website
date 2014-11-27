@@ -152,15 +152,10 @@ Template Name: Home
       
       <div class="social-media-links">
         <ul>
-          <li class="linked-in"><span class="fa fa-linkedin-square fa-4x"><a href="https://linkedin.com/in/samlindstrom/">LinkedIn</a><span></li>
-          <li class="twitter"><span class="fa fa-twitter fa-4x"><a href="https://twitter.com/ssssssammmm">Twitter</a><span></li>   
-          <li class="github"> <span class="fa fa-github fa-4x"><a href="https://github.com/slamflipstrom">GitHub</a><span></li>
-         <li class="instagram"><span class="fa fa-instagram fa-4x"><a href="http://instagram.com/ssssssammmm">Instagram</a><span></li>
-            
-          <!-- <li class="linked-in"><a href="https://linkedin.com/in/samlindstrom/">LinkedIn</a></li>
-          <li class="instagram"></li>
-          <li class="github"><a href="https://github.com/slamflipstrom">GitHub</a></li>
-          <li class="twitter"><a href="https://twitter.com/ssssssammmm">Twitter</a></li> -->
+          <li class="linked-in"><a href="https://linkedin.com/in/samlindstrom/"><span class="fa fa-linkedin-square fa-3x"><span></a></li>
+          <li class="instagram"><a href="http://instagram.com/ssssssammmm"><span class="fa fa-instagram fa-3x"><span></a></li>
+          <li class="github"><a href="https://github.com/slamflipstrom"><span class="fa fa-github fa-3x"><span></a></li>
+          <li class="twitter"><a href="https://twitter.com/ssssssammmm"><span class="fa fa-twitter fa-3x"><span></a></li>    
         </ul>
       </div>
       <p> Check out the above links to see more of my work, and what I've been up to.</p>

@@ -264,7 +264,22 @@ nav{
 // -- LINKS --
 
 #links{
+  li{
+    margin-right:3px;
+    margin-left:3px;
+  }
+  a{
+    background-color: transparent;
+    color: #FFF;
+    border: 2px solid #444444;
 
+  }
+  a:hover{
+    background-color: transparent;
+    color:#61AE8E;
+    border: 2px solid #61AE8E;
+    
+  }
 }
 
 // -- LINKS --
