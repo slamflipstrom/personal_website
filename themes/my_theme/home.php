@@ -26,9 +26,9 @@ Template Name: Home
   <meta name="msapplication-TileColor" content="#00aba9">
   <meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/images/mstile-144x144.png">
     
-  <!-- CSS and Responsive CSS  --> 
+  <!-- Primary Stylesheet and Responsive CSS  --> 
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/responsive.css" media="screen and (min-width: 480px)" />
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/responsive.css" media="screen and (min-width: 320px)" />
   
   <!-- Font-Awesome --> 
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/fonts/font-awesome/css/font-awesome.min.css"> 

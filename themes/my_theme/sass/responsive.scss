@@ -8,6 +8,7 @@ Version: 1.0
 
 */
 
+$mobile: "(min-width: 320px) and (max-width: 479px)";
 $tablet: "(min-width: 480px) and (max-width: 767px)";
 $tablet-landscape: "(min-width: 768px) and (max-width: 979px)";
 $desktop: "(min-width: 980px) and (max-width: 1023px)";
@@ -112,6 +113,29 @@ nav{
     margin-left:1%;
     margin-right:1%;
     vertical-align:top;
+  }
+  @media #{$mobile} {
+    #skills-backend{
+      display: inline-block;
+      width: 98%;
+      margin-left:1%;
+      margin-right:1%;
+      vertical-align:top; 
+    }  
+    #skills-frontend{
+      display: inline-block;
+      width: 98%;
+      margin-left:1%;
+      margin-right:1%;
+      vertical-align:top;
+    }
+    #skills-business{
+      display: inline-block;
+      width: 98%;
+      margin-left:1%;
+      margin-right:1%;
+      vertical-align:top;
+    }
   }
   @media #{$tablet} {
     #skills-backend{
@@ -293,17 +317,22 @@ nav{
     margin-right:3px;
     margin-left:3px;
   }
-  a{
-    background-color: transparent;
-    color: #FFF;
-    border: 2px solid #444444;
-
-  }
   a:hover{
     background-color: transparent;
     color: #6186A5;
     border: 2px solid #6186A5;
     
+  }
+  @media #{$mobile}{
+    .social-media-links{
+      span{
+      height: 40px;
+      width: 33px;
+      }  
+      a{
+        border:none;
+      }
+    }
   }
 }
 
