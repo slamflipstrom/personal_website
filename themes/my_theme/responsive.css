@@ -252,6 +252,10 @@ Version: 1.0
   #links .social-media-links span {
     height: 35px;
     width: 28px; }
+  #links .social-media-links ul {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%; }
   #links .social-media-links a {
     border: none; } }
 
