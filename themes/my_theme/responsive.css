@@ -14,13 +14,13 @@ Version: 1.0
     display: inline-block !important;
     background: none;
     width: 50%;
-    float: right; }
+    float: right;
+    text-align: right; }
   nav ul {
     padding-top: 22px;
     margin-right: 25px;
     list-style-type: none; }
   nav li {
-    float: right;
     margin-right: 20px;
     cursor: pointer;
     display: inline-block; }

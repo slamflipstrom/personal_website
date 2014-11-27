@@ -33,7 +33,7 @@ nav{
       background: none;
       width: 50%;
       float: right;
-      
+      text-align: right;
     }
     ul{
       padding-top: 22px;
@@ -41,7 +41,6 @@ nav{
       list-style-type: none;
     }
     li{
-      float:right;
       margin-right: 20px;
       cursor: pointer;
       display: inline-block;
