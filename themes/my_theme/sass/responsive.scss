@@ -23,6 +23,12 @@ $link-decoration: none;
 $div-content-padding: 90px;
 
 
+@media #{$mobile}{
+  p{
+    font-weight:400;
+  }
+}
+
 // -- NAV --
 
 nav{
@@ -118,6 +124,20 @@ nav{
 
 
 
+// -- ABOUT --
+
+#about{
+  @media #{$mobile}{
+    p{
+      font-weight:400;
+    }
+  }
+}
+
+// -- ABOUT --
+
+
+
 // -- SKILLS --
 
 #skills{
@@ -126,9 +146,8 @@ nav{
     width: 31%;
     margin-left:1%;
     margin-right:1%;
-    vertical-align:top; 
+    vertical-align:top;
   }
-  
   #skills-frontend{
     display: inline-block;
     width: 31%;
@@ -136,7 +155,6 @@ nav{
     margin-right:1%;
     vertical-align:top;
   }
-  
   #skills-business{
     display: inline-block;
     width: 31%;
@@ -148,6 +166,7 @@ nav{
   background-attachment: fixed;
   }
   @media #{$mobile} {
+    background-position: 77% 50%;
     #skills-backend{
       display: inline-block;
       width: 98%;

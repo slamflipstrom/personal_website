@@ -7,6 +7,9 @@ Description: This is Sam Lindstrom's personal portfolio theme.
 Version: 1.0
 
 */
+@media (min-width: 320px) and (max-width: 479px) {
+  p {
+    font-weight: 400; } }
 @media (min-width: 654px) {
   nav .drop-icon {
     display: none; }
@@ -67,6 +70,10 @@ Version: 1.0
     width: 20px;
     height: 10px; } }
 
+@media (min-width: 320px) and (max-width: 479px) {
+  #about p {
+    font-weight: 400; } }
+
 #skills #skills-backend {
   display: inline-block;
   width: 31%;
@@ -89,24 +96,26 @@ Version: 1.0
   #skills {
     background-attachment: fixed; } }
 @media (min-width: 320px) and (max-width: 479px) {
-  #skills #skills-backend {
-    display: inline-block;
-    width: 98%;
-    margin-left: 1%;
-    margin-right: 1%;
-    vertical-align: top; }
-  #skills #skills-frontend {
-    display: inline-block;
-    width: 98%;
-    margin-left: 1%;
-    margin-right: 1%;
-    vertical-align: top; }
-  #skills #skills-business {
-    display: inline-block;
-    width: 98%;
-    margin-left: 1%;
-    margin-right: 1%;
-    vertical-align: top; } }
+  #skills {
+    background-position: 77% 50%; }
+    #skills #skills-backend {
+      display: inline-block;
+      width: 98%;
+      margin-left: 1%;
+      margin-right: 1%;
+      vertical-align: top; }
+    #skills #skills-frontend {
+      display: inline-block;
+      width: 98%;
+      margin-left: 1%;
+      margin-right: 1%;
+      vertical-align: top; }
+    #skills #skills-business {
+      display: inline-block;
+      width: 98%;
+      margin-left: 1%;
+      margin-right: 1%;
+      vertical-align: top; } }
 @media (min-width: 480px) and (max-width: 767px) {
   #skills #skills-backend {
     display: inline-block;
