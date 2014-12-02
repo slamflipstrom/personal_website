@@ -239,8 +239,8 @@ Version: 1.0
       margin-right: 1%;
       vertical-align: top; }
       #work #project2 img {
-        height: 275px;
-        width: auto; }
+        height: auto;
+        width: 95%; }
     #work #project3 {
       display: inline-block;
       width: 31%;
@@ -248,8 +248,8 @@ Version: 1.0
       margin-right: 1%;
       vertical-align: top; }
       #work #project3 img {
-        height: 275px;
-        width: auto; } }
+        height: auto;
+        width: 95%; } }
   @media (min-width: 1024px) {
     #work #project1 {
       display: inline-block;
