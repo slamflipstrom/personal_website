@@ -216,8 +216,12 @@ nav {
     color: #999;
     margin: 0 auto;
     a{
-      text-decoration: none;
-      letter-spacing: -.7px;
+      text-decoration: underline;
+      color: #999;
+    }
+    a:visited{
+      color: #999;
+      text-decoration: underline;
     }
   }
  
@@ -261,6 +265,11 @@ nav {
   h4{
     font: 15px 'Montserrat';
     color:#eee;
+  }
+  p{
+    a{
+    color: #DFDFDF;
+    }
   }
   mark{
     background-color: transparent;

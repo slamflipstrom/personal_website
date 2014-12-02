@@ -177,8 +177,11 @@ nav {
     color: #999;
     margin: 0 auto; }
     #about p a {
-      text-decoration: none;
-      letter-spacing: -.7px; }
+      text-decoration: underline;
+      color: #999; }
+    #about p a:visited {
+      color: #999;
+      text-decoration: underline; }
 
 #skills {
   background-image: url("./images/web-background-spacedust.jpg");
@@ -204,6 +207,8 @@ nav {
   #skills h4 {
     font: 15px 'Montserrat';
     color: #eee; }
+  #skills p a {
+    color: #DFDFDF; }
   #skills mark {
     background-color: transparent;
     color: #DFDFDF;
