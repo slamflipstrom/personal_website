@@ -248,9 +248,23 @@ nav{
 #work{
   background-attachment: fixed;
   @media #{$mobile}{
-    img {
-      height: 300px;
-      width: auto;
+    #project1{
+      img{
+        height: 400px;
+        width: auto;
+      } 
+    }
+    #project2{
+      img{
+        height: 275px;
+        width: auto;
+      } 
+    }  
+    #project3{
+      img {
+        height: 275px;
+        width: auto;
+      }
     }
   }
   @media #{$tablet} {
@@ -260,6 +274,10 @@ nav{
       margin-left:1%;
       margin-right:1%;
       vertical-align:top; 
+      img{
+        height: 575px;
+        width: auto;
+      } 
     }
     #project2{
       display: inline-block;
@@ -267,6 +285,10 @@ nav{
       margin-left:1%;
       margin-right:1%;
       vertical-align:top; 
+      img{
+        height: 400px;
+        width: auto;
+      } 
     }
     #project3{
       display: inline-block;
@@ -274,10 +296,10 @@ nav{
       margin-left:1%;
       margin-right:1%;
       vertical-align:top; 
-    }
-    img {
-      height: 350px;
-      width: auto;
+      img{
+        height: 400px;
+        width: auto;
+      } 
     }
   }
   @media #{$tablet-landscape} {
@@ -287,6 +309,10 @@ nav{
       margin-left:1%;
       margin-right:1%;
       vertical-align:top; 
+      img{
+        height: 225px;
+        width: auto;
+      }
     }
     #project2{
       display: inline-block;
@@ -294,6 +320,10 @@ nav{
       margin-left:1%;
       margin-right:1%;
       vertical-align:top; 
+      img{
+        height: 225px;
+        width: auto;
+      }
     }
     #project3{
       display: inline-block;
@@ -301,10 +331,10 @@ nav{
       margin-left:1%;
       margin-right:1%;
       vertical-align:top; 
-    }
-    img {
-      height: 250px;
-      width: auto;
+      img{
+        height: 225px;
+        width: auto;
+      }
     }
   }
   @media #{$desktop} {
@@ -314,6 +344,9 @@ nav{
       margin-left:1%;
       margin-right:1%;
       vertical-align:top; 
+      img{
+        height: 275px;
+      }
     }
     #project2{
       display: inline-block;
@@ -322,8 +355,8 @@ nav{
       margin-right:1%;
       vertical-align:top; 
       img{
-        height: 250px;
-        width: 350px;
+        height: 275px;
+        width: auto;
       }
     }
     #project3{
@@ -333,8 +366,8 @@ nav{
       margin-right:1%;
       vertical-align:top; 
       img{
-        height: 250px;
-        width: 350px;
+        height: 275px;
+        width: auto;
       }
     }
   }
@@ -345,6 +378,9 @@ nav{
       margin-left:1%;
       margin-right:1%;
       vertical-align:top; 
+      img{
+        height: 300px;
+      }
     }
     #project2{
       display: inline-block;
@@ -354,7 +390,7 @@ nav{
       vertical-align:top;
       img{
         height: 300px;
-        width: 400px;
+        width: auto;
       } 
     }
     #project3{
@@ -365,12 +401,8 @@ nav{
       vertical-align:top; 
       img{
         height: 300px;
-        width: 400px;
+        width: auto;
       }
-    }
-    img {
-      height: 350px;
-      width: auto;
     }
   }
 }

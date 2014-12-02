@@ -247,10 +247,10 @@ nav {
     border: 2px solid #373737; }
   #work #project2 img {
     height: 350px;
-    width: 500px; }
+    width: auto; }
   #work #project3 img {
     height: 350px;
-    width: 500px; }
+    width: auto; }
   #work a {
     text-decoration: none; }
   #work a:visited {
