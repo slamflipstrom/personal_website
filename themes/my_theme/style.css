@@ -248,7 +248,7 @@ nav {
     opacity: .75;
     transition: all .2s ease-in; }
   #work img:hover {
-    opacity: .95; }
+    opacity: 1; }
   #work #project2 img {
     height: 350px;
     width: auto; }
