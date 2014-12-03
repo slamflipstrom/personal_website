@@ -394,6 +394,8 @@ nav {
       display: none !important; }
     #contact #contact-content .wpcf7-response-output.wpcf7-validation-errors {
       display: none; }
+    #contact #contact-content .wpcf7-response-output.wpcf7-mail-sent-ok {
+      display: none; }
     #contact #contact-content input:focus,
     #contact #contact-content select:focus,
     #contact #contact-content textarea:focus,
