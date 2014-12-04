@@ -127,21 +127,21 @@ Template Name: Home
         <a href="http://decision-maker-app.herokuapp.com/" target="_blank">
           <img src="<?php echo get_template_directory_uri(); ?>/images/gruplit-screen.jpg" alt="GruplIt" </img>
         </a>
-        <p>An app built to help friends decide upon a night out on the town. My partner handled a bulk of the back-end programming, and I implemented most of the front-end design using SASS primarily. The Javascript and jQuery were collaborative efforts, along with the mobile-responsive user interface. Languages: Ruby on Rails, CSS, SASS, HTML, Javascript, and jQuery.</p>
+        <p>An app built to help friends decide upon a night out on the town. My partner handled a bulk of the back-end programming, and I implemented most of the front-end design using SASS primarily. The Javascript and jQuery were collaborative efforts, along with the mobile-responsive user interface. Feel free to check out the project's <a href="https://github.com/slamflipstrom/decision-maker-app" target="_blank">Github repository</a>. Languages: Ruby on Rails, CSS, SASS, HTML, Javascript, and jQuery.</p>
       </div>
       <div id="project2">
         <h4 class="sub-head">TaskMate</h4>
         <a href="http://protected-wave-4969.herokuapp.com/tasks" target="_blank">
           <img src="<?php echo get_template_directory_uri(); ?>/images/taskmate-screen.jpg" alt="TaskMate" </img>
         </a>
-        <p>A pair programmed task manager application. My partner and I were entrusted with the back-end development for this project, working solely with Ruby on Rails. The front end design was evolving simultaneously, so we had to adapt to handle an ever-changing codebase. Languages: Ruby on Rails, 	CSS, 	HTML, Javascript, and jQuery.</p>
+        <p>A pair programmed task manager application. My partner and I were entrusted with the back-end development for this project, working solely with Ruby on Rails. The front end design was evolving simultaneously, so we had to adapt to handle an ever-changing codebase. Here is the project's <a href="https://github.com/slamflipstrom/task-project" target="_blank">Github repository</a>. Languages: Ruby on Rails, 	CSS, 	HTML, Javascript, and jQuery.</p>
       </div>
       <div id="project3">  
         <h4 class="sub-head">Grant Tracker</h4>
         <a href="http://grant-tracker.herokuapp.com/" target="_blank">
           <img src="<?php echo get_template_directory_uri(); ?>/images/granttracker-screen.jpg" alt="GrantTracker"  </img>
         </a>
-        <p>An app built for non-profit organizations that frequently apply for grants. It’s primary function is to assist the NPO in completing the application process. The app was pair-programmed, with my group working on the back-end code exclusively. Languages: Ruby on Rails, CSS, HTML, Javascript, and jQuery.</p>  
+        <p>An app built for non-profit organizations that frequently apply for grants. It’s primary function is to assist the NPO in completing the application process. The app was pair-programmed, with my group working on the back-end code exclusively. If you'd like to get a closer look at the code, check out the <a href="https://github.com/slamflipstrom/grant-tracker" target="_blank">Github repository</a>. Languages: Ruby on Rails, CSS, HTML, Javascript, and jQuery.</p>  
       </div> 
       
     </div>

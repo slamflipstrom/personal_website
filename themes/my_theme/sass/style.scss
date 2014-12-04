@@ -315,6 +315,12 @@ nav {
     color: #eee;
     margin-top: 60px;
   }
+  p{
+    a{
+      color:#eeeeee;
+      text-decoration: underline;
+    }
+  }
   img {
     margin: 0 auto;
     display: block;
@@ -322,7 +328,7 @@ nav {
     margin-bottom: 50px;
     max-width:600px;
     border: 2px solid #373737;
-    opacity: .75;
+    opacity: .80;
     transition: all .2s ease-in;
   }
   img:hover{
