@@ -145,7 +145,7 @@ Template Name: Home
         </div>
       </div>
       <div id="project3">  
-        <a href="#openmodal-p3">
+        <a href="#openModal-p3">
           <img src="<?php echo get_template_directory_uri(); ?>/images/granttracker-screen.jpg" alt="GrantTracker"  </img>
         </a>
         <div id="openModal-p3" class="modal-window">

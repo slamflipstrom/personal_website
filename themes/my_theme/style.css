@@ -257,7 +257,7 @@ nav {
     text-decoration: none; }
   #work .modal-window {
     position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     top: 0;
     right: 0;
     bottom: 0;
@@ -269,6 +269,9 @@ nav {
     -moz-transition: opacity 400ms ease-in;
     transition: opacity 400ms ease-in;
     pointer-events: none; }
+  #work .modal-window:target {
+    opacity: 1;
+    pointer-events: auto; }
 
 #links {
   background-color: #EEE;
