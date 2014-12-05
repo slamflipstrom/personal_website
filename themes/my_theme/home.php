@@ -138,7 +138,7 @@ Template Name: Home
       </div>
       <div id="project3">  
         <h4 class="sub-head">Grant Tracker</h4>
-        <a href="http://grant-tracker.herokuapp.com/" target="_blank">
+        <a href="#openmodal" class="modal-window">
           <img src="<?php echo get_template_directory_uri(); ?>/images/granttracker-screen.jpg" alt="GrantTracker"  </img>
         </a>
         <p>An app built for non-profit organizations that frequently apply for grants. It’s primary function is to assist the NPO in completing the application process. The app was pair-programmed, with my group working on the back-end code exclusively. If you'd like to get a closer look at the code, check out the <a href="https://github.com/slamflipstrom/grant-tracker" target="_blank">Github repository</a>. Languages: Ruby on Rails, CSS, HTML, Javascript, and jQuery.</p>  
