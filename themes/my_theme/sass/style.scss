@@ -327,13 +327,36 @@ nav {
   }
   img:hover{
   }
-  #project2 img{
-    height: 350px;
-    width: auto;
+  #project1{
+    img{
+    }
+    .modal-window img{
+      height:55vh;
+      width: auto;
+      margin-top: 40px;
+    }
   }
-  #project3 img{
+  #project2{
+    img{
     height: 350px;
     width: auto;
+    }
+    .modal-window img{
+      height:55vh;
+      width: auto;
+      margin-top: 40px;
+    }
+  }
+  #project3{ 
+    img{
+    height: 350px;
+    width: auto;
+    }
+    .modal-window img{
+      height:55vh;
+      width: auto;
+      margin-top: 40px;
+    }
   }
   a{
     text-decoration: none;
@@ -355,11 +378,31 @@ nav {
     	-moz-transition: opacity 400ms ease-in;
     	transition: opacity 400ms ease-in;
     	pointer-events: none;
+      span{
+        font-size: 25px;
+      }
   }
   .modal-window:target {
   	opacity:1;
   	pointer-events: auto;
   }
+  .close {
+  	color: #FFFFFF;
+  	line-height: 21px;
+  	position: absolute;
+  	right: 20px;
+  	text-align: center;
+  	top: 10px;
+  	width: 30px;
+  	text-decoration: none;
+  	font-weight: bold;
+  	-webkit-border-radius: 5px;
+  	-moz-border-radius: 5px;
+  	border-radius: 5px;
+    transition: all .075s ease-in
+  }
+
+  .close:hover { background: #61AE8E; }
 }
 
 // --Work--

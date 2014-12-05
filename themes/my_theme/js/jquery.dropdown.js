@@ -57,10 +57,20 @@ jQuery(document).ready(function(){
      }                   
   });jQuery
    
+  // Auto scrolls user to #about section
   jQuery(".proceed-arrow a").click(function(e){
      var seg = jQuery(this).attr("href");
      jQuery("body").animate({scrollTop: jQuery(seg).offset().top}, "slow");
      e.preventDefault();
+  });
+  
+  jQuery(document).keypress(function(e) { 
+      if (e.keyCode == 27) { 
+          jQuery(".modal-window").fadeOut(500);
+          //or
+          window.close();
+      } 
+      console.log('ESCAPE!')
   });
   
 

@@ -245,12 +245,24 @@ nav {
     max-width: 600px;
     border: 2px solid #373737;
     transition: all .2s ease-in; }
+  #work #project1 .modal-window img {
+    height: 55vh;
+    width: auto;
+    margin-top: 40px; }
   #work #project2 img {
     height: 350px;
     width: auto; }
+  #work #project2 .modal-window img {
+    height: 55vh;
+    width: auto;
+    margin-top: 40px; }
   #work #project3 img {
     height: 350px;
     width: auto; }
+  #work #project3 .modal-window img {
+    height: 55vh;
+    width: auto;
+    margin-top: 40px; }
   #work a {
     text-decoration: none; }
   #work a:visited {
@@ -269,9 +281,27 @@ nav {
     -moz-transition: opacity 400ms ease-in;
     transition: opacity 400ms ease-in;
     pointer-events: none; }
+    #work .modal-window span {
+      font-size: 25px; }
   #work .modal-window:target {
     opacity: 1;
     pointer-events: auto; }
+  #work .close {
+    color: #FFFFFF;
+    line-height: 21px;
+    position: absolute;
+    right: 20px;
+    text-align: center;
+    top: 10px;
+    width: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    transition: all 0.075s ease-in; }
+  #work .close:hover {
+    background: #61AE8E; }
 
 #links {
   background-color: #EEE;
