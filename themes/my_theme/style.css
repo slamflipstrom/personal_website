@@ -218,7 +218,7 @@ nav {
     background-color: rgba(97, 134, 165, 0.7); }
 
 #work {
-  background-color: #242324;
+  background-color: darkslategray;
   width: 100%;
   display: block;
   padding-top: 90px;
@@ -273,9 +273,11 @@ nav {
       text-align: center; }
     #work .modal-window a {
       display: inline-block; }
-    #work .modal-window .image-wrapper {
-      margin-top: 40px; }
-      #work .modal-window .image-wrapper img {
+    #work .modal-window .img-wrapper {
+      margin-top: 40px;
+      display: inline-block;
+      position: relative; }
+      #work .modal-window .img-wrapper img {
         height: 55vh;
         width: auto;
         margin-bottom: 0px; }
@@ -288,15 +290,18 @@ nav {
     color: #FFFFFF;
     line-height: 21px;
     position: absolute;
-    right: 20px;
+    right: -35px;
     text-align: center;
-    top: 10px;
+    top: 0px;
     width: 30px;
-    text-decoration: none; }
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top; }
     #work .close span {
-      transition: all .075s ease-in; }
+      transition: all .05s ease-in;
+      color: #FFFFFF; }
     #work .close span:hover {
-      color: #61AE8E; }
+      color: #F0EEBA; }
 
 #links {
   background-color: #EEE;
