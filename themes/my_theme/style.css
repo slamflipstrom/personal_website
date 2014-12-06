@@ -218,7 +218,7 @@ nav {
     background-color: rgba(97, 134, 165, 0.7); }
 
 #work {
-  background-color: darkslategray;
+  background-color: #0c1813;
   width: 100%;
   display: block;
   padding-top: 90px;
@@ -290,7 +290,7 @@ nav {
     color: #FFFFFF;
     line-height: 21px;
     position: absolute;
-    right: -35px;
+    right: -40px;
     text-align: center;
     top: 0px;
     width: 30px;
