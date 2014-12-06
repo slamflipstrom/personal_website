@@ -142,10 +142,10 @@ Template Name: Home
         </a>
         <div id="openModal-p2" class="modal-window">
           <div>
-      		  <a href="#close" title="Close" class="close"><span class="fa fa-times"><span></a>
             <a href="http://protected-wave-4969.herokuapp.com/tasks" target="_blank">
               <img src="<?php echo get_template_directory_uri(); ?>/images/taskmate-screen.jpg" alt="TaskMate" </img>
             </a>
+      		  <a href="#close" title="Close" class="close"><span class="fa fa-times"><span></a>
             <p>A pair programmed task manager application. My partner and I were entrusted with the back-end development for this project, working solely with Ruby on Rails. The front end design was evolving simultaneously, so we had to adapt to handle an ever-changing codebase. Here is the project's <a href="https://github.com/slamflipstrom/task-project" target="_blank">Github repository</a>. Languages: Ruby on Rails, 	CSS, 	HTML, Javascript, and jQuery.</p>
           </div>
         </div>
@@ -156,10 +156,10 @@ Template Name: Home
         </a>
         <div id="openModal-p3" class="modal-window">
           <div>
-      	  	<a href="#close" title="Close" class="close"><span class="fa fa-times"><span></a>
             <a href="http://grant-tracker.herokuapp.com/" target="_blank">
               <img src="<?php echo get_template_directory_uri(); ?>/images/gruplit-screen.jpg" alt="GruplIt" </img>
             </a>
+      	  	<a href="#close" title="Close" class="close"><span class="fa fa-times"><span></a>
             <p>An app built for non-profit organizations that frequently apply for grants. It’s primary function is to assist the NPO in completing the application process. The app was pair-programmed, with my group working on the back-end code exclusively. If you'd like to get a closer look at the code, check out the <a href="https://github.com/slamflipstrom/grant-tracker" target="_blank">Github repository</a>. Languages: Ruby on Rails, CSS, HTML, Javascript, and jQuery.</p>  
           </div>
         </div>

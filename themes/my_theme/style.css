@@ -234,9 +234,11 @@ nav {
     text-align: center;
     color: #eee;
     margin-bottom: 30px; }
-  #work p a {
-    color: #eeeeee;
-    text-decoration: underline; }
+  #work p {
+    margin-top: 40px; }
+    #work p a {
+      color: #eeeeee;
+      text-decoration: underline; }
   #work img {
     margin: 0 auto;
     display: block;
@@ -245,24 +247,12 @@ nav {
     max-width: 600px;
     border: 2px solid #373737;
     transition: all .2s ease-in; }
-  #work #project1 .modal-window img {
-    height: 55vh;
-    width: auto;
-    margin-top: 40px; }
   #work #project2 img {
     height: 350px;
     width: auto; }
-  #work #project2 .modal-window img {
-    height: 55vh;
-    width: auto;
-    margin-top: 40px; }
   #work #project3 img {
     height: 350px;
     width: auto; }
-  #work #project3 .modal-window img {
-    height: 55vh;
-    width: auto;
-    margin-top: 40px; }
   #work a {
     text-decoration: none; }
   #work a:visited {
@@ -274,13 +264,25 @@ nav {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.8);
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
     z-index: 99999;
     opacity: 0;
     -webkit-transition: opacity 400ms ease-in;
     -moz-transition: opacity 400ms ease-in;
     transition: opacity 400ms ease-in;
     pointer-events: none; }
+    #work .modal-window div {
+      text-align: center; }
+    #work .modal-window a {
+      display: inline-block; }
+    #work .modal-window img {
+      height: 55vh;
+      width: auto;
+      margin-top: 40px;
+      margin-bottom: 0px; }
     #work .modal-window span {
       font-size: 25px; }
   #work .modal-window:target {
