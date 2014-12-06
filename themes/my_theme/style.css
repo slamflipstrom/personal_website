@@ -242,15 +242,10 @@ nav {
   #work img {
     margin: 0 auto;
     display: block;
-    height: 400px;
     margin-bottom: 50px;
     max-width: 600px;
     border: 2px solid #373737;
-    transition: all .2s ease-in; }
-  #work #project2 img {
-    height: 350px;
-    width: auto; }
-  #work #project3 img {
+    transition: all .2s ease-in;
     height: 350px;
     width: auto; }
   #work a {
@@ -278,11 +273,12 @@ nav {
       text-align: center; }
     #work .modal-window a {
       display: inline-block; }
-    #work .modal-window img {
-      height: 55vh;
-      width: auto;
-      margin-top: 40px;
-      margin-bottom: 0px; }
+    #work .modal-window .image-wrapper {
+      margin-top: 40px; }
+      #work .modal-window .image-wrapper img {
+        height: 55vh;
+        width: auto;
+        margin-bottom: 0px; }
     #work .modal-window span {
       font-size: 25px; }
   #work .modal-window:target {

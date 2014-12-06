@@ -128,7 +128,7 @@ Template Name: Home
         </a>
         <div id="openModal-p1" class="modal-window">
           <div>
-            <a href="http://decision-maker-app.herokuapp.com/" target="_blank">
+            <a href="http://decision-maker-app.herokuapp.com/" target="_blank" class="image-wrapper">
               <img src="<?php echo get_template_directory_uri(); ?>/images/gruplit-screen.jpg" alt="GruplIt" </img>
             </a>
       		  <a href="#close" title="Close" class="close"><span class="fa fa-times"><span></a>
@@ -142,7 +142,7 @@ Template Name: Home
         </a>
         <div id="openModal-p2" class="modal-window">
           <div>
-            <a href="http://protected-wave-4969.herokuapp.com/tasks" target="_blank">
+            <a href="http://protected-wave-4969.herokuapp.com/tasks" target="_blank" class="image-wrapper">
               <img src="<?php echo get_template_directory_uri(); ?>/images/taskmate-screen.jpg" alt="TaskMate" </img>
             </a>
       		  <a href="#close" title="Close" class="close"><span class="fa fa-times"><span></a>
@@ -156,7 +156,7 @@ Template Name: Home
         </a>
         <div id="openModal-p3" class="modal-window">
           <div>
-            <a href="http://grant-tracker.herokuapp.com/" target="_blank">
+            <a href="http://grant-tracker.herokuapp.com/" target="_blank" class="image-wrapper">
               <img src="<?php echo get_template_directory_uri(); ?>/images/gruplit-screen.jpg" alt="GruplIt" </img>
             </a>
       	  	<a href="#close" title="Close" class="close"><span class="fa fa-times"><span></a>

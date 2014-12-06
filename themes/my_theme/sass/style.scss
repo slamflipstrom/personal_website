@@ -320,31 +320,16 @@ nav {
   img {
     margin: 0 auto;
     display: block;
-    height: 400px;
     margin-bottom: 50px;
     max-width:600px;
     border: 2px solid #373737;
     transition: all .2s ease-in;
+    height: 350px;
+    width: auto;
   }
   img:hover{
   }
-  #project1{
-    img{
-    }
-  }
-  #project2{
-    img{
-    height: 350px;
-    width: auto;
-    }
-  }
-  #project3{ 
-    img{
-    height: 350px;
-    width: auto;
-    }
-  }
-  a{
+    a{
     text-decoration: none;
   }
   a:visited{
@@ -373,11 +358,13 @@ nav {
       a{
         display: inline-block;
       }
-      img{
-        height:55vh;
-        width: auto;
+      .image-wrapper{
         margin-top: 40px;
-        margin-bottom: 0px;
+        img{
+          height:55vh;
+          width: auto;
+          margin-bottom: 0px;
+        }
       }
       span{
         font-size: 25px;
