@@ -64,13 +64,10 @@ jQuery(document).ready(function(){
      e.preventDefault();
   });
   
-  jQuery(document).keypress(function(e) { 
-      if (e.keyCode == 27) { 
-          jQuery(".modal-window").fadeOut(500);
-          //or
-          window.close();
-      } 
-      console.log('ESCAPE!')
+  $(window).keyup(function(e) {
+      if (e.keyCode == 27) {
+          $(".modal-window").fadeOut(300); 
+      }
   });
   
 
