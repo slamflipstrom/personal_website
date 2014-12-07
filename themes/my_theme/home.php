@@ -140,9 +140,8 @@ Template Name: Home
               </div>
             </div>
           </div>
-        </li>
-        
-        <li>
+        </li><!--
+     --><li>
           <div id="project2" class="project">
             <a href="#openModal-p2" class="preview-img">
               <img src="<?php echo get_template_directory_uri(); ?>/images/taskmate-preview.jpg" alt="TaskMate" </img>
@@ -159,9 +158,8 @@ Template Name: Home
               </div>
             </div>
           </div>
-        </li>
-        
-        <li>
+        </li><!--
+     --><li>
           <div id="project3" class="project">  
             <a href="#openModal-p3" class="preview-img">
               <img src="<?php echo get_template_directory_uri(); ?>/images/granttracker-preview.jpg" alt="GrantTracker"  </img>
