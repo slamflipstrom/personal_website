@@ -348,81 +348,23 @@ nav{
       margin-left:1%;
       margin-right:1%;
       vertical-align:top; 
-      .preview-img {
-        height: 275px;
-      }
     }
     #project2{
       display: inline-block;
       width: 31%;
       margin-left:1%;
       margin-right:1%;
-      vertical-align:top; 
-      .preview-img {
-        height: auto;
-        width: 95%;
-      }
+      vertical-align:top;
     }
     #project3{
       display: inline-block;
       width: 31%;
       vertical-align:top;
-      .preview-img {
-        height: auto;
-        width: 95%;
-      }
     }
   }
   @media #{$wide}{
-    #project1{
-      display: inline-block;
-      vertical-align:top; 
-      .preview-img {
-        height: 400px;
-      }
-    }
-    #project2{
-      display: inline-block;
-      vertical-align:top;
-      .preview-img {
-        height: 300px;
-        width: auto;
-      } 
-    }
-    #project3{
-      display: inline-block;
-      vertical-align:top; 
-      .preview-img {
-        height: 300px;
-        width: auto;
-      }
-    }
   }
   @media #{$extra-wide}{
-    #project1{
-      display: inline-block;
-      vertical-align:top; 
-      .preview-img {
-        height: auto;
-        width: 50%;
-      }
-    }
-    #project2{
-      display: inline-block;
-      vertical-align:top;
-      .preview-img {
-        height: auto;
-        width: 96%;
-      } 
-    }
-    #project3{
-      display: inline-block;
-      vertical-align:top; 
-      .preview-img {
-        height: auto;
-        width: 96%;
-      }
-    }
   }
 }
 

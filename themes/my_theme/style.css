@@ -231,7 +231,9 @@ nav {
     vertical-align: middle;
     text-align: center; }
   #work .project {
-    text-align: center; }
+    text-align: center;
+    display: inline-block;
+    vertical-align: top; }
   #work ul {
     list-style-type: none;
     display: inline-block;
@@ -239,6 +241,10 @@ nav {
     padding: 0; }
     #work ul li {
       display: inline-block; }
+      #work ul li a:hover {
+        display: block;
+        background: rgba(255, 255, 255, 0.6);
+        width: 100%; }
   #work h2 {
     font: 20px "Montserrat";
     text-align: center;
@@ -257,6 +263,9 @@ nav {
     transition: all .2s ease-in;
     height: auto;
     width: 300px; }
+  #work img:hover {
+    display: block;
+    background: rgba(0, 0, 0, 0.6); }
   #work a {
     text-decoration: none; }
   #work a:visited {
