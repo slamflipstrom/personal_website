@@ -228,7 +228,18 @@ nav {
   overflow: hidden; }
   #work #work-content {
     display: table-cell;
-    vertical-align: middle; }
+    vertical-align: middle;
+    text-align: center; }
+  #work .project {
+    text-align: center; }
+  #work ul {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding: 0; }
+    #work ul li {
+      float: left;
+      display: inline-block; }
   #work h2 {
     font: 20px "Montserrat";
     text-align: center;
@@ -246,8 +257,8 @@ nav {
     max-width: 600px;
     border: 2px solid #373737;
     transition: all .2s ease-in;
-    height: 350px;
-    width: auto; }
+    height: auto;
+    width: 300px; }
   #work a {
     text-decoration: none; }
   #work a:visited {

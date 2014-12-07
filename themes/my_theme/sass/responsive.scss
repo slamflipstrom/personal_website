@@ -366,8 +366,6 @@ nav{
     #project3{
       display: inline-block;
       width: 31%;
-      margin-left:1%;
-      margin-right:1%;
       vertical-align:top;
       .preview-img {
         height: auto;
@@ -378,19 +376,13 @@ nav{
   @media #{$wide}{
     #project1{
       display: inline-block;
-      width: 31%;
-      margin-left:1%;
-      margin-right:1%;
       vertical-align:top; 
       .preview-img {
-        height: 300px;
+        height: 400px;
       }
     }
     #project2{
       display: inline-block;
-      width: 31%;
-      margin-left:1%;
-      margin-right:1%;
       vertical-align:top;
       .preview-img {
         height: 300px;
@@ -399,9 +391,6 @@ nav{
     }
     #project3{
       display: inline-block;
-      width: 31%;
-      margin-left:1%;
-      margin-right:1%;
       vertical-align:top; 
       .preview-img {
         height: 300px;
@@ -412,9 +401,6 @@ nav{
   @media #{$extra-wide}{
     #project1{
       display: inline-block;
-      width: 31%;
-      margin-left:1%;
-      margin-right:1%;
       vertical-align:top; 
       .preview-img {
         height: auto;
@@ -423,9 +409,6 @@ nav{
     }
     #project2{
       display: inline-block;
-      width: 31%;
-      margin-left:1%;
-      margin-right:1%;
       vertical-align:top;
       .preview-img {
         height: auto;
@@ -434,9 +417,6 @@ nav{
     }
     #project3{
       display: inline-block;
-      width: 31%;
-      margin-left:1%;
-      margin-right:1%;
       vertical-align:top; 
       .preview-img {
         height: auto;

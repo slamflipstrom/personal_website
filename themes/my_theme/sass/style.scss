@@ -303,6 +303,20 @@ nav {
   #work-content{
     display: table-cell;
     vertical-align: middle;
+    text-align: center;
+  }
+  .project{
+    text-align: center;
+  }
+  ul{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    li{
+      float:left;
+      display: inline-block;
+    }
   }
   h2 {
     font: $div-header-text;
@@ -324,8 +338,8 @@ nav {
     max-width:600px;
     border: 2px solid #373737;
     transition: all .2s ease-in;
-    height: 350px;
-    width: auto;
+    height: auto;
+    width: 300px;
   }
   img:hover{
   }
