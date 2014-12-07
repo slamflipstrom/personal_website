@@ -125,8 +125,8 @@ Template Name: Home
       <ul>
         <li>
           <div id="project1" class="project">
-            <a href="#openModal-p1" class="preview-img">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/gruplit-preview.jpg" alt="GruplIt" </img>
+            <a href="#openModal-p1">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/gruplit-preview.jpg" alt="GruplIt" class="preview-img"</img>
             </a>
             <div id="openModal-p1" class="modal-window">
               <div>
@@ -143,8 +143,8 @@ Template Name: Home
         </li><!--
      --><li>
           <div id="project2" class="project">
-            <a href="#openModal-p2" class="preview-img">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/taskmate-preview.jpg" alt="TaskMate" </img>
+            <a href="#openModal-p2">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/taskmate-preview.jpg" alt="TaskMate" class="preview-img"</img>
             </a>
             <div id="openModal-p2" class="modal-window">
               <div>
@@ -161,8 +161,8 @@ Template Name: Home
         </li><!--
      --><li>
           <div id="project3" class="project">  
-            <a href="#openModal-p3" class="preview-img">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/granttracker-preview.jpg" alt="GrantTracker"  </img>
+            <a href="#openModal-p3">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/granttracker-preview.jpg" alt="GrantTracker" class="preview-img"</img>
             </a>
             <div id="openModal-p3" class="modal-window">
               <div>

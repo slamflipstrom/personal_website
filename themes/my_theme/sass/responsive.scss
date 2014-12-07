@@ -308,58 +308,42 @@ nav{
   }
   @media #{$tablet-landscape} {
     #project1{
-      display: inline-block;
-      width: 30%;
-      margin-left:1%;
-      margin-right:1%;
-      vertical-align:top; 
-      .preview-img {
-        height: 225px;
-        width: auto;
+      img.preview-img {
+        width: 230px;
+        height: auto;
       }
     }
     #project2{
-      display: inline-block;
-      width: 30%;
-      margin-left:1%;
-      margin-right:1%;
-      vertical-align:top; 
-      .preview-img {
-        height: 225px;
-        width: auto;
+      img.preview-img {
+        width: 230px;
+        height: auto;
       }
     }
     #project3{
-      display: inline-block;
-      width: 30%;
-      margin-left:1%;
-      margin-right:1%;
-      vertical-align:top; 
-      .preview-img {
-        height: 225px;
-        width: auto;
+      img.preview-img {
+        width: 230px;
+        height: auto;
       }
     }
   }
   @media #{$desktop} {
     #project1{
       display: inline-block;
-      width: 31%;
-      margin-left:1%;
-      margin-right:1%;
-      vertical-align:top; 
+      img.preview-img {
+        width: 250px;
+      }
     }
     #project2{
       display: inline-block;
-      width: 31%;
-      margin-left:1%;
-      margin-right:1%;
-      vertical-align:top;
+      img.preview-img {
+        width: 250px;
+      }
     }
     #project3{
       display: inline-block;
-      width: 31%;
-      vertical-align:top;
+      img.preview-img {
+        width: 250px;
+      }
     }
   }
   @media #{$wide}{
