@@ -143,9 +143,14 @@ Template Name: Home
         </li><!--
      --><li>
           <div id="project2" class="project">
-            <a href="#openModal-p2">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/taskmate-preview.jpg" alt="TaskMate" class="preview-img"</img>
-            </a>
+            <div id="preview">
+              <a href="#openModal-p2">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/taskmate-preview.jpg" alt="TaskMate" class="preview-img"</img>
+              </a>
+              <div id="overlay">
+                <span id="taskmate-overlay">TaskMate</span>
+              </div>
+            </div>
             <div id="openModal-p2" class="modal-window">
               <div>
                 <div class="img-wrapper">

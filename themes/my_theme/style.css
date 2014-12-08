@@ -241,10 +241,15 @@ nav {
     padding: 0; }
     #work ul li {
       display: inline-block; }
-      #work ul li a:hover {
-        display: block;
-        background: rgba(255, 255, 255, 0.6);
-        width: 100%; }
+  #work #preview #overlay {
+    background: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    padding: 45px 0 66px 0;
+    opacity: 0;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease; }
+  #work #preview:hover #overlay {
+    opacity: 1; }
   #work h2 {
     font: 20px "Montserrat";
     text-align: center;
@@ -263,9 +268,6 @@ nav {
     transition: all .2s ease-in;
     height: auto;
     width: 300px; }
-  #work img:hover {
-    display: block;
-    background: rgba(0, 0, 0, 0.6); }
   #work a {
     text-decoration: none; }
   #work a:visited {
