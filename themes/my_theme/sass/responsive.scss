@@ -278,7 +278,7 @@ nav{
       margin-left:1%;
       margin-right:1%;
       vertical-align:top; 
-      .preview-img {
+      .preview{
         height: 575px;
         width: auto;
       } 
@@ -289,7 +289,7 @@ nav{
       margin-left:1%;
       margin-right:1%;
       vertical-align:top; 
-      .preview-img {
+      .preview{
         height: 400px;
         width: auto;
       } 
@@ -300,7 +300,7 @@ nav{
       margin-left:1%;
       margin-right:1%;
       vertical-align:top; 
-      .preview-img {
+      .preview{
         height: 400px;
         width: auto;
       } 
@@ -308,19 +308,19 @@ nav{
   }
   @media #{$tablet-landscape} {
     #project1{
-      img.preview-img {
+      .preview{
         width: 230px;
         height: auto;
       }
     }
     #project2{
-      img.preview-img {
+      .preview{
         width: 230px;
         height: auto;
       }
     }
     #project3{
-      img.preview-img {
+      .preview{
         width: 230px;
         height: auto;
       }
@@ -329,19 +329,19 @@ nav{
   @media #{$desktop} {
     #project1{
       display: inline-block;
-      img.preview-img {
+      .preview{
         width: 250px;
       }
     }
     #project2{
       display: inline-block;
-      img.preview-img {
+      .preview{
         width: 250px;
       }
     }
     #project3{
       display: inline-block;
-      img.preview-img {
+      .preview{
         width: 250px;
       }
     }

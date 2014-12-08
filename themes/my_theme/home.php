@@ -143,16 +143,14 @@ Template Name: Home
         </li><!--
      --><li>
           <div id="project2" class="project">
-            <div id="preview">
+            
+            <div data-content="TaskMate" class="preview">
               <a href="#openModal-p2">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/taskmate-preview.jpg" alt="TaskMate" class="preview-img"</img>
               </a>
-              <div id="overlay">
-                <span id="taskmate-overlay">TaskMate</span>
-              </div>
             </div>
+            
             <div id="openModal-p2" class="modal-window">
-              <div>
                 <div class="img-wrapper">
           		    <a href="#close" title="Close" class="close"><span class="fa fa-times"><span></a>
                   <a href="http://protected-wave-4969.herokuapp.com/tasks" target="_blank">
@@ -160,15 +158,17 @@ Template Name: Home
                   </a>
                 </div>
                 <p>A pair programmed task manager application. My partner and I were entrusted with the back-end development for this project, working solely with Ruby on Rails. The front end design was evolving simultaneously, so we had to adapt to handle an ever-changing codebase. Here is the project's <a href="https://github.com/slamflipstrom/task-project" target="_blank">Github repository</a>. Languages: Ruby on Rails, 	CSS, 	HTML, Javascript, and jQuery.</p>
-              </div>
             </div>
           </div>
         </li><!--
      --><li>
           <div id="project3" class="project">  
-            <a href="#openModal-p3">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/granttracker-preview.jpg" alt="GrantTracker" class="preview-img"</img>
-            </a>
+            
+            <div data-content="GrantTracker" class="preview">
+              <a href="#openModal-p3">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/granttracker-preview.jpg" alt="GrantTracker" class="preview-img"</img>
+              </a>
+            </div>  
             <div id="openModal-p3" class="modal-window">
               <div>
                 <div class="img-wrapper">
