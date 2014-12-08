@@ -241,8 +241,36 @@ nav {
     padding: 0; }
     #work ul li {
       display: inline-block; }
-  #work #project2 {
+  #work .project {
     overflow: hidden; }
+    #work .project .preview {
+      position: relative; }
+    #work .project :after, #work .project :before {
+      position: absolute;
+      opacity: 0;
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s; }
+    #work .project :after {
+      content: '\A';
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.6);
+      overflow: hidden; }
+    #work .project :before {
+      content: attr(data-content);
+      font: 20px 'Montserrat';
+      width: 100%;
+      color: #fff;
+      z-index: 1;
+      bottom: 0;
+      padding: 4px 10px;
+      text-align: center;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box; }
+    #work .project :hover:after, #work .project :hover:before {
+      opacity: 1; }
   #work h2 {
     font: 20px "Montserrat";
     text-align: center;

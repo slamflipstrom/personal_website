@@ -250,21 +250,21 @@ nav{
   background-attachment: fixed;
   @media #{$mobile}{
     #project1{
-      .preview-img {
+      .preview {
         height: 400px;
         width: auto;
         opacity:1;
       } 
     }
     #project2{
-      .preview-img {
+      .preview {
         height: 265px;
         width: auto;
         opacity:1;
       } 
     }  
     #project3{
-      .preview-img {
+      .preview {
         height: 265px;
         width: auto;
         opacity:1;
@@ -290,7 +290,7 @@ nav{
       margin-right:1%;
       vertical-align:top; 
       .preview{
-        height: 400px;
+        height: 575px;
         width: auto;
       } 
     }
@@ -301,54 +301,34 @@ nav{
       margin-right:1%;
       vertical-align:top; 
       .preview{
-        height: 400px;
+        height: 575px;
         width: auto;
       } 
     }
   }
   @media #{$tablet-landscape} {
-    #project1{
-      .preview{
-        width: 230px;
-        height: auto;
-      }
-    }
-    #project2{
-      .preview{
-        width: 230px;
-        height: auto;
-      }
-    }
-    #project3{
-      .preview{
-        width: 230px;
-        height: auto;
-      }
+    .preview{
+      width: 230px;
+      height: auto;
     }
   }
   @media #{$desktop} {
-    #project1{
-      display: inline-block;
-      .preview{
-        width: 250px;
-      }
-    }
-    #project2{
-      display: inline-block;
-      .preview{
-        width: 250px;
-      }
-    }
-    #project3{
-      display: inline-block;
-      .preview{
-        width: 250px;
-      }
+    .preview{
+      width: 250px;
+      height: auto;    
     }
   }
   @media #{$wide}{
+    .preview{
+      width: 300px;
+      height: auto;     
+    }
   }
   @media #{$extra-wide}{
+    .preview{
+      width: 350px;
+      height: auto;
+    }
   }
 }
 

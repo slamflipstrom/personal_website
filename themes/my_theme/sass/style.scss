@@ -319,38 +319,40 @@ nav {
       display: inline-block;
     }
   }
-  #project2{
+  .project{
     overflow:hidden;
-  }
-//  .preview:after, .preview:before {
-//      position:relative;
-//      opacity:0;
-//      transition: all 0.5s;
-//      -webkit-transition: all 0.5s;
-//  }
-//  .preview:after {
-//      content:'\A';
-//      width:100%; height:100%;
-//      top:0; left:0;
-//      background:rgba(0,0,0,0.6);
-//      overflow:hidden;
-//  }
-//  .preview:before {
-//      content: attr(data-content);
-//      font: 20px 'Montserrat';
-//      width:100%;
-//      color:#fff;
-//      z-index:1;
-//      bottom:0;
-//      padding:4px 10px;
-//      text-align:center;
-//      box-sizing:border-box;
-//      -moz-box-sizing:border-box;
-//  }
-//  .preview:hover:after, .preview:hover:before {
-//      opacity:1;
-//  }
-  
+    .preview{
+      position:relative;
+    }
+    :after, :before {
+        position: absolute;
+        opacity:0;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+    }
+    :after {
+        content:'\A';
+        width:100%; height:100%;
+        top:0; left:0;
+        background:rgba(0,0,0,0.6);
+        overflow:hidden;
+    }
+    :before {
+        content: attr(data-content);
+        font: 20px 'Montserrat';
+        width:100%;
+        color:#fff;
+        z-index:1;
+        bottom:0;
+        padding:4px 10px;
+        text-align:center;
+        box-sizing:border-box;
+        -moz-box-sizing:border-box;
+    }
+    :hover:after, :hover:before {
+        opacity:1;
+    }
+  }  
   h2 {
     font: $div-header-text;
     text-align: center;

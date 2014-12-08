@@ -125,9 +125,13 @@ Template Name: Home
       <ul>
         <li>
           <div id="project1" class="project">
-            <a href="#openModal-p1">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/gruplit-preview.jpg" alt="GruplIt" class="preview-img"</img>
-            </a>
+            
+            <div data-content="GruplIt" class="preview">
+              <a href="#openModal-p1">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/gruplit-preview.jpg" alt="GruplIt" class="preview-img"</img>
+              </a>
+            </div>
+            
             <div id="openModal-p1" class="modal-window">
               <div>
                 <div class="img-wrapper">
@@ -169,6 +173,7 @@ Template Name: Home
                 <img src="<?php echo get_template_directory_uri(); ?>/images/granttracker-preview.jpg" alt="GrantTracker" class="preview-img"</img>
               </a>
             </div>  
+            
             <div id="openModal-p3" class="modal-window">
               <div>
                 <div class="img-wrapper">
