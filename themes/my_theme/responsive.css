@@ -209,18 +209,24 @@ Version: 1.0
       width: 250px;
       height: auto; }
     #work .preview:before {
-      font-size: 32px; } }
+      font-size: 34px; }
+    #work #project3 .preview:before {
+      bottom: 26%; } }
   @media (min-width: 1024px) and (max-width: 1199px) {
     #work .preview-img {
       width: 300px; }
     #work .preview:before {
-      font-size: 38px; } }
+      font-size: 38px; }
+    #work #project3 .preview:before {
+      bottom: 27%; } }
   @media (min-width: 1200px) {
     #work .preview-img {
       width: 350px;
       height: auto; }
     #work .preview:before {
-      font-size: 40px; } }
+      font-size: 42px; }
+    #work #project3 .preview:before {
+      bottom: 27%; } }
 
 #links li {
   margin-right: 3px;
