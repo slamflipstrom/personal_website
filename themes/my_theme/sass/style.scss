@@ -305,11 +305,6 @@ nav {
     vertical-align: middle;
     text-align: center;
   }
-  .project{
-    text-align: center;
-    display:inline-block;
-    vertical-align:top; 
-  }
   ul{
     list-style-type: none;
     display: inline-block;
@@ -321,6 +316,9 @@ nav {
   }
   .project{
     overflow:hidden;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top; 
     .preview{
       position:relative;
     }
@@ -356,6 +354,12 @@ nav {
       display: block;
     }
   }  
+  #project3 {
+      .preview:before{ 
+        bottom: 35px;
+    }
+  }
+
   h2 {
     font: $div-header-text;
     text-align: center;

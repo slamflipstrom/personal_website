@@ -230,10 +230,6 @@ nav {
     display: table-cell;
     vertical-align: middle;
     text-align: center; }
-  #work .project {
-    text-align: center;
-    display: inline-block;
-    vertical-align: top; }
   #work ul {
     list-style-type: none;
     display: inline-block;
@@ -242,7 +238,10 @@ nav {
     #work ul li {
       display: inline-block; }
   #work .project {
-    overflow: hidden; }
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top; }
     #work .project .preview {
       position: relative; }
     #work .project .preview:after, #work .project .preview:before {
@@ -273,6 +272,8 @@ nav {
       opacity: 1; }
     #work .project .preview-img {
       display: block; }
+  #work #project3 .preview:before {
+    bottom: 35px; }
   #work h2 {
     font: 20px "Montserrat";
     text-align: center;
