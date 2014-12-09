@@ -201,18 +201,26 @@ Version: 1.0
   @media (min-width: 768px) and (max-width: 979px) {
     #work .preview-img {
       width: 230px;
-      height: auto; } }
+      height: auto; }
+    #work .preview:before {
+      font-size: 25px; } }
   @media (min-width: 980px) and (max-width: 1023px) {
     #work .preview-img {
       width: 250px;
-      height: auto; } }
+      height: auto; }
+    #work .preview:before {
+      font-size: 32px; } }
   @media (min-width: 1024px) and (max-width: 1199px) {
     #work .preview-img {
-      width: 300px; } }
+      width: 300px; }
+    #work .preview:before {
+      font-size: 38px; } }
   @media (min-width: 1200px) {
     #work .preview-img {
       width: 350px;
-      height: auto; } }
+      height: auto; }
+    #work .preview:before {
+      font-size: 40px; } }
 
 #links li {
   margin-right: 3px;

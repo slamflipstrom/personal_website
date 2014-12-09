@@ -311,22 +311,34 @@ nav{
       width: 230px;
       height: auto;
     }
+    .preview:before{
+      font-size: 25px;
+    }
   }
   @media #{$desktop} {
     .preview-img{
       width: 250px;
       height: auto;    
     }
+    .preview:before{
+      font-size: 32px;
+    }
   }
   @media #{$wide}{
     .preview-img{
       width: 300px;
+    }
+    .preview:before{
+      font-size: 38px;
     }
   }
   @media #{$extra-wide}{
     .preview-img{
       width: 350px;
       height: auto;
+    }
+    .preview:before{
+      font-size: 40px;
     }
   }
 }
