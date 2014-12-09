@@ -245,42 +245,43 @@ nav {
     overflow: hidden; }
     #work .project .preview {
       position: relative; }
-    #work .project :after, #work .project :before {
+    #work .project .preview:after, #work .project .preview:before {
       position: absolute;
       opacity: 0;
       transition: all 0.5s;
       -webkit-transition: all 0.5s; }
-    #work .project :after {
+    #work .project .preview:after {
       content: '\A';
       width: 100%;
       height: 100%;
       top: 0;
       left: 0;
-      background: rgba(0, 0, 0, 0.6);
-      overflow: hidden; }
-    #work .project :before {
+      background: rgba(0, 0, 0, 0.7); }
+    #work .project .preview:before {
       content: attr(data-content);
-      font: 20px 'Montserrat';
+      font-family: 'Quicksand', sans-serif;
+      font-size: 32px;
       width: 100%;
       color: #fff;
       z-index: 1;
-      bottom: 0;
+      bottom: 80px;
+      left: 0px;
       padding: 4px 10px;
       text-align: center;
       box-sizing: border-box;
       -moz-box-sizing: border-box; }
-    #work .project :hover:after, #work .project :hover:before {
+    #work .project .preview:hover:after, #work .project .preview:hover:before {
       opacity: 1; }
+    #work .project .preview-img {
+      display: block; }
   #work h2 {
     font: 20px "Montserrat";
     text-align: center;
     color: #eee;
     margin-bottom: 30px; }
-  #work p {
-    margin-top: 40px; }
-    #work p a {
-      color: #eeeeee;
-      text-decoration: underline; }
+  #work p a {
+    color: #eeeeee;
+    text-decoration: underline; }
   #work img {
     margin: 0 auto;
     max-width: 600px;
@@ -310,6 +311,8 @@ nav {
     pointer-events: none; }
     #work .modal-window div {
       text-align: center; }
+    #work .modal-window h2 {
+      margin-bottom: 10px; }
     #work .modal-window a {
       display: inline-block; }
     #work .modal-window .img-wrapper {

@@ -199,19 +199,18 @@ Version: 1.0
         height: 575px;
         width: auto; } }
   @media (min-width: 768px) and (max-width: 979px) {
-    #work .preview {
+    #work .preview-img {
       width: 230px;
       height: auto; } }
   @media (min-width: 980px) and (max-width: 1023px) {
-    #work .preview {
+    #work .preview-img {
       width: 250px;
       height: auto; } }
   @media (min-width: 1024px) and (max-width: 1199px) {
-    #work .preview {
-      width: 300px;
-      height: auto; } }
+    #work .preview-img {
+      width: 300px; } }
   @media (min-width: 1200px) {
-    #work .preview {
+    #work .preview-img {
       width: 350px;
       height: auto; } }
 

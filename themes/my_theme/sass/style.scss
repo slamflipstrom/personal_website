@@ -324,33 +324,37 @@ nav {
     .preview{
       position:relative;
     }
-    :after, :before {
+    .preview:after, .preview:before {
         position: absolute;
         opacity:0;
         transition: all 0.5s;
         -webkit-transition: all 0.5s;
     }
-    :after {
+    .preview:after {
         content:'\A';
         width:100%; height:100%;
         top:0; left:0;
-        background:rgba(0,0,0,0.6);
-        overflow:hidden;
+        background:rgba(0,0,0,0.7);
     }
-    :before {
+    .preview:before {
         content: attr(data-content);
-        font: 20px 'Montserrat';
+        font-family: 'Quicksand', sans-serif; 
+        font-size: 32px;       
         width:100%;
         color:#fff;
         z-index:1;
-        bottom:0;
+        bottom: 80px;
+        left: 0px;
         padding:4px 10px;
         text-align:center;
         box-sizing:border-box;
         -moz-box-sizing:border-box;
     }
-    :hover:after, :hover:before {
+    .preview:hover:after, .preview:hover:before {
         opacity:1;
+    }
+    .preview-img{
+      display: block;
     }
   }  
   h2 {
@@ -360,7 +364,6 @@ nav {
     margin-bottom: 30px;
   }
   p{
-    margin-top: 40px;
     a{
       color:#eeeeee;
       text-decoration: underline;
@@ -398,6 +401,9 @@ nav {
     	pointer-events: none;
       div{
         text-align: center;
+      }
+      h2{
+        margin-bottom: 10px;
       }
       a{
         display: inline-block;

@@ -307,25 +307,24 @@ nav{
     }
   }
   @media #{$tablet-landscape} {
-    .preview{
+    .preview-img{
       width: 230px;
       height: auto;
     }
   }
   @media #{$desktop} {
-    .preview{
+    .preview-img{
       width: 250px;
       height: auto;    
     }
   }
   @media #{$wide}{
-    .preview{
+    .preview-img{
       width: 300px;
-      height: auto;     
     }
   }
   @media #{$extra-wide}{
-    .preview{
+    .preview-img{
       width: 350px;
       height: auto;
     }

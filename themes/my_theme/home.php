@@ -125,13 +125,11 @@ Template Name: Home
       <ul>
         <li>
           <div id="project1" class="project">
-            
-            <div data-content="GruplIt" class="preview">
-              <a href="#openModal-p1">
+            <a href="#openModal-p1">
+              <div data-content="GRUPL IT" class="preview">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/gruplit-preview.jpg" alt="GruplIt" class="preview-img"</img>
-              </a>
-            </div>
-            
+              </div>
+            </a>
             <div id="openModal-p1" class="modal-window">
               <div>
                 <div class="img-wrapper">
@@ -140,6 +138,7 @@ Template Name: Home
                     <img src="<?php echo get_template_directory_uri(); ?>/images/gruplit-screen.jpg" alt="GruplIt" </img>
                   </a>
                 </div>
+                <h2>Grupl It</h2>
                 <p>An app built to help friends decide upon a night out on the town. My partner handled a bulk of the back-end programming, and I implemented most of the front-end design using SASS primarily. The Javascript and jQuery were collaborative efforts, along with the mobile-responsive user interface. Feel free to check out the project's <a href="https://github.com/slamflipstrom/decision-maker-app" target="_blank">Github repository</a>. Languages: Ruby on Rails, CSS, SASS, HTML, Javascript, and jQuery.</p>
               </div>
             </div>
@@ -147,13 +146,11 @@ Template Name: Home
         </li><!--
      --><li>
           <div id="project2" class="project">
-            
-            <div data-content="TaskMate" class="preview">
-              <a href="#openModal-p2">
+            <a href="#openModal-p2">  
+              <div data-content="TASKMATE" class="preview">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/taskmate-preview.jpg" alt="TaskMate" class="preview-img"</img>
-              </a>
-            </div>
-            
+              </div>
+            </a>
             <div id="openModal-p2" class="modal-window">
                 <div class="img-wrapper">
           		    <a href="#close" title="Close" class="close"><span class="fa fa-times"><span></a>
@@ -161,19 +158,18 @@ Template Name: Home
                     <img src="<?php echo get_template_directory_uri(); ?>/images/taskmate-screen.jpg" alt="TaskMate" </img>
                   </a>
                 </div>
+                <h2>TaskMate</h2>
                 <p>A pair programmed task manager application. My partner and I were entrusted with the back-end development for this project, working solely with Ruby on Rails. The front end design was evolving simultaneously, so we had to adapt to handle an ever-changing codebase. Here is the project's <a href="https://github.com/slamflipstrom/task-project" target="_blank">Github repository</a>. Languages: Ruby on Rails, 	CSS, 	HTML, Javascript, and jQuery.</p>
             </div>
           </div>
         </li><!--
      --><li>
           <div id="project3" class="project">  
-            
-            <div data-content="GrantTracker" class="preview">
-              <a href="#openModal-p3">
+            <a href="#openModal-p3">  
+              <div data-content="GRANT TRACKER" class="preview">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/granttracker-preview.jpg" alt="GrantTracker" class="preview-img"</img>
-              </a>
-            </div>  
-            
+              </div> 
+            </a>
             <div id="openModal-p3" class="modal-window">
               <div>
                 <div class="img-wrapper">
@@ -182,6 +178,7 @@ Template Name: Home
                     <img src="<?php echo get_template_directory_uri(); ?>/images/granttracker-screen.jpg" alt="GruplIt" </img>
                   </a>
                 </div>  
+                <h2>Grant Tracker</h2>
                 <p>An app built for non-profit organizations that frequently apply for grants. It’s primary function is to assist the NPO in completing the application process. The app was pair-programmed, with my group working on the back-end code exclusively. If you'd like to get a closer look at the code, check out the <a href="https://github.com/slamflipstrom/grant-tracker" target="_blank">Github repository</a>. Languages: Ruby on Rails, CSS, HTML, Javascript, and jQuery.</p>  
               </div>
             </div>
