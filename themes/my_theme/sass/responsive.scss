@@ -263,7 +263,7 @@ nav{
       }
     }  
     .preview:before{
-      font-size: 25px;
+      font-size: 28px;
     }
     .preview-img{
       width: 300px;
@@ -293,6 +293,11 @@ nav{
     .preview-img{
       width: 350px;
       height: auto;
+    }
+    #project3 {
+        .preview:before{ 
+          bottom: 27%;
+      }
     }
   }
   @media #{$tablet-landscape} {

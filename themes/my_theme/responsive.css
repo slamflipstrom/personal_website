@@ -169,7 +169,7 @@ Version: 1.0
         width: 100%;
         margin: 0 auto; }
     #work .preview:before {
-      font-size: 25px; }
+      font-size: 28px; }
     #work .preview-img {
       width: 300px;
       height: auto; } }
@@ -190,7 +190,9 @@ Version: 1.0
       font-size: 42px; }
     #work .preview-img {
       width: 350px;
-      height: auto; } }
+      height: auto; }
+    #work #project3 .preview:before {
+      bottom: 27%; } }
   @media (min-width: 768px) and (max-width: 979px) {
     #work .preview-img {
       width: 250px;

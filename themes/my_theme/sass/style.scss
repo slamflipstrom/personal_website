@@ -325,14 +325,14 @@ nav {
     .preview:after, .preview:before {
         position: absolute;
         opacity:0;
-        transition: all 0.5s;
-        -webkit-transition: all 0.5s;
+        transition: all 0.4s;
+        -webkit-transition: all 0.4s;
     }
     .preview:after {
         content:'\A';
         width:100%; height:100%;
         top:0; left:0;
-        background:rgba(0,0,0,0.7);
+        background:rgba(0,0,0,0.90);
     }
     .preview:before {
         content: attr(data-content);
