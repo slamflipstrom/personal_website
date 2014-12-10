@@ -158,49 +158,42 @@ Version: 1.0
 #work {
   background-attachment: fixed; }
   @media (min-width: 320px) and (max-width: 479px) {
-    #work #project1 .preview {
-      height: 400px;
-      width: auto;
-      opacity: 1; }
-    #work #project2 .preview {
-      height: 265px;
-      width: auto;
-      opacity: 1; }
-    #work #project3 .preview {
-      height: 265px;
-      width: auto;
-      opacity: 1; } }
+    #work img {
+      border: 1px solid #373737; }
+    #work ul {
+      width: 90%;
+      margin-right: 5%;
+      margin-left: 5%; }
+      #work ul li {
+        display: block;
+        width: 100%;
+        margin: 0 auto; }
+    #work .preview:before {
+      font-size: 25px; }
+    #work .preview-img {
+      width: 300px;
+      height: auto; } }
   @media (min-width: 480px) and (max-width: 767px) {
-    #work #project1 {
-      display: inline-block;
-      width: 98%;
-      margin-left: 1%;
-      margin-right: 1%;
-      vertical-align: top; }
-      #work #project1 .preview {
-        height: 575px;
-        width: auto; }
-    #work #project2 {
-      display: inline-block;
-      width: 98%;
-      margin-left: 1%;
-      margin-right: 1%;
-      vertical-align: top; }
-      #work #project2 .preview {
-        height: 575px;
-        width: auto; }
-    #work #project3 {
-      display: inline-block;
-      width: 98%;
-      margin-left: 1%;
-      margin-right: 1%;
-      vertical-align: top; }
-      #work #project3 .preview {
-        height: 575px;
-        width: auto; } }
+    #work img {
+      border: 1px solid #373737; }
+    #work ul {
+      width: 90%;
+      margin-right: 5%;
+      margin-left: 5%; }
+      #work ul li {
+        display: block;
+        width: 100%;
+        margin: 0 auto; }
+    #work .preview {
+      width: auto; }
+    #work .preview:before {
+      font-size: 42px; }
+    #work .preview-img {
+      width: 350px;
+      height: auto; } }
   @media (min-width: 768px) and (max-width: 979px) {
     #work .preview-img {
-      width: 230px;
+      width: 250px;
       height: auto; }
     #work .preview:before {
       font-size: 25px; } }
@@ -214,19 +207,19 @@ Version: 1.0
       bottom: 26%; } }
   @media (min-width: 1024px) and (max-width: 1199px) {
     #work .preview-img {
-      width: 300px; }
+      width: 330px; }
     #work .preview:before {
       font-size: 38px; }
     #work #project3 .preview:before {
       bottom: 27%; } }
   @media (min-width: 1200px) {
     #work .preview-img {
-      width: 350px;
+      width: 380px;
       height: auto; }
     #work .preview:before {
       font-size: 42px; }
     #work #project3 .preview:before {
-      bottom: 27%; } }
+      bottom: 35%; } }
 
 #links li {
   margin-right: 3px;

@@ -249,66 +249,55 @@ nav{
 #work{
   background-attachment: fixed;
   @media #{$mobile}{
-    #project1{
-      .preview {
-        height: 400px;
-        width: auto;
-        opacity:1;
-      } 
+    img{
+      border: 1px solid #373737;
     }
-    #project2{
-      .preview {
-        height: 265px;
-        width: auto;
-        opacity:1;
-      } 
-    }  
-    #project3{
-      .preview {
-        height: 265px;
-        width: auto;
-        opacity:1;
+    ul{
+      width: 90%;
+      margin-right: 5%;
+      margin-left: 5%;
+      li{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
       }
+    }  
+    .preview:before{
+      font-size: 25px;
+    }
+    .preview-img{
+      width: 300px;
+      height: auto;
     }
   }
   @media #{$tablet} {
-    #project1{
-      display: inline-block;
-      width: 98%;
-      margin-left:1%;
-      margin-right:1%;
-      vertical-align:top; 
-      .preview{
-        height: 575px;
-        width: auto;
-      } 
+    img{
+      border: 1px solid #373737;
     }
-    #project2{
-      display: inline-block;
-      width: 98%;
-      margin-left:1%;
-      margin-right:1%;
-      vertical-align:top; 
-      .preview{
-        height: 575px;
-        width: auto;
-      } 
+    ul{
+      width: 90%;
+      margin-right: 5%;
+      margin-left: 5%;
+      li{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+      }
+    }    
+    .preview{
+      width: auto;
+    } 
+    .preview:before{
+      font-size: 42px;
     }
-    #project3{
-      display: inline-block;
-      width: 98%;
-      margin-left:1%;
-      margin-right:1%;
-      vertical-align:top; 
-      .preview{
-        height: 575px;
-        width: auto;
-      } 
+    .preview-img{
+      width: 350px;
+      height: auto;
     }
   }
   @media #{$tablet-landscape} {
     .preview-img{
-      width: 230px;
+      width: 250px;
       height: auto;
     }
     .preview:before{
@@ -331,7 +320,7 @@ nav{
   }
   @media #{$wide}{
     .preview-img{
-      width: 300px;
+      width: 330px;
     }
     .preview:before{
       font-size: 38px;
@@ -344,7 +333,7 @@ nav{
   }
   @media #{$extra-wide}{
     .preview-img{
-      width: 350px;
+      width: 380px;
       height: auto;
     }
     .preview:before{
@@ -352,7 +341,7 @@ nav{
     }
     #project3 {
         .preview:before{ 
-          bottom: 27%;
+          bottom: 35%;
       }
     }
   }
