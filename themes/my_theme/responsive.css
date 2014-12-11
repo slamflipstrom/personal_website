@@ -9,7 +9,8 @@ Version: 1.0
 */
 @media (min-width: 320px) and (max-width: 479px) {
   p {
-    font-weight: 400; } }
+    font-weight: 400;
+    font-size: 15px; } }
 @media (min-width: 654px) {
   nav .drop-icon {
     display: none; }
@@ -186,7 +187,7 @@ Version: 1.0
       #work .modal-window .img-wrapper a {
         display: block; }
       #work .modal-window p {
-        font-size: 13px; }
+        font-size: 15px; }
       #work .modal-window a.close {
         display: none; }
     #work #project1 .modal-window .img-wrapper img {
