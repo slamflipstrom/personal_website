@@ -262,6 +262,9 @@ nav{
         margin: 0 auto;
       }
     }  
+    .preview{
+      display:none;
+    }
     .preview:before{
       font-size: 28px;
     }
@@ -270,11 +273,24 @@ nav{
       height: auto;
     }
     .modal-window{
+      opacity:1;
+      position:relative;
+      background-color: transparent;
+      z-index:3;
       .img-wrapper{
         img{
-          height: 250px;
+          height: 210px;
         }
       }
+      p{
+        font-size:14px;
+      }
+      .close{
+        display:none;
+      }
+    }
+    #project1 .modal-window .img-wrapper img{
+      height: 350px;
     }
   }
   @media #{$tablet} {

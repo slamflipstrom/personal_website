@@ -168,13 +168,26 @@ Version: 1.0
         display: block;
         width: 100%;
         margin: 0 auto; }
+    #work .preview {
+      display: none; }
     #work .preview:before {
       font-size: 28px; }
     #work .preview-img {
       width: 300px;
       height: auto; }
-    #work .modal-window .img-wrapper img {
-      height: 250px; } }
+    #work .modal-window {
+      opacity: 1;
+      position: relative;
+      background-color: transparent;
+      z-index: 3; }
+      #work .modal-window .img-wrapper img {
+        height: 210px; }
+      #work .modal-window p {
+        font-size: 14px; }
+      #work .modal-window .close {
+        display: none; }
+    #work #project1 .modal-window .img-wrapper img {
+      height: 350px; } }
   @media (min-width: 480px) and (max-width: 767px) {
     #work img {
       border: 1px solid #373737; }
