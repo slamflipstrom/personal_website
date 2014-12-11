@@ -340,8 +340,6 @@ nav {
     #work .close span {
       transition: all .05s ease-in;
       color: #FFFFFF; }
-    #work .close span:hover {
-      color: #F0EEBA; }
 
 #links {
   background-color: #EEE;

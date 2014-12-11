@@ -172,7 +172,9 @@ Version: 1.0
       font-size: 28px; }
     #work .preview-img {
       width: 300px;
-      height: auto; } }
+      height: auto; }
+    #work .modal-window .img-wrapper img {
+      height: 250px; } }
   @media (min-width: 480px) and (max-width: 767px) {
     #work img {
       border: 1px solid #373737; }
@@ -192,7 +194,9 @@ Version: 1.0
       width: 350px;
       height: auto; }
     #work #project3 .preview:before {
-      bottom: 27%; } }
+      bottom: 27%; }
+    #work .modal-window .img-wrapper img {
+      height: 330px; } }
   @media (min-width: 768px) and (max-width: 979px) {
     #work .preview-img {
       width: 250px;
