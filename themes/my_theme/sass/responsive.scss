@@ -277,15 +277,19 @@ nav{
       position:relative;
       background-color: transparent;
       z-index:3;
+      pointer-events: all;
       .img-wrapper{
         img{
           height: 210px;
         }
+        a{
+          display:block;
+        }
       }
       p{
-        font-size:14px;
+        font-size:13px;
       }
-      .close{
+      a.close{
         display:none;
       }
     }

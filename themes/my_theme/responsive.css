@@ -179,12 +179,15 @@ Version: 1.0
       opacity: 1;
       position: relative;
       background-color: transparent;
-      z-index: 3; }
+      z-index: 3;
+      pointer-events: all; }
       #work .modal-window .img-wrapper img {
         height: 210px; }
+      #work .modal-window .img-wrapper a {
+        display: block; }
       #work .modal-window p {
-        font-size: 14px; }
-      #work .modal-window .close {
+        font-size: 13px; }
+      #work .modal-window a.close {
         display: none; }
     #work #project1 .modal-window .img-wrapper img {
       height: 350px; } }
