@@ -16,9 +16,10 @@ jQuery(document).ready(function(){
     console.log ('logo was clicked')
   });
 
+// Nav bar segment scroll
   jQuery(".mobile-nav a").click(function(e){
     var seg = jQuery(this).attr("href");
-    jQuery("body").animate({scrollTop: jQuery(seg).offset().top}, "slow");
+    jQuery("html,body").animate({scrollTop: jQuery(seg).offset().top}, "slow");
     e.preventDefault();
   });
   
@@ -64,9 +65,9 @@ jQuery(document).ready(function(){
      e.preventDefault();
   });
   
-  $(window).keyup(function(e) {
+  jQuery(window).keyup(function(e) {
       if (e.keyCode == 27) {
-          $(".modal-window").fadeOut(300); 
+          jQuery(".modal-window").fadeOut(300); 
       }
   });
   
