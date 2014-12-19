@@ -11,7 +11,7 @@ jQuery(document).ready(function(){
 
   jQuery(".logo a").click(function(e){
     var seg = jQuery(this).attr("href");
-    jQuery("body").animate({scrollTop: jQuery(seg).offset().top}, "slow");
+    jQuery("html,body").animate({scrollTop: jQuery(seg).offset().top}, "slow");
     e.preventDefault()
     console.log ('logo was clicked')
   });
@@ -61,7 +61,7 @@ jQuery(document).ready(function(){
   // Auto scrolls user to #about section
   jQuery(".proceed-arrow a").click(function(e){
      var seg = jQuery(this).attr("href");
-     jQuery("body").animate({scrollTop: jQuery(seg).offset().top}, "slow");
+     jQuery("html,body").animate({scrollTop: jQuery(seg).offset().top}, "slow");
      e.preventDefault();
   });
   
