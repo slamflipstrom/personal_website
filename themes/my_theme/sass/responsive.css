@@ -93,6 +93,10 @@ Version: 1.0
   margin-left: 1%;
   margin-right: 1%;
   vertical-align: top; }
+#skills #process {
+  display: inline-block;
+  margin-left: 1%;
+  margin-right: 1%; }
 @media (min-width: 480px) {
   #skills {
     background-attachment: fixed; } }
@@ -116,9 +120,7 @@ Version: 1.0
       width: 98%;
       margin-left: 1%;
       margin-right: 1%;
-      vertical-align: top; }
-    #skills #process {
-      margin: 11% 1% 1% 1%; } }
+      vertical-align: top; } }
 @media (min-width: 480px) and (max-width: 767px) {
   #skills #skills-backend {
     display: inline-block;
@@ -137,9 +139,7 @@ Version: 1.0
     width: 98%;
     margin-left: 1%;
     margin-right: 1%;
-    vertical-align: top; }
-  #skills #process {
-    margin: 10% 1% 1% 1%; } }
+    vertical-align: top; } }
 @media (min-width: 768px) and (max-width: 979px) {
   #skills #skills-backend {
     display: inline-block;

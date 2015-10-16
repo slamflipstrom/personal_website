@@ -246,17 +246,17 @@ nav {
   display: table; 
   position: relative; 
   overflow: hidden;
+  #process{
+      margin: 6% 1% 1% 1%;
+      p{
+        max-width: 1080px;
+      }
+    }
+  }
   #skills-content{
     display: table-cell;
     vertical-align: middle;
-    #skills-backend{
-    }
-    #skills-frontend{
-    }
-    #skills-business{
-    }
-  }
-  h2{
+    h2{
     font:$div-header-text;
     text-align: center;
     color:#eee;
@@ -411,7 +411,7 @@ nav {
         img{
           height:55vh;
           width: auto;
-          margin-bottom: 0px;
+          margin-bottom: 0;
         }
       }
       span{
@@ -428,7 +428,7 @@ nav {
   	position: absolute;
   	right: -40px;
   	text-align: center;
-  	top: 0px;
+  	top: 0;
   	width: 30px;
   	text-decoration: none;
     display: inline-block;
@@ -637,6 +637,7 @@ nav {
   width: 100%;
   opacity: 0.85;
   background: #61AE8E;
+  padding: 10px 0 15px 0;
   .small-logo{
     background-image: url("./images/SL_logo-01.png");
     background-repeat: no-repeat;
@@ -646,6 +647,13 @@ nav {
     display: block;
     height: 50px;
     width: auto;
+  }
+  h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;  
+    font-weight:400;
+    text-align: center;
+    margin: 0;
   }
 }
 

@@ -196,24 +196,29 @@ nav {
   display: table;
   position: relative;
   overflow: hidden; }
-  #skills #skills-content {
-    display: table-cell;
-    vertical-align: middle; }
-  #skills h2 {
+  #skills #process {
+    margin: 6% 1% 1% 1%; }
+    #skills #process p {
+      max-width: 1080px; }
+
+#skills-content {
+  display: table-cell;
+  vertical-align: middle; }
+  #skills-content h2 {
     font: 20px "Montserrat";
     text-align: center;
     color: #eee;
     margin-bottom: 30px; }
-  #skills h4 {
+  #skills-content h4 {
     font: 15px 'Montserrat';
     color: #eee; }
-  #skills p a {
+  #skills-content p a {
     color: #DFDFDF; }
-  #skills mark {
+  #skills-content mark {
     background-color: transparent;
     color: #DFDFDF;
     transition: all .2s ease-in; }
-  #skills p:hover mark {
+  #skills-content p:hover mark {
     color: #DFDFDF;
     background-color: rgba(97, 134, 165, 0.7); }
 
@@ -318,7 +323,7 @@ nav {
       #work .modal-window .img-wrapper img {
         height: 55vh;
         width: auto;
-        margin-bottom: 0px; }
+        margin-bottom: 0; }
     #work .modal-window span {
       font-size: 25px; }
   #work .modal-window:target {
@@ -330,7 +335,7 @@ nav {
     position: absolute;
     right: -40px;
     text-align: center;
-    top: 0px;
+    top: 0;
     width: 30px;
     text-decoration: none;
     display: inline-block;
@@ -488,7 +493,8 @@ nav {
 #footer {
   width: 100%;
   opacity: 0.85;
-  background: #61AE8E; }
+  background: #61AE8E;
+  padding: 10px 0 15px 0; }
   #footer .small-logo {
     background-image: url("./images/SL_logo-01.png");
     background-repeat: no-repeat;
@@ -498,5 +504,11 @@ nav {
     display: block;
     height: 50px;
     width: auto; }
+  #footer h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0; }
 
 /*# sourceMappingURL=style.css.map */

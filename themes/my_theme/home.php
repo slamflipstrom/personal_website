@@ -113,7 +113,17 @@ Template Name: Home
         echo $content;  
         ?>
       </div>
-    
+
+     <div id="process">
+        <h2>MY PROCESS</h2>
+        <?php 
+        $id=48; 
+        $post = get_post($id); 
+        $content = apply_filters('the_content', $post->post_content); 
+        echo $content;  
+        ?>
+     </div>
+
     </div>
   </div>
   
@@ -224,6 +234,7 @@ Template Name: Home
   
   <div id="footer">
     <div class="small-logo"><a href="#landing-page">Sam Lindstrom</a></div>
+    <h4>This responsive site was custom-built with HTML, CSS, & jQuery</h4>
   </div>
   
 </body>
