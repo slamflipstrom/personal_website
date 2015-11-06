@@ -71,8 +71,10 @@ wp-content/plugins/hello.php
 
 #ignore Sass files
 .sass-cache/
+themes/my_theme/sass/.sass-cache/
 *.css.map
 
-# ignore upload folder
+# ignore upload and images folders
 uploads
+themes/my_theme/images/
 

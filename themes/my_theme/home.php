@@ -132,15 +132,59 @@ Template Name: Home
       
       <h2>CHECK OUT MY WORK</h2>
       
-      <ul>
-        <li>
+      <ul class="featured-list">
+        <li class="featured">
           <div id="project1" class="project">
             <a href="#openModal-p1">
+              <div data-content="EMBER DEMO" class="preview">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/ember-contact-preview.png" alt="Ember-Contact" class="preview-img"</img>
+              </div>
+            </a>
+            <div id="openModal-p1" class="modal-window">
+              <div>
+                <div class="img-wrapper">
+          		    <a href="#close" title="Close" class="close"><span class="fa fa-times"><span></a>
+                  <a href="https://fast-reef-5507.herokuapp.com/" target="_blank">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/ember-contact-screen.png" alt="Ember-Contact"</img>
+                  </a>
+                </div>
+                <h2>EmberJS Contact Form</h2>
+                <p>An app built to help friends decide upon a night out on the town. My partner handled a bulk of the back-end programming, and I implemented most of the front-end design using Sass to pre-process stylesheets. The Javascript and jQuery were collaborative efforts, along with the mobile adaptive user interface. Feel free to check out the project's <a href="https://github.com/slamflipstrom/ember-demo" target="_blank">Github repository</a>. Languages: Javascript - EmberJS, HTML, CSS, and Sass. </p>
+              </div>
+            </div>
+          </div>
+        </li><!--
+     --><li class="featured">
+          <div id="project2" class="project">
+            <a href="#openModal-p2">
+              <div data-content="BACKBONE TODO APP" class="preview">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/marionette-todo-preview.png" alt="Backbone-Todo" class="preview-img"</img>
+              </div>
+            </a>
+            <div id="openModal-p2" class="modal-window">
+              <div>
+                <div class="img-wrapper">
+          		    <a href="#close" title="Close" class="close"><span class="fa fa-times"><span></a>
+                  <a href="https://todojs-app.herokuapp.com/" target="_blank">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/marionette-todo-screen.png" alt="Backbone-Todo" </img>
+                  </a>
+                </div>
+                <h2>Backbone + Marionette Todo App</h2>
+                <p>An app built to help friends decide upon a night out on the town. My partner handled a bulk of the back-end programming, and I implemented most of the front-end design using Sass to pre-process stylesheets. The Javascript and jQuery were collaborative efforts, along with the mobile adaptive user interface. Feel free to check out the project's <a href="https://github.com/slamflipstrom/TodoJS" target="_blank">Github repository</a>. Languages: Javascript - Backbone + Marionette, HTML, Jade, CSS, and Sass.</p>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <ul class="non-featured-list">
+        <li>
+          <div id="project3" class="project">
+            <a href="#openModal-p3">
               <div data-content="GRUPL IT" class="preview">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/gruplit-preview.jpg" alt="GruplIt" class="preview-img"</img>
               </div>
             </a>
-            <div id="openModal-p1" class="modal-window">
+            <div id="openModal-p3" class="modal-window">
               <div>
                 <div class="img-wrapper">
           		    <a href="#close" title="Close" class="close"><span class="fa fa-times"><span></a>
@@ -149,23 +193,23 @@ Template Name: Home
                   </a>
                 </div>
                 <h2>Grupl It</h2>
-                <p>An app built to help friends decide upon a night out on the town. My partner handled a bulk of the back-end programming, and I implemented most of the front-end design using Sass to pre-process stylesheets. The Javascript and jQuery were collaborative efforts, along with the mobile adaptive user interface. Feel free to check out the project's <a href="https://github.com/slamflipstrom/decision-maker-app" target="_blank">Github repository</a>. Languages: Ruby on Rails, CSS, SASS, HTML, Javascript, and jQuery.</p>
+                <p>An app built to help friends decide upon a night out on the town. My partner handled a bulk of the back-end programming, and I implemented most of the front-end design using Sass to pre-process stylesheets. The Javascript and jQuery were collaborative efforts, along with the mobile adaptive user interface. Feel free to check out the project's <a href="https://github.com/slamflipstrom/decision-maker-app" target="_blank">Github repository</a>. Languages: Ruby on Rails, CSS, Sass, HTML, Javascript, and jQuery.</p>
               </div>
             </div>
           </div>
         </li><!--
      --><li>
-          <div id="project2" class="project">
-            <a href="#openModal-p2">  
+          <div id="project4" class="project">
+            <a href="#openModal-p4">  
               <div data-content="TASKMATE" class="preview">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/taskmate-preview.jpg" alt="TaskMate" class="preview-img"</img>
               </div>
             </a>
-            <div id="openModal-p2" class="modal-window">
+            <div id="openModal-p4" class="modal-window">
                 <div class="img-wrapper">
           		    <a href="#close" title="Close" class="close"><span class="fa fa-times"><span></a>
                   <a href="http://protected-wave-4969.herokuapp.com/tasks" target="_blank">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/taskmate-screen.jpg" alt="TaskMate" </img>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/taskmate-screen.jpg" alt="TaskMate"</img>
                   </a>
                 </div>
                 <h2>TaskMate</h2>
@@ -174,13 +218,13 @@ Template Name: Home
           </div>
         </li><!--
      --><li>
-          <div id="project3" class="project">  
-            <a href="#openModal-p3">  
+          <div id="project5" class="project">  
+            <a href="#openModal-p5">  
               <div data-content="GRANT TRACKER" class="preview">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/granttracker-preview.jpg" alt="GrantTracker" class="preview-img"</img>
               </div> 
             </a>
-            <div id="openModal-p3" class="modal-window">
+            <div id="openModal-p5" class="modal-window">
               <div>
                 <div class="img-wrapper">
           	  	  <a href="#close" title="Close" class="close"><span class="fa fa-times"><span></a>

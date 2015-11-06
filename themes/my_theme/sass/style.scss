@@ -179,7 +179,7 @@ nav {
   }
 }
 
-// --Landing Page--
+// --/Landing Page--
 
 
 // --About--
@@ -223,7 +223,7 @@ nav {
  
 }
 
-// --About--
+// --/About--
 
 
 // --Skills--
@@ -282,7 +282,7 @@ nav {
 
 
 
-// --Skills--
+// --/Skills--
 
 
 // --Work--
@@ -290,6 +290,7 @@ nav {
 #work {
   background-color: #1b2223;
   width: 100%;
+  height: 65vh;
   display:block;
   padding-top: $div-content-padding;
   padding-bottom: $div-content-padding;
@@ -350,6 +351,36 @@ nav {
       display: block;
     }
   }
+  ul.featured-list{
+    height: 275px;
+    margin-bottom: 1px;
+    li.featured{
+      padding: 0;
+    }
+  }
+  #project1{
+    .preview-img{
+    }
+    img{
+      margin: 0 auto;
+      max-width:600px;
+      border: 3px solid #373737;
+      width: 573px;
+    }
+  }
+  #project2{
+    .preview-img{
+    }
+    img{
+      margin: 0 auto;
+      max-width:600px;
+      border: 3px solid #373737;
+      width: 573px;
+    }
+  }
+  ul{
+    margin: 0 auto;
+  }
   h2 {
     font: $div-header-text;
     text-align: center;
@@ -362,12 +393,15 @@ nav {
       text-decoration: underline;
     }
   }
-  img {
-    margin: 0 auto;
-    max-width:600px;
-    border: 2px solid #373737;
-    max-width:100%;
-    max-height:100%;
+  ul.non-featured-list{
+
+    img {
+      margin: 0 auto;
+      max-width:600px;
+      border: 3px solid #373737;
+      max-width:100%;
+      max-height:100%;
+    }
   }
   a{
     text-decoration: none;
@@ -437,7 +471,7 @@ nav {
 }
 
 
-// --Work--
+// --/Work--
 
 
 // --Links--
@@ -496,7 +530,7 @@ nav {
   }
 }
 
-// --Links--
+// --/Links--
 
 
 
@@ -623,7 +657,7 @@ nav {
   }
 }
 
-// --Contact--
+// --/Contact--
 
 
 // --Footer--
@@ -652,4 +686,4 @@ nav {
   }
 }
 
-// --Footer--
+// --/Footer--
