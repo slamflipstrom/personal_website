@@ -274,28 +274,14 @@ nav {
       opacity: 1; }
     #work .project .preview-img {
       display: block; }
-  #work ul.featured-list {
-    height: 275px;
-    margin-bottom: 1px; }
-    #work ul.featured-list li.featured {
-      padding: 0; }
-  #work #project1 img {
-    margin: 0 auto;
-    max-width: 600px;
-    border: 3px solid #373737;
-    width: 573px; }
-  #work #project2 img {
-    margin: 0 auto;
-    max-width: 600px;
-    border: 3px solid #373737;
-    width: 573px; }
   #work ul {
     margin: 0 auto; }
   #work h2 {
     font: 20px "Montserrat";
     text-align: center;
     color: #eee;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    margin-top: 0; }
   #work p a {
     color: #eeeeee;
     text-decoration: underline; }

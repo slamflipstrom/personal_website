@@ -351,33 +351,7 @@ nav {
       display: block;
     }
   }
-  ul.featured-list{
-    height: 275px;
-    margin-bottom: 1px;
-    li.featured{
-      padding: 0;
-    }
-  }
-  #project1{
-    .preview-img{
-    }
-    img{
-      margin: 0 auto;
-      max-width:600px;
-      border: 3px solid #373737;
-      width: 573px;
-    }
-  }
-  #project2{
-    .preview-img{
-    }
-    img{
-      margin: 0 auto;
-      max-width:600px;
-      border: 3px solid #373737;
-      width: 573px;
-    }
-  }
+
   ul{
     margin: 0 auto;
   }
@@ -386,6 +360,7 @@ nav {
     text-align: center;
     color:#eee;
     margin-bottom: 30px;
+    margin-top: 0;
   }
   p{
     a{
@@ -394,7 +369,6 @@ nav {
     }
   }
   ul.non-featured-list{
-
     img {
       margin: 0 auto;
       max-width:600px;
