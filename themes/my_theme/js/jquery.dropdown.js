@@ -1,19 +1,14 @@
 jQuery(document).ready(function(){
 
-  console.log ('document is ready')
-
-    
   jQuery(".drop-icon").click(function(){
     jQuery(".mobile-nav").slideToggle(120);
     return false;
-    console.log ('menu icon was clicked')
   });
 
   jQuery(".logo a").click(function(e){
     var seg = jQuery(this).attr("href");
     jQuery("html,body").animate({scrollTop: jQuery(seg).offset().top}, "slow");
     e.preventDefault()
-    console.log ('logo was clicked')
   });
 
 // Nav bar segment scroll
@@ -56,7 +51,7 @@ jQuery(document).ready(function(){
            .parent().removeClass("active")
            .end().filter("[href=#"+id+"]").parent().addClass("active");
      }                   
-  });jQuery
+  });
    
   // Auto scrolls user to #about section
   jQuery(".proceed-arrow a").click(function(e){
@@ -64,12 +59,37 @@ jQuery(document).ready(function(){
      jQuery("html,body").animate({scrollTop: jQuery(seg).offset().top}, "slow");
      e.preventDefault();
   });
-  
-  jQuery(window).keyup(function(e) {
-      if (e.keyCode == 27) {
-          jQuery(".modal-window").fadeOut(300); 
-      }
+
+  // Modal Windows
+  jQuery("div#project1").click(function(e){
+     jQuery("div#openModal-p1").fadeToggle(400);
+    console.log("p1 toggled");
   });
-  
+  jQuery("div#project2").click(function(e){
+    jQuery("div#openModal-p2").fadeToggle(400);
+    console.log("p2 toggled");
+    
+  });
+  jQuery("div#project3").click(function(e){
+    jQuery("div#openModal-p3").fadeToggle(400);
+    console.log("p3 toggled");
+    
+  });
+  jQuery("div#project4").click(function(e){
+    jQuery("div#openModal-p4").fadeToggle(400);
+    console.log("p4 toggled");
+    
+  });
+  jQuery("div#project5").click(function(e){
+    jQuery("div#openModal-p5").fadeToggle('slow');
+    console.log("p5 toggled");
+  });
+
+	$(document).keyup(function(e) {
+    if (e.keyCode == 27) { // escape key maps to keycode `27`\
+     	$(".modal-window").fadeOut(400);
+      console.log('esc key pressed');
+    }
+	});  
 
 });

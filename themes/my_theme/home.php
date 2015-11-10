@@ -22,10 +22,6 @@ Template Name: Home
   <!-- Firefox, Chrome, Safari, IE 11+ and Opera. 96x96 pixels in size. -->
   <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png">
   
-  <!-- MS favicon --> 
-  <meta name="msapplication-TileColor" content="#00aba9">
-  <meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/images/mstile-144x144.png">
-    
   <!-- Primary Stylesheet and Responsive CSS  --> 
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" />
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/responsive.css" media="screen and (min-width: 320px)" />
@@ -37,7 +33,6 @@ Template Name: Home
    
   <!-- JS & jQuery libraries --> 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
   <script type="text/javascript" language="javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.dropdown.js"></script>
     
   <!-- Google Fonts -->
@@ -140,7 +135,7 @@ Template Name: Home
               <div data-content="EMBER DEMO" class="preview">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/ember-contact-preview.png" alt="Ember-Contact" class="preview-img"</img>
               </div>
-            </a>
+            </a>  
             <div id="openModal-p1" class="modal-window">
               <div>
                 <div class="img-wrapper">
@@ -150,7 +145,7 @@ Template Name: Home
                   </a>
                 </div>
                 <h2>EmberJS Contact Form</h2>
-                <p>I built this application to play around with EmberJS. I'm a frequent attendee of the Denver Ember meetup and have really grown to enjoy the Ember community. It is a simple contact application without a database, so data will not persist. I also implemented Materialize CSS with Mike North's Ember CLI <a href="https://github.com/mike-north/ember-cli-materialize" target="_blank">addon</a>. I enjoyed my first attempt with Ember, and hope to use it in future work.<br>Languages: Javascript - EmberJS, HTML, CSS, and Sass.<br><a href="https://github.com/slamflipstrom/ember-demo" target="_blank">Github repository</a></p>
+                <p>I built this application to get a feel for EmberJS. I'm a frequent attendee of the Denver Ember meetup and have grown to enjoy the community. This app is a simple contact application without a database, so data will not persist. I implemented Materialize CSS with Mike North's Ember CLI <a href="https://github.com/mike-north/ember-cli-materialize" target="_blank">addon</a>.<br>Languages: Javascript - EmberJS, HTML, CSS, and Sass. <a href="https://github.com/slamflipstrom/ember-demo" target="_blank">Github repository</a></p>
               </div>
             </div>
           </div>
@@ -171,7 +166,7 @@ Template Name: Home
                   </a>
                 </div>
                 <h2>Backbone + Marionette Todo App</h2>
-                <p>I built this application as an interview requirement, and to prove my abilities as a quick learner and capable developer. It was my first time using both Backbone and Marionette, so I'm certain the code is fallible. That said, I relish the experience to work with different Javascript libraries and frameworks. In addition to learning Backbone and Marionette, I was tasked with using Jade, another first for me.<br>Languages: Javascript - Backbone + Marionette, HTML, Jade, CSS, and Sass.<br><a href="https://github.com/slamflipstrom/TodoJS" target="_blank">Github repository</a></p>
+                <p>I built this application to prove my abilities as a quick learner and capable developer. It was my first time using Backbone, Marionette, and Jade, so I'm certain the code isn't perfect. That said, I relish the chance to work with different Javascript libraries and frameworks. <br>Languages: Javascript - Backbone + Marionette, HTML, Jade, CSS, and Sass. <a href="https://github.com/slamflipstrom/TodoJS" target="_blank">Github repository</a></p>
               </div>
             </div>
           </div>
@@ -194,7 +189,7 @@ Template Name: Home
                   </a>
                 </div>
                 <h2>Grupl It</h2>
-                <p>An app built to help friends decide upon a night out on the town. My partner handled a bulk of the back-end programming, and I implemented most of the front-end design using Sass to pre-process stylesheets. The Javascript and jQuery were collaborative efforts, along with the mobile adaptive user interface.<br>Languages: Ruby on Rails, CSS, Sass, HTML, Javascript, and jQuery.<br><a href="https://github.com/slamflipstrom/decision-maker-app" target="_blank">Github repository</a></p>
+                <p>An app built to help friends decide upon a night out on the town. My partner handled a bulk of the back-end programming, and I implemented most of the front-end design using Sass to pre-process stylesheets. The Javascript and jQuery were collaborative efforts, along with the mobile adaptive user interface.<br>Languages: Ruby on Rails, CSS, Sass, HTML, Javascript, and jQuery. <a href="https://github.com/slamflipstrom/decision-maker-app" target="_blank">Github repository</a></p>
               </div>
             </div>
           </div>
@@ -214,7 +209,7 @@ Template Name: Home
                   </a>
                 </div>
                 <h2>TaskMate</h2>
-                <p>A pair programmed task manager application. My partner and I were entrusted with the back-end development for this project, working solely with Ruby on Rails. The front end design was evolving simultaneously, so we had to adapt to handle an ever-changing codebase.<br>Languages: Ruby on Rails, 	CSS, 	HTML, Javascript, and jQuery.<br><a href="https://github.com/slamflipstrom/task-project" target="_blank">Github repository</a></p>
+                <p>A pair programmed task manager application. My partner and I were entrusted with the back-end development for this project, working solely with Ruby on Rails. The front end design was evolving simultaneously, so we had to adapt to handle an ever-changing codebase.<br>Languages: Ruby on Rails, 	CSS, 	HTML, Javascript, and jQuery. <a href="https://github.com/slamflipstrom/task-project" target="_blank">Github repository</a></p>
             </div>
           </div>
         </li><!--
@@ -234,7 +229,7 @@ Template Name: Home
                   </a>
                 </div>  
                 <h2>Grant Tracker</h2>
-                <p>An app built for non-profit organizations that frequently apply for grants. It’s primary function is to assist the NPO in completing the application process. The app was pair-programmed, with my group working on the back-end code exclusively.<br>Languages: Ruby on Rails, CSS, HTML, Javascript, and jQuery.<br><a href="https://github.com/slamflipstrom/grant-tracker" target="_blank">Github repository</a></p>  
+                <p>An app built for non-profit organizations that frequently apply for grants. It’s primary function is to assist the NPO in completing the application process. The app was pair-programmed, with my group working on the back-end code exclusively.<br>Languages: Ruby on Rails, CSS, HTML, Javascript, and jQuery. <a href="https://github.com/slamflipstrom/grant-tracker" target="_blank">Github repository</a></p>  
               </div>
             </div>
           </div> 

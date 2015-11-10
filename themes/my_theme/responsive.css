@@ -1,6 +1,6 @@
 /*
 Theme Name: My_Theme
-Theme URI: http://wordpress.org/themes/twentyfourteen
+Theme URI: https://github.com/slamflipstrom/portfolio
 Author: Sam Lindstrom
 Author URI: www.samlindstrom.com
 Description: This is Sam Lindstrom's personal portfolio theme.
@@ -111,6 +111,8 @@ Version: 1.0
 #work {
   background-attachment: fixed; }
   @media (min-width: 320px) and (max-width: 479px) {
+    #work p {
+      font-size: 14px; }
     #work img {
       border: 3px solid #373737; }
     #work ul {
@@ -137,8 +139,6 @@ Version: 1.0
         height: 210px; }
       #work .modal-window .img-wrapper a {
         display: block; }
-      #work .modal-window p {
-        font-size: 15px; }
       #work .modal-window a.close {
         display: none; }
     #work #project3 .modal-window .img-wrapper img {
@@ -146,6 +146,8 @@ Version: 1.0
   @media (min-width: 480px) and (max-width: 767px) {
     #work img {
       border: 1px solid #373737; }
+    #work p {
+      font-size: 13px; }
     #work ul {
       width: 90%;
       margin: 0 5% 0 5%; }

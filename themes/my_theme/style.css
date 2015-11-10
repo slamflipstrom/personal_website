@@ -1,6 +1,6 @@
 /*
 Theme Name: My_Theme
-Theme URI: http://wordpress.org/themes/twentyfourteen
+Theme URI: https://github.com/slamflipstrom/portfolio
 Author: Sam Lindstrom
 Author URI: www.samlindstrom.com
 Description: This is Sam Lindstrom's personal portfolio theme.
@@ -282,15 +282,18 @@ nav {
     color: #eee;
     margin-bottom: 30px;
     margin-top: 0; }
-  #work p a {
-    color: #eeeeee;
-    text-decoration: underline; }
+  #work p {
+    font-size: 15px;
+    max-width: 850px; }
+    #work p a {
+      color: #eeeeee;
+      text-decoration: underline; }
   #work ul.non-featured-list img {
     margin: 0 auto;
     max-width: 600px;
     border: 3px solid #373737;
     max-width: 100%;
-    max-height: 100%; }
+    max-height: none; }
   #work a {
     text-decoration: none; }
   #work a:visited {
@@ -302,15 +305,11 @@ nav {
     right: 0;
     bottom: 0;
     left: 0;
-    display: table;
+    display: none;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.85);
     z-index: 99999;
-    opacity: 0;
-    -webkit-transition: opacity 400ms ease-in;
-    -moz-transition: opacity 400ms ease-in;
-    transition: opacity 400ms ease-in;
     pointer-events: none; }
     #work .modal-window div {
       text-align: center; }
@@ -327,6 +326,9 @@ nav {
     #work .modal-window span {
       font-size: 25px; }
   #work .modal-window:target {
+    display: block;
+    pointer-events: auto; }
+  #work .active {
     opacity: 1;
     pointer-events: auto; }
   #work .close {
