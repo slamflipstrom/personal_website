@@ -122,13 +122,16 @@ Version: 1.0
         display: block;
         width: 100%;
         margin: 0 auto; }
-    #work .preview {
-      display: none; }
-    #work .preview:before {
-      font-size: 28px; }
+    #work .project .preview-img {
+      display: inline-block; }
     #work .preview-img {
-      width: 300px;
-      height: auto; }
+      width: 280px;
+      height: auto;
+      display: inline-block; }
+    #work .preview:before {
+      display: none; }
+    #work .preview:after {
+      display: none; }
     #work .modal-window {
       opacity: 1;
       position: relative;

@@ -208,16 +208,21 @@ nav{
         margin: 0 auto;
       }
     }  
-    .preview{
-      display:none;
-    }
-    .preview:before{
-      font-size: 28px;
+    .project .preview-img{
+      display:inline-block;
     }
     .preview-img{
-      width: 300px;
+      width: 280px;
       height: auto;
+      display: inline-block;
     }
+    .preview:before{
+      display:none
+    }
+    .preview:after{
+      display:none
+    }
+
     .modal-window{
       opacity:1;
       position:relative;
