@@ -21,7 +21,7 @@ body {
 }
 p{
   font-family: 'Open Sans', Helvetica, sans-serif;
-  font-size: 16px;  
+  font-size: 16px;
   font-weight:300;
   text-align: center;
   line-height: 36px;
@@ -97,7 +97,7 @@ nav {
     li.active a {
         border-bottom: 2px solid #F0EEBA;
         color: #F0EEBA;
-    } 
+    }
   }
   ul{
     width:100%;
@@ -114,13 +114,13 @@ nav {
     text-decoration: $nav-link;
     font: 15px 'Montserrat';
     color: #000;
-    transition: all .1s ease-in; 
+    transition: all .1s ease-in;
   }
   a:visited {
     color: #000;
     text-decoration: $nav-link;
   }
-  a:hover { 
+  a:hover {
    color: #F0EEBA;
   }
 }
@@ -139,7 +139,7 @@ nav {
   background-size: cover !important;
   background-color: #000000;
   h1{
-    font-family: 'Quicksand', Helvetica, sans-serif; 
+    font-family: 'Quicksand', Helvetica, sans-serif;
     font-size:2.15em;
     font-weight:400;
     padding-top: 61vh;
@@ -186,13 +186,13 @@ nav {
 
 #about {
   background-color:#FFF;
-  width: 100%; 
+  width: 100%;
   height:100vh;
   display:block;
-  padding-top: $div-content-padding; 
-  padding-bottom: $div-content-padding; 
-  display: table; 
-  position: relative; 
+  padding-top: $div-content-padding;
+  padding-bottom: $div-content-padding;
+  display: table;
+  position: relative;
   overflow: hidden;
   #about-content{
     display: table-cell;
@@ -220,7 +220,7 @@ nav {
       text-decoration: underline;
     }
   }
- 
+
 }
 
 // --/About--
@@ -236,11 +236,11 @@ nav {
   background-color: #010101;
   width: 100%;
   height:100vh;
-  
-  padding-top: $div-content-padding; 
-  padding-bottom: $div-content-padding; 
-  display: table; 
-  position: relative; 
+
+  padding-top: $div-content-padding;
+  padding-bottom: $div-content-padding;
+  display: table;
+  position: relative;
   overflow: hidden;
   #process{
       margin: 6% 1% 1% 1%;
@@ -456,10 +456,10 @@ nav {
   background-color: #EEE;
   height:50vh;
   width: 100%;
-  padding-top: $div-content-padding; 
-  padding-bottom: $div-content-padding; 
-  display: table; 
-  position: relative; 
+  padding-top: $div-content-padding;
+  padding-bottom: $div-content-padding;
+  display: table;
+  position: relative;
   overflow: hidden;
   #links-content{
     display: table-cell;
@@ -485,7 +485,7 @@ nav {
     }
     li{
       display: inline-block;
-    }   
+    }
     a{
       text-decoration: $link-decoration;
       color: #000;
@@ -521,9 +521,9 @@ nav {
   height: 450px;
   width: 100%;
   padding-top: 90px;
-  padding-bottom: 90px; 
-  display: table; 
-  position: relative; 
+  padding-bottom: 90px;
+  display: table;
+  position: relative;
   overflow: hidden;
   h2 {
     font: $div-header-text;
@@ -582,7 +582,7 @@ nav {
       color: #eee;
     }
     .wpcf7-form-control.wpcf7-submit{
-      color: #61AE8E;  
+      color: #61AE8E;
       border-color: #61AE8E;
       background-color: transparent;
       font: 14px 'Montserrat';
@@ -591,7 +591,7 @@ nav {
       cursor: pointer;
     }
     .wpcf7-form-control.wpcf7-submit:hover{
-      color: #FAF3FF;  
+      color: #FAF3FF;
       border-color: #61AE8E;
       background-color:#61AE8E;
     }
@@ -603,13 +603,13 @@ nav {
         padding: 0;
       }
       li{
-        color: #da4856; 
+        color: #da4856;
         display: none !important;
       }
     }
 //    Formatting of error messages that appear below input box
     span [role="alert"]{
-      color: #da4856;  
+      color: #da4856;
       display: block;
       font: 13px 'Montserrat';
       margin-bottom: 10px;
@@ -655,7 +655,7 @@ nav {
   }
   h4{
     font-family: 'Open Sans', Helvetica, sans-serif;
-    font-size: 12px;  
+    font-size: 12px;
     font-weight:400;
     text-align: center;
     margin: 0;
