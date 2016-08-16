@@ -11,7 +11,7 @@ Version: 1.0
   p {
     font-weight: 400;
     font-size: 15px; } }
-@media (min-width: 654px) {
+@media (min-width: 770px) {
   nav .drop-icon {
     display: none; }
   nav .mobile-nav {
@@ -50,13 +50,15 @@ Version: 1.0
     nav .drop-icon a {
       height: 20px;
       width: 30px; } }
+@media (min-width: 768px) and (max-width: 979px) {
+  nav ul.mobile-nav {
+    width: 55%; } }
 @media (min-width: 1024px) and (max-width: 1199px) {
   nav .logo {
     margin-left: 135px; }
   nav ul {
     padding-top: 22px;
-    margin-right: 150px;
-    list-style-type: none; } }
+    margin-right: 35px; } }
 
 @media (min-width: 480px) {
   #landing-page {

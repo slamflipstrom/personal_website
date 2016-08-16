@@ -15,7 +15,7 @@ $desktop: "(min-width: 980px) and (max-width: 1023px)";
 $wide: "(min-width: 1024px) and (max-width: 1199px)";
 $extra-wide:"(min-width: 1200px)";
 
-$nav-break:"(min-width: 654px)";
+$nav-break:"(min-width: 770px)";
 $non-mobile:"(min-width: 480px)";
 
 $div-header-text: 20px 'Montserrat';
@@ -84,14 +84,18 @@ nav{
       width: 30px;
     }
   }
+  @media #{$tablet-landscape} {
+    ul.mobile-nav{
+      width: 55%; 
+    }
+  }
   @media #{$wide} {
     .logo{
       margin-left: 135px;
     }
     ul{
       padding-top: 22px;
-      margin-right: 150px;
-      list-style-type: none;
+      margin-right: 35px;
     }
   }
 }
