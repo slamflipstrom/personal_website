@@ -50,7 +50,7 @@ Template Name: Home
     <li><a href="#skills">SKILLS</a></li>
     <li><a href="#work">WORK</a></li>
     <li><a href="#contact">CONTACT</a></li>
-    <li><a href="https://medium.com/@slamflipstrom/latest">BLOG</a></li>
+    <li><a href="https://medium.com/@slamflipstrom/latest" target="_blank">BLOG</a></li>
 </nav>
 
 
