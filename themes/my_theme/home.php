@@ -247,9 +247,9 @@ Template Name: Home
       <div class="social-media-links">
         <ul>
           <li class="linked-in"><a href="https://linkedin.com/in/samlindstrom/" target="_blank"><span class="fa fa-linkedin-square fa-3x"><span></a></li>
-          <li class="instagram"><a href="http://instagram.com/ssssssammmm" target="_blank"><span class="fa fa-instagram fa-3x"><span></a></li>
+          <li class="instagram"><a href="http://instagram.com/slamflipstrom" target="_blank"><span class="fa fa-instagram fa-3x"><span></a></li>
           <li class="github"><a href="https://github.com/slamflipstrom" target="_blank"><span class="fa fa-github fa-3x"><span></a></li>
-          <li class="twitter"><a href="https://twitter.com/ssssssammmm" target="_blank"><span class="fa fa-twitter fa-3x"><span></a></li>
+          <li class="twitter"><a href="https://twitter.com/slamflipstrom" target="_blank"><span class="fa fa-twitter fa-3x"><span></a></li>
           <li class="stack-overflow"><a href="http://stackoverflow.com/users/4589006/sam-lindstrom" target="_blank"><span class="fa fa-stack-overflow fa-3x"><span></a></li>
         </ul>
       </div>

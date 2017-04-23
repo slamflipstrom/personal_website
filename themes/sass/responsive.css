@@ -1,0 +1,300 @@
+/*
+Theme Name: My_Theme
+Theme URI: https://github.com/slamflipstrom/portfolio
+Author: Sam Lindstrom
+Author URI: www.samlindstrom.com
+Description: This is Sam Lindstrom's personal portfolio theme.
+Version: 1.0
+
+*/
+@media (min-width: 320px) and (max-width: 479px) {
+  p {
+    font-weight: 400;
+    font-size: 15px; } }
+@media (min-width: 654px) {
+  nav .drop-icon {
+    display: none; }
+  nav .mobile-nav {
+    display: inline-block !important;
+    background: none;
+    width: 50%;
+    text-align: right; }
+  nav ul {
+    padding-top: 22px;
+    margin-right: 25px;
+    list-style-type: none; }
+  nav li {
+    margin-right: 20px;
+    cursor: pointer;
+    display: inline-block; }
+  nav ul li a {
+    text-decoration: none;
+    font: 15px 'Montserrat';
+    color: #000; }
+  nav a:visited {
+    color: #000;
+    text-decoration: none; }
+  nav a:hover {
+    color: #F0EEBA; } }
+@media (min-width: 320px) and (max-width: 479px) {
+  nav {
+    height: 50px; }
+    nav .logo {
+      height: 35px;
+      width: 150px; }
+    nav .logo a {
+      height: 35px; }
+    nav .drop-icon {
+      top: 17px; }
+    nav .drop-icon a {
+      height: 20px;
+      width: 30px; } }
+@media (min-width: 1024px) and (max-width: 1199px) {
+  nav .logo {
+    margin-left: 135px; }
+  nav ul {
+    padding-top: 22px;
+    margin-right: 150px;
+    list-style-type: none; } }
+
+@media (min-width: 480px) {
+  #landing-page {
+    background-attachment: fixed; } }
+@media (min-width: 320px) and (max-width: 479px) {
+  #landing-page h1 {
+    font-size: 1.8em; }
+  #landing-page p {
+    font: 17px 'Montserrat';
+    padding-top: 5px; }
+  #landing-page .proceed-arrow a {
+    width: 20px;
+    height: 10px; } }
+
+@media (min-width: 320px) and (max-width: 479px) {
+  #about p {
+    font-weight: 400; } }
+
+#skills #skills-backend, #skills #skills-frontend, #skills #skills-business {
+  display: inline-block;
+  width: 31%;
+  margin: 0 1% 0 1%;
+  vertical-align: top; }
+@media (min-width: 480px) {
+  #skills {
+    background-attachment: fixed; } }
+@media (min-width: 320px) and (max-width: 479px) {
+  #skills {
+    background-position: 77% 50%; }
+    #skills #skills-backend, #skills #skills-frontend, #skills #skills-business {
+      display: inline-block;
+      width: 98%;
+      margin: 0 1% 0 1%;
+      vertical-align: top; }
+    #skills #process {
+      margin: 11% 1% 1% 1%; } }
+@media (min-width: 480px) and (max-width: 767px) {
+  #skills #skills-backend, #skills #skills-frontend, #skills #skills-business {
+    display: inline-block;
+    width: 98%;
+    margin: 0 1% 0 1%;
+    vertical-align: top; }
+  #skills #process {
+    margin: 10% 1% 1% 1%; } }
+@media (min-width: 768px) and (max-width: 979px) {
+  #skills #skills-backend, #skills #skills-frontend, #skills #skills-business {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1% 0 1%;
+    vertical-align: top; } }
+
+#work {
+  background-attachment: fixed;
+  height: 100%; }
+  @media (min-width: 320px) and (max-width: 479px) {
+    #work p {
+      font-size: 14px; }
+    #work img {
+      border: 3px solid #373737; }
+    #work ul {
+      width: 90%;
+      margin: 0 5% 0 5%; }
+      #work ul li {
+        display: block;
+        width: 100%;
+        margin: 0 auto; }
+    #work .project .preview-img {
+      display: inline-block; }
+    #work .preview-img {
+      width: 280px;
+      height: auto;
+      display: inline-block; }
+    #work .preview:before {
+      display: none; }
+    #work .preview:after {
+      display: none; }
+    #work .modal-window {
+      opacity: 1;
+      position: relative;
+      background-color: transparent;
+      z-index: 3;
+      margin-bottom: 30px;
+      pointer-events: all; }
+      #work .modal-window .img-wrapper img {
+        height: 210px; }
+      #work .modal-window .img-wrapper a {
+        display: block; }
+      #work .modal-window a.close {
+        display: none; }
+    #work #project3 .modal-window .img-wrapper img {
+      height: 350px; } }
+  @media (min-width: 480px) and (max-width: 767px) {
+    #work img {
+      border: 1px solid #373737; }
+    #work p {
+      font-size: 13px; }
+    #work ul {
+      width: 90%;
+      margin: 0 5% 0 5%; }
+      #work ul li {
+        display: block;
+        width: 100%;
+        margin: 0 auto; }
+    #work .preview {
+      width: auto; }
+    #work .preview:before {
+      font-size: 42px; }
+    #work .preview-img {
+      width: 350px;
+      height: auto; }
+    #work #project1 {
+      border: 3px solid #373737; }
+      #work #project1 div.preview {
+        height: 200px;
+        width: 350px; }
+        #work #project1 div.preview img {
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+          object-position: 0; }
+    #work #project2 {
+      border: 3px solid #373737; }
+      #work #project2 div.preview {
+        height: 200px;
+        width: 350px; }
+        #work #project2 div.preview img {
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+          object-position: 0; }
+      #work #project2 .preview:before {
+        bottom: 24%; }
+    #work #project5 .preview:before {
+      bottom: 27%; }
+    #work .modal-window .img-wrapper img {
+      height: 330px; } }
+  @media (min-width: 768px) and (max-width: 979px) {
+    #work #project1 .preview-img {
+      margin: 0 auto;
+      max-width: 600px;
+      border: 3px solid #373737;
+      width: 378px; }
+    #work #project2 .preview-img {
+      margin: 0 auto;
+      max-width: 600px;
+      border: 3px solid #373737;
+      width: 378px; }
+    #work #project2 .preview:before {
+      bottom: 37%; }
+    #work .preview-img {
+      width: 250px;
+      height: auto; }
+    #work .preview:before {
+      font-size: 25px; } }
+  @media (min-width: 980px) and (max-width: 1023px) {
+    #work #project1 .preview-img {
+      margin: 0 auto;
+      max-width: 600px;
+      border: 3px solid #373737;
+      width: 378px; }
+    #work #project2 .preview-img {
+      margin: 0 auto;
+      max-width: 600px;
+      border: 3px solid #373737;
+      width: 378px; }
+    #work #project2 .preview:before {
+      bottom: 21%; }
+    #work .preview-img {
+      width: 250px;
+      height: auto; }
+    #work .preview:before {
+      font-size: 34px; }
+    #work #project5 .preview:before {
+      bottom: 20%; } }
+  @media (min-width: 1024px) and (max-width: 1199px) {
+    #work .preview-img {
+      width: 330px; }
+    #work .preview:before {
+      font-size: 38px; }
+    #work ul.featured-list {
+      margin-bottom: 1px; }
+      #work ul.featured-list li.featured {
+        padding: 0; }
+    #work #project1 .preview-img {
+      margin: 0 auto;
+      max-width: 600px;
+      border: 3px solid #373737;
+      width: 499px; }
+    #work #project2 .preview-img {
+      margin: 0 auto;
+      max-width: 600px;
+      border: 3px solid #373737;
+      width: 499px; }
+    #work #project5 .preview:before {
+      bottom: 27%; } }
+  @media (min-width: 1200px) {
+    #work .preview-img {
+      width: 380px;
+      height: auto; }
+    #work .preview:before {
+      font-size: 42px; }
+    #work ul.featured-list {
+      height: 275px;
+      margin-bottom: 1px; }
+      #work ul.featured-list li.featured {
+        padding: 0; }
+    #work #project1 .preview-img {
+      margin: 0 auto;
+      max-width: 600px;
+      border: 3px solid #373737;
+      width: 573px; }
+    #work #project2 .preview-img {
+      margin: 0 auto;
+      max-width: 600px;
+      border: 3px solid #373737;
+      width: 573px; }
+    #work #project2 .preview:before {
+      bottom: 36%; }
+    #work #project5 .preview:before {
+      bottom: 35%; } }
+
+#links li {
+  margin: 0 3px 0 3px; }
+#links a:hover {
+  background-color: transparent;
+  color: #6186A5;
+  border: 2px solid #6186A5; }
+@media (min-width: 320px) and (max-width: 479px) {
+  #links .social-media-links span {
+    height: 35px;
+    width: 28px; }
+  #links .social-media-links ul {
+    width: 90%;
+    margin: 0 5% 0 5%; }
+  #links .social-media-links a {
+    border: none; } }
+
+@media (min-width: 480px) {
+  #contact {
+    background-attachment: fixed; } }
+
+/*# sourceMappingURL=responsive.css.map */
