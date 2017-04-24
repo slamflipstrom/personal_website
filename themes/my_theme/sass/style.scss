@@ -13,13 +13,15 @@ $div-header-text: 20px 'Montserrat';
 $nav-link: none;
 $link-decoration: none;
 $div-content-padding: 90px;
+$social-media-link-color: #d4d4d4;
 
 body {
   margin: 0 auto;
   width: 100%;
   background-color: #111;
 }
-p{
+
+p {
   font-family: 'Open Sans', Helvetica, sans-serif;
   font-size: 16px;
   font-weight:300;
@@ -30,10 +32,12 @@ p{
   margin: 0 auto;
   max-width: 640px;
 }
-img{
+
+img {
   max-width:100%;
 }
-.sub-head{
+
+.sub-head {
   margin: 0 5px 0 5px;
   text-align: center;
 }
@@ -46,7 +50,8 @@ nav {
   opacity: 0.85;
   position: fixed;
   z-index: 1000;
-  .logo a{
+   
+  .logo a {
     background-image: url(./images/SAM-01.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -58,23 +63,27 @@ nav {
     margin-top: 3px;
     width: auto;
    }
-  .logo{
+    
+  .logo {
     display: inline-block;
     margin: 3px 0 0 17px;
     height: 55px;
     width: 180px;
     transition: all .3s ease-in;
   }
-  .logo:hover{
+
+  .logo:hover {
     opacity: .6;
   }
-  .drop-icon{
+
+  .drop-icon {
     position: absolute;
     right: 35px;
     top: 20px;
     height: 25px;
   }
-  .drop-icon a{
+
+  .drop-icon a {
     background-image: url(./images/drop-menu-arrow.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -82,44 +91,51 @@ nav {
     cursor: pointer;
     text-indent: -9999px;
     display:inline-block;
-    float: right;
     transition: all .5s ease-in;
     height: 25px;
     width: 32px;
   }
-  .drop-icon:hover{
+
+  .drop-icon:hover {
     opacity: .5;
   }
-  .mobile-nav{
+
+  .mobile-nav {
     display: none;
     background: #61AE8E;
     width:100%;
+
     li.active a {
         border-bottom: 2px solid #F0EEBA;
         color: #F0EEBA;
     }
   }
-  ul{
+
+  ul {
     width:100%;
     display:block;
     padding-top: 25px;
     margin: 0 16px 0 0;
     list-style-type: none;
   }
-  li{
+
+  li {
     padding-bottom:15px;
     cursor: pointer;
   }
-  ul li a{
+
+  ul li a {
     text-decoration: $nav-link;
     font: 15px 'Montserrat';
     color: #000;
     transition: all .1s ease-in;
   }
+
   a:visited {
     color: #000;
     text-decoration: $nav-link;
   }
+
   a:hover {
    color: #F0EEBA;
   }
@@ -129,7 +145,7 @@ nav {
 // --Landing Page--
 
 
-#landing-page{
+#landing-page {
   width: 100%;
   height:100vh;
   display: block;
@@ -138,7 +154,8 @@ nav {
   background-position: center center;
   background-size: cover !important;
   background-color: #000000;
-  h1{
+
+  h1 {
     font-family: 'Quicksand', Helvetica, sans-serif;
     font-size:2.15em;
     font-weight:400;
@@ -147,19 +164,22 @@ nav {
     color:#FBFBFB;
     text-align: center;
   }
-  p{
+
+  p {
     font: 18px 'Montserrat';
     color:#FBFBFB;
     text-align: center;
   }
-  .proceed-arrow{
+
+  .proceed-arrow { 
     bottom: 30px;
     height: 15px;
     position: absolute;
     text-align: center;
     width: 100%;
   }
-  .proceed-arrow a{
+
+  .proceed-arrow a {
     background-image: url(./images/white_arrow_icon-01.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -172,7 +192,8 @@ nav {
     margin: 0 auto;
     opacity: .3;
   }
-  .proceed-arrow a:hover{
+
+  .proceed-arrow a:hover {
     opacity:.7;
     bottom: 30px;
     width: 30px;
@@ -194,16 +215,19 @@ nav {
   display: table;
   position: relative;
   overflow: hidden;
-  #about-content{
+
+  #about-content {
     display: table-cell;
     vertical-align: middle;
   }
+
   h2 {
     font: $div-header-text;
     text-align: center;
     margin-bottom: 30px;
   }
-  p{
+
+  p {
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 300;
@@ -211,11 +235,13 @@ nav {
     line-height: 36px;
     color: #999;
     margin: 0 auto;
-    a{
+
+    a {
       text-decoration: underline;
       color: #999;
     }
-    a:visited{
+
+    a:visited {
       color: #999;
       text-decoration: underline;
     }
@@ -236,44 +262,51 @@ nav {
   background-color: #010101;
   width: 100%;
   height:100vh;
-
   padding-top: $div-content-padding;
   padding-bottom: $div-content-padding;
   display: table;
   position: relative;
   overflow: hidden;
-  #process{
-      margin: 6% 1% 1% 1%;
-      p{
-        max-width: 1080px;
-      }
+
+  #process {
+    margin: 6% 1% 1% 1%;
+
+    p {
+      max-width: 1080px;
     }
   }
-  #skills-content{
+}
+
+  #skills-content {
     display: table-cell;
     vertical-align: middle;
-    h2{
+
+    h2 {
     font:$div-header-text;
     text-align: center;
     color:#eee;
     margin-bottom: 30px;
   }
-  h4{
+
+  h4 {
     font: 15px 'Montserrat';
     color:#eee;
   }
-  p{
-    a{
+
+  p {
+    a {
     color: #DFDFDF;
     }
   }
-  mark{
+
+  mark {
     background-color: transparent;
     color: #DFDFDF;
     transition: all .2s ease-in;
   }
-  p:hover{
-    mark{
+
+  p:hover {
+    mark {
       color: #DFDFDF;
       background-color:rgba(97, 134, 165, 0.7)
     }
@@ -297,64 +330,75 @@ nav {
   display: table;
   position: relative;
   overflow: hidden;
-  #work-content{
+
+  #work-content {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
   }
-  ul{
+
+  ul {
     list-style-type: none;
     display: inline-block;
     text-align: center;
     padding: 0;
-    li{
+
+    li {
       display: inline-block;
     }
   }
-  .project{
+
+  .project {
     overflow:hidden;
     text-align: center;
     display:inline-block;
     vertical-align:top;
-    .preview{
+
+    .preview {
       position:relative;
     }
+
     .preview:after, .preview:before {
-        position: absolute;
-        opacity:0;
-        transition: all 0.4s;
-        -webkit-transition: all 0.4s;
+      position: absolute;
+      opacity:0;
+      transition: all 0.4s;
+      -webkit-transition: all 0.4s;
     }
+
     .preview:after {
-        content:'\A';
-        width:100%; height:100%;
-        top:0; left:0;
-        background:rgba(0,0,0,0.90);
+      content:'\A';
+      width:100%; height:100%;
+      top:0; left:0;
+      background:rgba(0,0,0,0.90);
     }
+
     .preview:before {
-        content: attr(data-content);
-        font-family: 'Quicksand', Helvetica, sans-serif;
-        width:100%;
-        color:#fff;
-        z-index:1;
-        bottom: 35%;
-        left: 0px;
-        padding:4px 10px;
-        text-align:center;
-        box-sizing:border-box;
-        -moz-box-sizing:border-box;
+      content: attr(data-content);
+      font-family: 'Quicksand', Helvetica, sans-serif;
+      width:100%;
+      color:#fff;
+      z-index:1;
+      bottom: 35%;
+      left: 0px;
+      padding:4px 10px;
+      text-align:center;
+      box-sizing:border-box;
+      -moz-box-sizing:border-box;
     }
+
     .preview:hover:after, .preview:hover:before {
-        opacity:1;
+      opacity:1;
     }
-    .preview-img{
+
+    .preview-img {
       display: block;
     }
   }
 
-  ul{
+  ul {
     margin: 0 auto;
   }
+
   h2 {
     font: $div-header-text;
     text-align: center;
@@ -362,15 +406,18 @@ nav {
     margin-bottom: 30px;
     margin-top: 0;
   }
-  p{
+
+  p {
     font-size: 15px;
     max-width: 850px;
-    a{
+
+    a {
       color:#eeeeee;
       text-decoration: underline;
     }
   }
-  ul.non-featured-list{
+
+  ul.non-featured-list {
     img {
       margin: 0 auto;
       max-width:600px;
@@ -379,13 +426,16 @@ nav {
       max-height:none;
     }
   }
-  a{
+
+  a {
     text-decoration: none;
   }
-  a:visited{
+   
+  a:visited {
     text-decoration: none;
   }
-  .modal-window{
+
+  .modal-window {
     position: fixed;
     font-family: Helvetica, sans-serif;
     top: 0;
@@ -397,33 +447,39 @@ nav {
     height: 100%;
     background: rgba(0,0,0,0.85);
     z-index: 99999;
-
     pointer-events: none;
-    div{
+
+    div {
       text-align: center;
     }
-    h2{
+    
+    h2 {
       margin-bottom: 10px;
     }
-    .img-wrapper{
-        margin-top: 40px;
-        display: inline-block;
-        position:relative;
-        img{
-          height:55vh;
-          width: auto;
-          margin-bottom: 0;
-        }
+     
+    .img-wrapper {
+      margin-top: 40px;
+      display: inline-block;
+      position:relative;
+
+      img {
+        height:55vh;
+        width: auto;
+        margin-bottom: 0;
       }
-      span{
-        font-size: 25px;
-      }
+    }
+
+    span {
+      font-size: 25px;
+    }
   }
-  .modal-window:target{
+
+  .modal-window:target {
     display: block;
     pointer-events: auto;
   }
-  .active{
+
+  .active {
   	opacity:1;
   	pointer-events: auto;
   }
@@ -439,6 +495,7 @@ nav {
   	text-decoration: none;
     display: inline-block;
     vertical-align: top;
+
     span {
       transition: all .05s ease-in;
       color:#FFFFFF;
@@ -446,36 +503,43 @@ nav {
   }
 }
 
-
 // --/Work--
 
 
 // --Links--
 
 #links {
-  background-color: #EEE;
-  height:50vh;
+  background-image: url("./images/web-background-mountains.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 450px;
   width: 100%;
   padding-top: $div-content-padding;
   padding-bottom: $div-content-padding;
   display: table;
   position: relative;
   overflow: hidden;
+
   #links-content{
     display: table-cell;
     vertical-align: middle;
   }
+
   h2 {
     font: $div-header-text;
     text-align: center;
-    color: #000;
+    color: $social-media-link-color;
   }
-  p{
-    color:#000;
+  
+  p {
+    color: $social-media-link-color;
   }
+
   .social-media-links {
     width:100%;
-    ul{
+
+    ul {
     list-style-type: none;
     width: 80%;
     display: inline-block;
@@ -483,23 +547,26 @@ nav {
     padding: 0;
     margin: 0 10% 0 10%;
     }
-    li{
+
+    li {
       display: inline-block;
     }
-    a{
+
+    a {
       text-decoration: $link-decoration;
-      color: #000;
+      color: $social-media-link-color;
       display: block;
       margin: 0 auto;
       cursor: pointer;
-      border: 2px solid #444444;
+      border: 2px solid $social-media-link-color;
       border-radius: 9999px;
       padding-top: 10px;
       padding-right: 12px;
       padding-bottom: 7px;
       padding-left: 12px;
     }
-    span{
+
+    span {
       height: 50px;
       width: 43px;
     }
@@ -509,133 +576,6 @@ nav {
 // --/Links--
 
 
-
-// --Contact--
-
-#contact {
-  background-image: url("./images/web-background-mountains.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-color: #eee;
-  height: 450px;
-  width: 100%;
-  padding-top: 90px;
-  padding-bottom: 90px;
-  display: table;
-  position: relative;
-  overflow: hidden;
-  h2 {
-    font: $div-header-text;
-    text-align: center;
-    color: #eee;
-    margin-bottom: 30px;
-  }
-  ul {
-    list-style-type: none;
-    font: 15px 'Montserrat';
-    color: #61AE8E;
-  }
-  #contact-content{
-    vertical-align: middle;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: 84%;
-    max-width:550px;
-    margin: 0 auto;
-    text-align: center;
-    p{
-      color: #999999;
-    }
-    input{
-      color: #eee;
-      border-radius: 3px;
-      border-width: 3px;
-      border-color: #999999;
-      border-style: solid;
-      background-color: transparent;
-      font: 14px 'Montserrat';
-      margin-bottom: 15px;
-      width: 80%;
-      max-width: 550px;
-      height: 40px;
-      padding: 0;
-      padding-right: 10px;
-      padding-left: 10px;
-    }
-    textarea{
-      color: #999999;
-      border-radius: 3px;
-      border-width: 3px;
-      border-color: #999999;
-      border-style: solid;
-      background-color: transparent;
-      font: 14px 'Montserrat';
-      width: 80%;
-      max-width: 550px;
-      margin-bottom: 16px;
-    }
-    .wpcf7-form-control.wpcf7-textarea{
-      padding-top: 12px;
-      padding-right: 10px;
-      padding-left: 10px;
-      color: #eee;
-    }
-    .wpcf7-form-control.wpcf7-submit{
-      color: #61AE8E;
-      border-color: #61AE8E;
-      background-color: transparent;
-      font: 14px 'Montserrat';
-      width: 200px;
-      height: 60px;
-      cursor: pointer;
-    }
-    .wpcf7-form-control.wpcf7-submit:hover{
-      color: #FAF3FF;
-      border-color: #61AE8E;
-      background-color:#61AE8E;
-    }
-//    Errors appearing at the top of contact form
-    .screen-reader-response{
-      color:#61AE8E;
-      font: 14px 'Montserrat';
-      ul{
-        padding: 0;
-      }
-      li{
-        color: #da4856;
-        display: none !important;
-      }
-    }
-//    Formatting of error messages that appear below input box
-    span [role="alert"]{
-      color: #da4856;
-      display: block;
-      font: 13px 'Montserrat';
-      margin-bottom: 10px;
-    }
-    .wpcf7-response-output [role="alert"]{
-      display: none !important;
-    }
-    .wpcf7-response-output.wpcf7-validation-errors{
-      display:none;
-    }
-    .wpcf7-response-output.wpcf7-mail-sent-ok{
-      display:none;
-    }
-//  Input fields, when selected
-    input:focus,
-    select:focus,
-    textarea:focus,
-    button:focus {
-        outline: none;
-    }
-  }
-}
-
-// --/Contact--
-
-
 // --Footer--
 
 #footer{
@@ -643,6 +583,7 @@ nav {
   opacity: 0.85;
   background: #61AE8E;
   padding: 10px 0 15px 0;
+
   .small-logo{
     background-image: url("./images/SL_logo-01.png");
     background-repeat: no-repeat;
@@ -653,6 +594,7 @@ nav {
     height: 50px;
     width: auto;
   }
+
   h4{
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-size: 12px;
