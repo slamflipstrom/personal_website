@@ -70,7 +70,6 @@ nav {
     cursor: pointer;
     text-indent: -9999px;
     display: inline-block;
-    float: right;
     transition: all .5s ease-in;
     height: 25px;
     width: 32px; }
@@ -347,8 +346,11 @@ nav {
       color: #FFFFFF; }
 
 #links {
-  background-color: #EEE;
-  height: 50vh;
+  background-image: url("./images/web-background-mountains.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 450px;
   width: 100%;
   padding-top: 90px;
   padding-bottom: 90px;
@@ -361,9 +363,9 @@ nav {
   #links h2 {
     font: 20px "Montserrat";
     text-align: center;
-    color: #000; }
+    color: #d4d4d4; }
   #links p {
-    color: #000; }
+    color: #d4d4d4; }
   #links .social-media-links {
     width: 100%; }
     #links .social-media-links ul {
@@ -377,11 +379,11 @@ nav {
       display: inline-block; }
     #links .social-media-links a {
       text-decoration: none;
-      color: #000;
+      color: #d4d4d4;
       display: block;
       margin: 0 auto;
       cursor: pointer;
-      border: 2px solid #444444;
+      border: 2px solid #d4d4d4;
       border-radius: 9999px;
       padding-top: 10px;
       padding-right: 12px;
@@ -390,106 +392,6 @@ nav {
     #links .social-media-links span {
       height: 50px;
       width: 43px; }
-
-#contact {
-  background-image: url("./images/web-background-mountains.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-color: #eee;
-  height: 450px;
-  width: 100%;
-  padding-top: 90px;
-  padding-bottom: 90px;
-  display: table;
-  position: relative;
-  overflow: hidden; }
-  #contact h2 {
-    font: 20px "Montserrat";
-    text-align: center;
-    color: #eee;
-    margin-bottom: 30px; }
-  #contact ul {
-    list-style-type: none;
-    font: 15px 'Montserrat';
-    color: #61AE8E; }
-  #contact #contact-content {
-    vertical-align: middle;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: 84%;
-    max-width: 550px;
-    margin: 0 auto;
-    text-align: center; }
-    #contact #contact-content p {
-      color: #999999; }
-    #contact #contact-content input {
-      color: #eee;
-      border-radius: 3px;
-      border-width: 3px;
-      border-color: #999999;
-      border-style: solid;
-      background-color: transparent;
-      font: 14px 'Montserrat';
-      margin-bottom: 15px;
-      width: 80%;
-      max-width: 550px;
-      height: 40px;
-      padding: 0;
-      padding-right: 10px;
-      padding-left: 10px; }
-    #contact #contact-content textarea {
-      color: #999999;
-      border-radius: 3px;
-      border-width: 3px;
-      border-color: #999999;
-      border-style: solid;
-      background-color: transparent;
-      font: 14px 'Montserrat';
-      width: 80%;
-      max-width: 550px;
-      margin-bottom: 16px; }
-    #contact #contact-content .wpcf7-form-control.wpcf7-textarea {
-      padding-top: 12px;
-      padding-right: 10px;
-      padding-left: 10px;
-      color: #eee; }
-    #contact #contact-content .wpcf7-form-control.wpcf7-submit {
-      color: #61AE8E;
-      border-color: #61AE8E;
-      background-color: transparent;
-      font: 14px 'Montserrat';
-      width: 200px;
-      height: 60px;
-      cursor: pointer; }
-    #contact #contact-content .wpcf7-form-control.wpcf7-submit:hover {
-      color: #FAF3FF;
-      border-color: #61AE8E;
-      background-color: #61AE8E; }
-    #contact #contact-content .screen-reader-response {
-      color: #61AE8E;
-      font: 14px 'Montserrat'; }
-      #contact #contact-content .screen-reader-response ul {
-        padding: 0; }
-      #contact #contact-content .screen-reader-response li {
-        color: #da4856;
-        display: none !important; }
-    #contact #contact-content span [role="alert"] {
-      color: #da4856;
-      display: block;
-      font: 13px 'Montserrat';
-      margin-bottom: 10px; }
-    #contact #contact-content .wpcf7-response-output [role="alert"] {
-      display: none !important; }
-    #contact #contact-content .wpcf7-response-output.wpcf7-validation-errors {
-      display: none; }
-    #contact #contact-content .wpcf7-response-output.wpcf7-mail-sent-ok {
-      display: none; }
-    #contact #contact-content input:focus,
-    #contact #contact-content select:focus,
-    #contact #contact-content textarea:focus,
-    #contact #contact-content button:focus {
-      outline: none; }
 
 #footer {
   width: 100%;

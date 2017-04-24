@@ -49,7 +49,6 @@ Template Name: Home
     <li><a href="#about">ABOUT</a></li>
     <li><a href="#skills">SKILLS</a></li>
     <li><a href="#work">WORK</a></li>
-    <li><a href="#contact">CONTACT</a></li>
     <li><a href="https://medium.com/@slamflipstrom/latest" target="_blank">BLOG</a></li>
 </nav>
 
@@ -253,22 +252,7 @@ Template Name: Home
           <li class="stack-overflow"><a href="http://stackoverflow.com/users/4589006/sam-lindstrom" target="_blank"><span class="fa fa-stack-overflow fa-3x"><span></a></li>
         </ul>
       </div>
-      <p> Check out the above links to see more of my work, and what I've been up to.</p>
-
-    </div>
-  </div>
-
-  <div id="contact">
-    <div id="contact-content">
-
-      <h2>GET IN TOUCH</h2>
-
-      <?php
-      $id=10;
-      $post = get_post($id);
-      $content = apply_filters('the_content', $post->post_content);
-      echo $content;
-      ?>
+      <p> Check out the above links to see more of my work and what I've been up to.</p>
 
     </div>
   </div>
